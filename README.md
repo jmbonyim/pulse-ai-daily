@@ -17,4 +17,3 @@ A personal daily AI briefing, rebuilt every night at **2 AM Toronto time** by a 
 
 To change topics, sources or style, edit `DIGEST_INSTRUCTIONS.md` — the next night's run uses the new version.
 
-Inspired by [ell-hosse/AI-Daily](https://github.com/ell-hosse/AI-Daily); site and theme written from scratch.
