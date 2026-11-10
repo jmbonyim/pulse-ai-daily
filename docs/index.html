@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulse AI Daily</title>
+<meta name="description" content="Daily AI briefing: cardiac surgery & robotics, healthcare management, pharmaceutical regulation, medical devices, plus AI agents, new models and fun AI news.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f4ee; --surface:#ffffff; --surface-2:#f0ebe2; --ink:#1a1f2b; --muted:#5d6475; --line:#e2dbcf;
+  --pulse:#e11d48; --pulse-soft:#fde4ea; --shadow:0 1px 2px rgba(26,31,43,.06),0 6px 20px rgba(26,31,43,.06);
+  --agents:#d97706; --models:#2563eb; --fun:#db2777;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c111c; --surface:#141b2a; --surface-2:#1b2436; --ink:#e8ebf2; --muted:#9aa3b8; --line:#26304a;
+    --pulse:#fb4f72; --pulse-soft:#3a1424; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+    --agents:#fbbf24; --models:#60a5fa; --fun:#f472b6;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c111c; --surface:#141b2a; --surface-2:#1b2436; --ink:#e8ebf2; --muted:#9aa3b8; --line:#26304a;
+  --pulse:#fb4f72; --pulse-soft:#3a1424; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+  --agents:#fbbf24; --models:#60a5fa; --fun:#f472b6;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:12px;height:62px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto}
+.brand svg{width:34px;height:34px}
+.brand b{font:650 21px/1 Fraunces,serif;letter-spacing:-.01em}
+.brand b span{color:var(--pulse)}
+select,button.icon{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;height:38px;padding:0 10px;cursor:pointer}
+button.icon{width:38px;padding:0;display:grid;place-items:center}
+.hero{padding:44px 0 18px;position:relative}
+.ecg{position:absolute;inset:auto 0 0 0;height:70px;opacity:.5;pointer-events:none}
+.ecg path{stroke:var(--pulse);stroke-width:2;fill:none;stroke-dasharray:1400;stroke-dashoffset:1400;animation:trace 4.5s ease-in-out infinite}
+@keyframes trace{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.ecg path{animation:none;stroke-dashoffset:0}}
+.kicker{font:500 12px/1 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--pulse)}
+h1{font:650 clamp(30px,5vw,50px)/1.08 Fraunces,serif;letter-spacing:-.02em;margin:10px 0 10px;max-width:16ch}
+.lede{color:var(--muted);max-width:60ch;margin:0}
+nav.chips{display:flex;gap:8px;overflow-x:auto;padding:22px 0 6px;scrollbar-width:none}
+nav.chips a{flex:none;text-decoration:none;font-size:13px;font-weight:500;padding:7px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);display:flex;align-items:center;gap:7px}
+nav.chips a i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+section.block{padding:34px 0 8px;scroll-margin-top:70px}
+.bhead{display:flex;align-items:baseline;gap:12px;margin-bottom:16px;border-bottom:2px solid var(--ink);padding-bottom:8px}
+.bhead h2{font:650 26px/1.15 Fraunces,serif;margin:0;letter-spacing:-.01em}
+.bhead small{color:var(--muted);font-size:13px}
+.newsgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.col h3{display:flex;align-items:center;gap:8px;font:600 13px/1 "IBM Plex Sans";text-transform:uppercase;letter-spacing:.08em;margin:0 0 10px;color:var(--c)}
+.col h3::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--c)}
+.ncard{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--c);border-radius:12px;padding:14px 16px;margin-bottom:12px;box-shadow:var(--shadow)}
+.ncard a.t{font-weight:600;line-height:1.35;text-decoration:none;display:block}
+.ncard a.t:hover{color:var(--c)}
+.meta{font:500 12px/1.4 "IBM Plex Mono",monospace;color:var(--muted);margin:6px 0 0}
+.ncard p{margin:6px 0 0;font-size:14.5px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:transform .15s}
+.card:hover{transform:translateY(-2px)}
+.card .strip{height:5px;background:var(--c)}
+.card figure{margin:0;aspect-ratio:16/8;background:var(--surface-2);overflow:hidden}
+.card figure img{width:100%;height:100%;object-fit:contain;background:#fff}
+.card .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.badge{align-self:flex-start;font:500 11px/1 "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.1em;padding:5px 8px;border-radius:6px;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c)}
+.card h3{font:600 18px/1.3 Fraunces,serif;margin:0}
+.card p{margin:0;color:var(--muted);font-size:14.5px}
+.card .act{margin-top:auto;padding-top:10px;display:flex;gap:10px;flex-wrap:wrap}
+.btn{font:inherit;font-size:13.5px;font-weight:600;border-radius:9px;padding:8px 12px;cursor:pointer;text-decoration:none;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}
+.btn.main{background:var(--c);border-color:var(--c);color:#fff}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:28px;text-align:center;color:var(--muted)}
+dialog{border:none;border-radius:16px;padding:0;max-width:760px;width:calc(100% - 24px);max-height:88vh;background:var(--surface);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(8,12,20,.6)}
+.dh{position:sticky;top:0;background:var(--surface);padding:18px 22px 12px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:flex-start}
+.dh h2{font:650 21px/1.25 Fraunces,serif;margin:6px 0 0;flex:1}
+.db{padding:6px 22px 24px}
+.db h2{font:600 17px/1.3 "IBM Plex Sans";margin:22px 0 6px;color:var(--c)}
+.db ul,.db ol{padding-left:22px}
+.db li{margin:4px 0}
+.db img{max-width:100%;border-radius:10px;border:1px solid var(--line);background:#fff;margin-top:12px}
+footer{margin:60px 0 0;padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+@media (max-width:900px){.newsgrid,.cards{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.newsgrid,.cards{grid-template-columns:1fr}.brand b{font-size:18px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+  <a class="brand" href="./">
+    <svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="var(--pulse)"/><path d="M5 18h6l2.5-6 4 12 3-9 2 3H29" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <b>Pulse<span>·</span>AI Daily</b>
+  </a>
+  <select id="date" aria-label="Choose an issue"></select>
+  <button class="icon" id="theme" aria-label="Toggle light or dark theme" title="Light / dark">◐</button>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div class="kicker" id="issue">Loading today's issue…</div>
+    <h1>AI for the heart, the hospital and the regulator.</h1>
+    <p class="lede">Every morning: cardiac surgery &amp; robotics, healthcare management, pharmaceutical regulation and medical devices — plus the latest on AI agents, new models and the fun side of AI.</p>
+    <svg class="ecg" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 45H260l14-22 12 40 16-62 14 50 10-6H560l14-22 12 40 16-62 14 50 10-6H860l14-22 12 40 16-62 14 50 10-6H1200"/></svg>
+  </div>
+  <nav class="chips" id="chips"></nav>
+  <div id="content"></div>
+</main>
+
+<footer><div class="wrap">Pulse AI Daily · researched and written by a scheduled Claude task each night at 2 AM (Toronto) · summaries are AI-written — always check the original source before relying on a detail.</div></footer>
+
+<dialog id="dlg"><div class="dh"><div style="flex:1"><span class="badge" id="dk"></span><h2 id="dt"></h2><div class="meta" id="dm"></div></div><button class="icon" onclick="dlg.close()" aria-label="Close">✕</button></div><div class="db" id="dbody"></div></dialog>
+
+<script>
+const NEWS_COLORS={agents:'var(--agents)',models:'var(--models)',fun:'var(--fun)'};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'#';
+
+/* theme toggle (remembered per browser) */
+(function(){let t=null;try{t=localStorage.getItem('pulse-theme')}catch(e){}
+  if(t)document.documentElement.dataset.theme=t;
+  $('#theme').onclick=()=>{const dark=matchMedia('(prefers-color-scheme: dark)').matches;
+    const cur=document.documentElement.dataset.theme||(dark?'dark':'light');const n=cur==='dark'?'light':'dark';
+    document.documentElement.dataset.theme=n;try{localStorage.setItem('pulse-theme',n)}catch(e){}};})();
+
+/* tiny, safe markdown: headings, lists, bold, italics, links, paragraphs */
+function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(^|[^*])\*(?!\s)(.+?)\*/g,'$1<em>$2</em>')
+  .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,(m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`)}
+function md(src){const out=[];let list=null,para=[];
+  const flush=()=>{if(para.length){out.push('<p>'+inline(para.join(' '))+'</p>');para=[]}if(list){out.push(`</${list}>`);list=null}};
+  for(const raw of String(src||'').split('\n')){const l=raw.trim();let m;
+    if(!l){flush();continue}
+    if(m=l.match(/^#{1,4}\s+(.*)/)){flush();out.push('<h2>'+inline(m[1])+'</h2>');continue}
+    if(m=l.match(/^[-*]\s+(.*)/)){if(para.length){out.push('<p>'+inline(para.join(' '))+'</p>');para=[]}if(list!=='ul'){if(list)out.push(`</${list}>`);out.push('<ul>');list='ul'}out.push('<li>'+inline(m[1])+'</li>');continue}
+    if(m=l.match(/^\d+[.)]\s+(.*)/)){if(para.length){out.push('<p>'+inline(para.join(' '))+'</p>');para=[]}if(list!=='ol'){if(list)out.push(`</${list}>`);out.push('<ol>');list='ol'}out.push('<li>'+inline(m[1])+'</li>');continue}
+    if(list){out.push(`</${list}>`);list=null}para.push(l)}
+  flush();return out.join('')}
+
+let ITEMS={};
+function openItem(key){const {it,color}=ITEMS[key];const d=$('#dlg');d.style.setProperty('--c',color);
+  $('#dk').textContent=it.kind||'item';$('#dt').textContent=it.title;
+  $('#dm').textContent=[it.source,it.date,(it.authors||[]).slice(0,6).join(', ')].filter(Boolean).join(' · ');
+  $('#dbody').innerHTML=(it.image?`<img src="${esc(safeUrl(it.image))}" alt="" loading="lazy" onerror="this.remove()">`:'')+md(it.summary_md||it.tldr)
+    +`<p style="margin-top:22px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn main" href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener">Open original ↗</a>${it.pdf_url?`<a class="btn" href="${esc(safeUrl(it.pdf_url))}" target="_blank" rel="noopener">PDF</a>`:''}</p>`;
+  d.showModal();d.querySelector('.db').scrollTop=0}
+
+function render(data){ITEMS={};let n=0;const chips=[],html=[];
+  const dt=new Date(data.date+'T12:00:00');
+  $('#issue').textContent='Issue of '+dt.toLocaleDateString('en-CA',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+  /* AI news */
+  const groups=data.ai_news||[];
+  if(groups.length){chips.push(`<a href="#ai-news" style="--c:var(--pulse)"><i></i>AI News</a>`);
+    html.push(`<section class="block" id="ai-news"><div class="bhead"><h2>AI News</h2><small>agents · new models · fun</small></div><div class="newsgrid">`+
+      groups.map(g=>{const c=NEWS_COLORS[g.id]||'var(--pulse)';return `<div class="col" style="--c:${c}"><h3>${esc(g.name)}</h3>`+
+        ((g.items||[]).map(it=>`<article class="ncard"><a class="t" href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener">${esc(it.title)}</a>
+          <p>${esc(it.summary_md||it.tldr)}</p><div class="meta">${esc([it.source,it.date].filter(Boolean).join(' · '))}</div></article>`).join('')||'<div class="empty">Nothing new today.</div>')+`</div>`}).join('')+`</div></section>`)}
+  /* health & regulation sections */
+  for(const s of data.sections||[]){chips.push(`<a href="#${esc(s.id)}" style="--c:${esc(s.color)}"><i></i>${esc(s.name)}</a>`);
+    html.push(`<section class="block" id="${esc(s.id)}" style="--c:${esc(s.color)}"><div class="bhead"><h2>${esc(s.name)}</h2><small>${(s.items||[]).length} picks</small></div><div class="cards">`+
+      ((s.items||[]).map(it=>{const k='i'+(n++);ITEMS[k]={it,color:s.color};
+        return `<article class="card"><div class="strip"></div>${it.image?`<figure><img src="${esc(safeUrl(it.image))}" alt="" loading="lazy" onerror="this.parentNode.remove()"></figure>`:''}
+        <div class="body"><span class="badge">${esc(it.kind||'item')}</span><h3>${esc(it.title)}</h3><p>${esc(it.tldr)}</p>
+        <div class="meta">${esc([it.source,it.date].filter(Boolean).join(' · '))}</div>
+        <div class="act"><button class="btn main" onclick="openItem('${k}')">Read summary</button><a class="btn" href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener">Source ↗</a></div></div></article>`}).join('')||'<div class="empty">Nothing new today.</div>')+`</div></section>`)}
+  $('#chips').innerHTML=chips.join('');
+  $('#content').innerHTML=html.join('')||'<div class="empty">This issue is empty.</div>'}
+
+async function load(file){try{const r=await fetch(file+'?v='+Date.now());if(!r.ok)throw 0;render(await r.json())}
+  catch(e){$('#issue').textContent='No issue yet';$('#content').innerHTML='<div class="empty" style="margin-top:30px">The first issue will appear after the next 2 AM run. Check back in the morning.</div>'}}
+
+(async()=>{let dates=[];try{const r=await fetch('data/index.json?v='+Date.now());if(r.ok)dates=await r.json()}catch(e){}
+  const sel=$('#date');sel.innerHTML='<option value="latest">Latest</option>'+dates.map(d=>`<option value="${esc(d)}">${esc(d)}</option>`).join('');
+  sel.onchange=()=>load(sel.value==='latest'?'data/latest.json':`data/archive/${sel.value}.json`);
+  load('data/latest.json')})();
+</script>
+</body>
+</html>
