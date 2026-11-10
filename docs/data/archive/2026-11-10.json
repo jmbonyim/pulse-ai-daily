@@ -1,0 +1,267 @@
+{
+ "date": "2026-11-10",
+ "generated": "2026-11-10T21:50:26Z",
+ "ai_news": [
+  {
+   "id": "agents",
+   "name": "AI Agents",
+   "items": [
+    {
+     "kind": "news",
+     "title": "OpenAI opens ChatGPT to business-run agents",
+     "url": "https://www.unite.ai/openai-launches-business-hub-and-business-agents-in-chatgpt/",
+     "source": "Unite.AI",
+     "date": "2026-11-10",
+     "tldr": "OpenAI launched a beta that lets businesses claim profiles and run their own agents inside ChatGPT.",
+     "summary_md": "OpenAI introduced \"Businesses in ChatGPT\" in beta, combining claimable business profiles, a Business Hub with aggregate mention and click counts, and conversational Business Agents. Agents are initially limited to eligible US e-commerce and online-service companies. Businesses do not see users' conversations, and a verified badge does not guarantee placement. Companies can also sponsor an agent as an ad destination, following a test announced in September.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "IBM and Microsoft launch 'Imagine Enterprise' platform for industry AI agents",
+     "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation",
+     "source": "Microsoft Source",
+     "date": "2026-11-10",
+     "tldr": "IBM and Microsoft are pairing 6,000+ prebuilt IBM Consulting agents with Microsoft's cloud for regulated industries.",
+     "summary_md": "The platform is for building, running and governing industry-specific AI agents. IBM Consulting contributes more than 6,000 prebuilt agents and assets; Microsoft supplies the AI, data, cloud and security layer. Frameworks start with financial services, insurance and retail, with manufacturing, energy and public sector planned. No pricing was disclosed.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Meta's Muse assistant arrives on Apple Watch and Wear OS",
+     "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+     "source": "TechCrunch",
+     "date": "2026-11-10",
+     "tldr": "Meta's Muse agent now runs on smartwatches, taking voice calls, texts and dictation from the wrist.",
+     "summary_md": "The watch apps follow an iPad version launched in October. TechCrunch reports Muse was one of 12 mobile apps to pass 10 million US downloads within 40 days of launch. Meta has also recently added Spaces and avatar video chat in the US.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "name": "New Models",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+     "source": "TechCrunch",
+     "date": "2026-11-09",
+     "tldr": "Anthropic's new frontier models bring coding, reasoning and vision gains, faster responses and a lower Fable price.",
+     "summary_md": "Fable 5.2's input price drops from $10 to $8 per million tokens, and Anthropic says responses are about 30% faster across effort levels. Mythos 5.2 stays limited to vetted programmes such as Anthropic's life-sciences and cyber verification tracks. TechCrunch also notes a METR report suggesting Anthropic's internal models are speeding up its own AI progress, and that both new models more often suspect they are being evaluated.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Meta launches Muse Ember, a small, cheap model for agent work",
+     "url": "https://www.digitaltrends.com/computing/meta-launches-muse-ember-a-cheaper-ai-model-built-for-repetitive-tasks/",
+     "source": "Digital Trends",
+     "date": "2026-11-09",
+     "tldr": "Muse Ember costs $0.10 per million input tokens and $0.50 per million output tokens, with a 1-million-token context window.",
+     "summary_md": "Meta calls Ember its smallest model, aimed at tool calls, routing, extraction and coding subtasks; it takes images, audio and video. On AutomationBench, Meta reports 37.8% against 13.9% for Claude Haiku 5.5, though the article notes Haiku still wins on real-world engineering tasks. It is available via Meta's Model API, Google Cloud and Oracle Cloud. All figures are Meta's own.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Thinking Machines Lab unveils Inkling 2 Small, with open weights promised",
+     "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+     "source": "Thinking Machines Lab",
+     "date": "2026-11-05",
+     "tldr": "A 594-billion-parameter mixture-of-experts model that uses only 17 billion parameters per token.",
+     "summary_md": "Inkling 2 Small accepts images, supports adjustable reasoning effort and is available now through the company's Tinker platform for inference and fine-tuning. The company reports 72.1% on DeepSWE v1.1 and 25.4% on FrontierCode v2.0. Weights are closed for now, but the lab says it plans to release them under the Apache 2.0 licence after safety testing.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "name": "Fun AI News",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Robot dogs and humanoids race up 3,100 steps of China's Mount Tai",
+     "url": "https://technode.com/2026/11/03/robots-climb-mount-tai-in-chinas-first-major-mountain-challenge/",
+     "source": "TechNode",
+     "date": "2026-11-03",
+     "tldr": "A Unitree-affiliated robot dog climbed a 3.9 km, 600-metre stone-step course in 43 minutes 41 seconds.",
+     "summary_md": "More than 50 teams sent robots up the sacred mountain's steps in the first contest of its kind. Beijing Lingyi Technology won the legged race, a load-carrying robot finished in 1:51:29, and the fastest humanoid ran a shortened course in 27:26. Several machines overheated and throttled their motors on the way up; most human tourists take at least two hours.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Sony's palm-sized display shows 3D anime companions without glasses",
+     "url": "https://newatlas.com/consumer-tech/sony-xyn-elf-mn1-spatial-reality-display/",
+     "source": "New Atlas",
+     "date": "2026-11-05",
+     "tldr": "Sony's ELF-MN1 is a 6-inch desktop screen that makes avatars and characters look three-dimensional to the naked eye.",
+     "summary_md": "The 300-gram display connects over USB-C to phones or to Windows PCs with a mid-range graphics card. It goes on sale in Japan on 11 December for about ¥54,000 (roughly US$340). Sony has not said whether it will launch elsewhere.",
+     "image": null
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cardiac",
+   "name": "AI in Cardiac Surgery, Robotics & AI Models",
+   "color": "#e11d48",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "AI measurements of the heart's pumping strength on MRI predict survival slightly better than expert clinicians",
+     "url": "https://www.news-medical.net/news/20261102/AI-powered-heart-MRI-measurements-better-predict-patients-survival.aspx",
+     "source": "News-Medical (City St George's / UCL release; The Lancet Digital Health)",
+     "date": "2026-11-02",
+     "tldr": "In more than 27,000 cardiac MRI patients, an AI tool's ejection-fraction readings were a slightly better predictor of death than clinicians' readings, and took seconds instead of minutes.",
+     "summary_md": "## What happened\nResearchers at City St George's, University of London and UCL compared two ways of measuring how well the heart's main pumping chamber works on cardiac MRI: an automated AI tool and experienced clinicians. The study is published in *The Lancet Digital Health* (first author G. Joy; senior author Rhodri Davies, who invented the tool). It used scans from 27,382 patients in the UK and US who were being checked for known or suspected heart disease. Patients were followed for more than five years on average, and 3,458 died.\n\n## Why it matters\nEjection fraction (EF) drives major decisions: who gets a defibrillator, which heart-failure drugs to start, and whether chemotherapy is safe. If an AI measurement tracks real outcomes at least as well as a human one, it can be used at scale without losing clinical meaning. Speed matters too. The AI took about 2–3 seconds per patient. The team's earlier work put expert manual analysis at about 13 minutes.\n\n## How it works\nThe AI segments the left ventricle (outlines its inner wall) on every MRI frame. From those outlines it computes chamber volumes at the fullest and emptiest points of the heartbeat, and EF is the share of blood pushed out per beat. The team then tested which EF, AI or clinician, was more strongly linked to death over follow-up. AI-derived EF was a \"slightly but significantly\" better predictor, and the result held after adjusting for age, sex and other factors.\n\n## Caveats\nThe study is retrospective: it looks back at existing records rather than testing the tool on new patients. The press material does not give the size of the improvement, so \"slightly\" should be taken at face value. The tool made errors in about 1% of patients (0.08% of images), and the authors say clinicians must still check its output. Next, the team wants to combine MRI-based AI with ECG-based AI to spot heart-muscle disease earlier.\n\n## Key terms\n- **Ejection fraction (EF):** the percentage of blood the left ventricle pumps out with each beat; about 50–70% is normal.\n- **Segmentation:** drawing the exact boundary of a structure on an image so it can be measured.\n- **Prognostic study:** research that tests whether a measurement predicts a future outcome, such as death.\n- **Retrospective:** using data already collected in the past.",
+     "image": null,
+     "authors": [
+      "G. Joy",
+      "Rhodri Davies"
+     ]
+    },
+    {
+     "kind": "paper",
+     "title": "Randomized trial: AI-drafted echo reports are as good as human drafts and nearly halve cardiologists' time",
+     "url": "https://newsroom.heart.org/news/ai-interpreted-echocardiograms-comparable-to-human-reports-cardiologists-time-cut-by-about-50",
+     "source": "American Heart Association Scientific Sessions 2026 (late-breaking abstract)",
+     "date": "2026-11-09",
+     "tldr": "Across 1,200 real echocardiograms at Kaiser Permanente, cardiologists changed AI-drafted reports about as often as human-drafted ones, while review time fell from 8.5 to 4.6 minutes.",
+     "summary_md": "## What happened\nAt the American Heart Association's Scientific Sessions in Chicago, a Kaiser Permanente Northern California team presented what it calls the first randomized trial of an AI tool that writes a complete preliminary echocardiogram report. For each of 1,200 routine echo exams from 21 medical centres (March 2025), three drafts were made: one by the AI, one by a sonographer and one by a cardiologist. Drafts were randomly sent to 20 cardiologists to finalize, without telling them who wrote each one. Co-senior author is cardiologist Keane K. Lee.\n\n## Why it matters\nEcho is the most common heart imaging test, and reading it is time-consuming. A US study cited by the AHA projects a shortfall of about 7,000 cardiologists by 2036. A tool that safely drafts the report could free a large share of specialist time.\n\n## How it works\nThe main outcome was how often the finalizing cardiologist made a substantial change. That happened to 50.6% of AI drafts and 49.7% of human drafts. This met the team's non-inferiority goal, meaning the AI was shown to be not meaningfully worse. Average review time with an AI draft was 4.6 minutes, compared with 8.5 minutes to write a report without AI, about 46% less. AI-assisted reports also agreed better with patients' earlier reports, and reviewers could not tell which drafts came from the AI.\n\n## Caveats\nThis is a conference abstract. It has not yet been peer-reviewed and published in a journal. The trial measured report quality and time, not whether patients did better. Cardiologists knew they were being studied, which can change behaviour. About half of all drafts, human or AI, still needed substantial edits, and the cardiologist stays legally responsible for the final report.\n\n## Key terms\n- **Echocardiogram (echo):** an ultrasound video of the heart used to measure its structure and function.\n- **Sonographer:** the technologist who performs the ultrasound scan.\n- **Randomized trial:** a study where chance decides which option each case gets, reducing bias.\n- **Non-inferiority:** a trial design that tests whether a new approach is not worse than the standard by more than a preset margin.\n- **Late-breaking abstract:** new results chosen for fast-track presentation at a major meeting.",
+     "image": null,
+     "authors": [
+      "Keane K. Lee"
+     ]
+    },
+    {
+     "kind": "news",
+     "title": "FDA clears Evident Vascular's new intravascular ultrasound system for peripheral interventions",
+     "url": "https://www.diagnosticimaging.com/view/fda-clears-emerging-ai-enabled-platform-intravascular-ultrasound",
+     "source": "Diagnostic Imaging",
+     "date": "2026-11-04",
+     "tldr": "The FDA has cleared an AI-enabled intravascular ultrasound system and catheters designed to give clearer images of vessel walls during peripheral artery procedures.",
+     "summary_md": "## What happened\nThe FDA granted 510(k) clearance to the Evident Vascular Guidance System and its Evident peripheral imaging catheters. The system performs intravascular ultrasound (IVUS), which images a blood vessel from the inside during a catheter procedure. Diagnostic Imaging describes it as an emerging AI-enabled platform.\n\n## Why it matters\nIVUS shows the true size of a vessel and the makeup of plaque, which helps doctors choose the right balloon or stent size. Studies in coronary arteries have linked IVUS guidance to better outcomes, but it adds time and steps in the cath lab, so it is under-used. Tools that make IVUS faster and easier could widen its use, first in leg arteries and possibly later in heart arteries.\n\n## Key details\nAccording to the company, the system combines a wide frequency bandwidth, a redesigned transducer and advanced signal processing to sharpen images. It is built for efficiency: a simplified interface, plug-and-play catheters that do not need flushing with saline before use, and hands-free voice control. Vascular specialist Eric Secemsky of Beth Israel Deaconess Medical Center praised how clearly the system shows vessel edges.\n\n## Caveats\nThe article relies on the manufacturer's statements. It gives no clinical study data, image-quality numbers or accuracy figures. It also does not explain what the AI does, for example whether it automatically outlines vessel borders or measures plaque. This clearance covers peripheral (non-heart) vessels, not coronary arteries. A 510(k) clearance means the FDA found the device substantially equivalent to an existing one; it is not proof of better patient outcomes.\n\n## Key terms\n- **Intravascular ultrasound (IVUS):** a tiny ultrasound probe on a catheter that images a vessel from inside.\n- **Peripheral intervention:** a catheter procedure on arteries outside the heart, often in the legs.\n- **510(k) clearance:** the FDA pathway for devices shown to be substantially equivalent to a legally marketed device.\n- **Transducer:** the part of an ultrasound probe that sends and receives sound waves.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "health-mgmt",
+   "name": "AI in Healthcare Management",
+   "color": "#0ea5e9",
+   "items": [
+    {
+     "kind": "news",
+     "title": "HCA Healthcare aims for 10,000 physicians using ambient AI documentation by year-end",
+     "url": "https://distilinfo.com/2026/11/05/ambient-ai-documentation-hca/",
+     "source": "DistilINFO (citing Becker's and HCA)",
+     "date": "2026-11-05",
+     "tldr": "HCA, one of the largest US hospital operators, is scaling its Commure-built AI scribe toward 10,000 physicians and reports about five minutes saved per note.",
+     "summary_md": "## What happened\nHCA Healthcare's chief clinical officer, Michael Schlosser, said the company expects about 10,000 physicians to be using its ambient AI documentation tool by the end of 2026. The tool came out of HCA's exclusive partnership with Commure, which started in October 2024. As of September 2026, it was deployed to 4,950 physicians across 116 hospitals and 575 outpatient sites, and generated more than 360,000 AI-assisted notes that month. Full enterprise rollout is planned by the end of 2027.\n\n## Why it matters\nDocumentation is a leading cause of physician burnout. HCA's scale makes it a real-world test of whether ambient scribes work across a very large, mixed system rather than in small pilots. Results here will shape what other systems expect from these tools.\n\n## Key details\nThe tool listens to the doctor–patient conversation, uses speech recognition to transcribe it and generative AI to draft a clinical note. The clinician reviews, edits and signs each note before it enters the record. HCA reports about five minutes saved per note and one to two hours per shift. Some outpatient physicians have added appointments with the time saved. About 3,000 outpatient physicians and advanced practice providers are expected to take part.\n\n## Caveats\nThe 10,000 figure is a target, not a current count. The time savings are HCA's own numbers and have not been independently checked. No full evaluation of insurance denials or billing effects has been published, and HCA has not disclosed what it is spending. Generative AI can produce inaccurate or incomplete notes, which is why clinician review remains required.\n\n## Key terms\n- **Ambient AI scribe:** software that listens to a clinical visit and drafts the note automatically.\n- **Generative AI:** AI that produces new text (or images) from patterns it learned.\n- **Advanced practice provider (APP):** nurse practitioners and physician assistants.\n- **Enterprise rollout:** deployment across an entire organization rather than selected sites.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "As AI scribes spread, US states are writing their own patient-consent rules",
+     "url": "https://www.pymnts.com/healthcare/2026/as-ai-listens-in-on-doctor-visits-states-are-writing-the-rules/",
+     "source": "PYMNTS",
+     "date": "2026-11-04",
+     "tldr": "With federal privacy law silent on AI scribes, Louisiana, Rhode Island and California now require patients to be told when AI records or writes parts of their care.",
+     "summary_md": "## What happened\nPYMNTS reviewed how fast AI scribes are spreading and how states are responding. Abridge says it is live in more than 300 health systems. Microsoft says more than 100,000 clinicians use Dragon Copilot daily. A Doximity survey of 3,151 physicians found use of ambient scribes rose from 20% to 29% between survey waves. At Cleveland Clinic, more than 4,800 clinicians used Ambience Healthcare's scribe across more than 3.5 million visits in a year, per a paper in *npj Health Systems*.\n\n## Why it matters\nHIPAA, the main US health-privacy law, has no rule that says patients must be told an AI is recording their visit. That gap is being filled state by state. For health systems that operate across states, compliance now depends on location.\n\n## Key details\n- **Louisiana (Act 649, effective 1 August):** clinicians must tell patients out loud before recording a visit for AI transcription. Skipping this can lead to licensing-board discipline.\n- **Rhode Island:** requires patient notice and review of the AI-written note. It took effect in June and has no stated penalty.\n- **California (AB 3030, since January 2025):** patient messages written by generative AI that no clinician reviewed must carry a disclaimer.\n\n## Caveats\nMost adoption figures are company claims or come from other publications. The survey also shows governance lags behind use: 47% of physicians said their institution's AI decision process is still evolving, and only 8% called it clear. State laws differ in scope and penalties, so this patchwork may change if federal rules arrive.\n\n## Key terms\n- **HIPAA:** the US law that protects the privacy of health information.\n- **Informed consent / notice:** telling patients what will happen with their data so they can agree or object.\n- **AI scribe:** software that records a visit and drafts the clinical note.\n- **Governance:** the policies and committees that decide how a hospital adopts and monitors AI.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Google Cloud launches 'Gemini for healthcare' agent for clinical paperwork, with HCA and Northwell among first users",
+     "url": "https://thenextweb.com/news/gemini-for-healthcare-google-cloud-ai-agent-launch",
+     "source": "The Next Web",
+     "date": "2026-11-10",
+     "tldr": "Google Cloud's new healthcare agent reads Epic and Oracle Health records to help with documentation, billing and insurance tasks, and is in US preview from today.",
+     "summary_md": "## What happened\nGoogle Cloud launched Gemini for healthcare, an AI agent that works across electronic health records, billing and insurance systems. It is in preview in the US from 10 November. Launch customers include Blue Cross Blue Shield of Massachusetts, HCA Healthcare, Northwell Health, Optum and Stanford School of Medicine.\n\n## Why it matters\nAdministrative work, such as prior authorizations, claims and chart review, is a large and costly part of health care. Google cites a study it ran with The Harris Poll in which clinicians said they lose nearly 28 hours a week to documentation and admin. A cloud giant offering a ready-made agent puts pressure on smaller vendors and makes these tools easier for health systems to buy.\n\n## Key details\nThe agent reads records from Epic and Oracle Health, the two biggest EHR vendors, but does not write back into them. Support for NextGen is due in the coming months. It ships with five ready-made skills, and customers can choose underlying models from Google, Anthropic or OpenAI. Pricing is per seat or pay-as-you-go. Partners include GoodRx, UiPath, Verato and InterSystems.\n\n## Caveats\nThis is a preview, not general release. The article gives no accuracy, safety or time-saving results. The 28-hour figure comes from a Google-commissioned survey. Read-only access limits risk but also means staff must still enter results into the record by hand. How customers will monitor errors across several underlying models is not described.\n\n## Key terms\n- **AI agent:** software that can carry out multi-step tasks, such as gathering data from several systems, not just answer questions.\n- **EHR (electronic health record):** the digital chart system hospitals use, such as Epic or Oracle Health.\n- **Prior authorization:** an insurer's approval required before certain treatments are covered.\n- **Read-only access:** the tool can view records but cannot change them.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pharma-reg",
+   "name": "Pharmaceutical Regulation",
+   "color": "#8b5cf6",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Regulatory experts: validating an AI tool once is not enough",
+     "url": "https://www.raps.org/resource/ai-in-regulatory-experts-say-to-look-beyond-validation.html",
+     "source": "RAPS Regulatory Focus",
+     "date": "2026-11-06",
+     "tldr": "At RAPS's AI in Regulatory conference, panelists urged teams that use AI to write regulatory documents to treat it as a life-cycle risk, with change control, human oversight and ongoing monitoring.",
+     "summary_md": "## What happened\nAt the RAPS AI in Regulatory Conference in Barcelona, a panel discussed how regulatory and quality teams should manage the AI tools they use in their own work, such as drafting submissions and technical documents. The message: validation alone does not cover the risk.\n\n## Why it matters\nRegulatory teams are already using AI assistants to draft dossiers and quality records. Auditors and notified bodies (EU device certifiers) will ask how those tools were checked. If use is ad hoc, there are no validation records to show, which can become an inspection finding.\n\n## Key details\n- Leon Doorn (MedQAIR Services) said AI used to produce quality-system documents, reports, technical files or instructions for use must be validated and monitored, with test rigour scaled to the process risk. He noted that FDA's new Quality Management System Regulation, aligned with ISO 13485, took effect this year alongside final guidance on computer software assurance, and that IEC 63450, a standard for testing AI-enabled devices, is expected next year.\n- Simona Jerabkova (Edwards Lifesciences) proposed five questions before adopting a tool: what it should and should not do, who owns its mistakes, what to validate and where humans must check, what triggers revalidation, and whether it actually improves quality or saves real time. Her team uses AI to draft application documents, but a human finalizes the dossier.\n- Kerstin Kaspar (TÜV AI.Lab) said teams also need risk controls, change control and well-designed human oversight.\n\n## Caveats\nThese are expert opinions, not regulator statements. The discussion leaned toward medical devices and quality systems, though the logic applies to drug submissions too.\n\n## Key terms\n- **Validation:** documented proof that a system reliably does what it is meant to do.\n- **Change control:** a formal process to assess and approve changes, such as a new model version.\n- **Notified body:** an independent organization that certifies medical devices for the EU market.\n- **Computer software assurance (CSA):** FDA's risk-based approach to checking software used in manufacturing and quality systems.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Gottlieb proposes CLIA-style FDA oversight for AI models built inside hospitals",
+     "url": "https://www.raps.org/resource/experts-favor-a-new-regulatory-framework-for-clinical-ai-models.html",
+     "source": "RAPS Regulatory Focus",
+     "date": "2026-10-15",
+     "tldr": "Former FDA commissioner Scott Gottlieb argues Congress should let FDA certify health systems to build and use their own AI models, and three experts told RAPS the idea is serious.",
+     "summary_md": "## What happened\nIn a *JAMA Health Forum* opinion piece, former FDA commissioner Scott Gottlieb argued that AI models built and used inside academic medical centres need their own legal framework. Today these in-house tools mostly escape FDA review, while companies selling similar tools must go through device clearance. RAPS asked three experts for their views, and all broadly supported the idea.\n\n## Why it matters\nHospitals increasingly build their own prediction models, for sepsis, deterioration or readmission, for example. Gottlieb cites a national study in which only 61% of hospitals using predictive models checked accuracy on their own data and 44% checked for bias. A framework could close that safety gap and level the field between hospitals and commercial developers.\n\n## Key details\nGottlieb points to laboratory-developed tests as a model. Those are overseen under CLIA, a certification system run by CMS, rather than device rules. He proposes a CLIA-like system under FDA: the agency would certify specific health systems to build and deploy specific types of AI, based on preset requirements for intended use, validation, training data and post-market surveillance. Certified institutions would report performance to FDA regularly.\n- Joshua Sharfstein called it a serious proposal.\n- Brian Jackson supports a pathway roughly like CLIA and noted it would need an act of Congress.\n- Mark Sendak largely agrees but prefers central oversight combined with local hospital governance.\n\n## Caveats\nThis is an opinion article, not a bill or FDA action. Jackson noted that Gottlieb does not solve the unresolved disputes about laboratory-developed tests that the analogy borrows from.\n\n## Key terms\n- **CLIA:** US law that certifies clinical laboratories for quality, run by CMS.\n- **Laboratory-developed test (LDT):** a diagnostic test designed and used within a single lab.\n- **Post-market surveillance:** monitoring a product's safety and performance after it is in use.\n- **Bias assessment:** checking whether a model performs worse for certain patient groups.",
+     "image": null
+    },
+    {
+     "kind": "guidance",
+     "title": "FDA and EMA agree ten 'good AI practice' principles for drug development",
+     "url": "https://pharmaphorum.com/news/ema-and-fda-agree-principles-ai-drug-development",
+     "source": "pharmaphorum",
+     "date": "2026-01-15",
+     "tldr": "The US and EU drug regulators jointly published ten high-level principles for using AI from early research to safety monitoring, meant to anchor future guidance on both sides.",
+     "summary_md": "## What happened\nThe European Medicines Agency (EMA) and the US FDA jointly published ten common principles for using AI across the life of a medicine, from early research and clinical trials through manufacturing and safety monitoring. The document is intended as a foundation for future guidance in both regions and for international standards work. This item is older than this week but remains the main shared reference point for AI in drug regulation.\n\n## Why it matters\nDrug developers file in both the US and the EU. Shared expectations reduce the risk of having to justify the same AI model in two different ways. For anyone using AI in trial design, pharmacovigilance or manufacturing, these principles signal what reviewers will look for.\n\n## Key details\nThe principles, as summarized by pharmaphorum, call for:\n- human-centred design that respects ethical values;\n- a risk-based approach, with scrutiny matched to how much the AI affects decisions;\n- a clearly defined context of use;\n- multidisciplinary expertise across the life cycle;\n- strong data governance and documentation, including privacy;\n- sound model and software engineering;\n- risk-based performance testing, including how humans and the AI work together, before use;\n- ongoing monitoring and periodic re-evaluation;\n- clear, plain-language information for users and patients.\nEU Health Commissioner Olivér Várhelyi called it a first step in renewed EU–US cooperation.\n\n## Caveats\nThe principles are high-level and not binding. They do not replace FDA's January 2025 draft guidance on AI credibility, which is still a draft, or EMA's reflection paper. Detailed requirements will come in later documents.\n\n## Key terms\n- **Context of use:** the specific question and setting an AI model is used for, which sets how much evidence is needed.\n- **Pharmacovigilance:** monitoring and assessing side effects of medicines after approval.\n- **Data governance:** rules for how data is collected, stored, documented and protected.\n- **Risk-based approach:** applying more oversight where errors would do more harm.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "devices",
+   "name": "Medical Devices",
+   "color": "#10b981",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "A third of AI devices cleared via 510(k) were later updated, but updates are poorly reported",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13741162",
+     "source": "JAMA Network Open",
+     "date": "2026-11-05",
+     "tldr": "Of 163 AI/ML devices cleared through the FDA's 510(k) pathway, 34% received an algorithm update, often changing how the device is used, yet public summaries rarely reported data or benefits.",
+     "summary_md": "## What happened\nResearchers analysed public FDA 510(k) records for 163 AI or machine-learning devices first cleared between 2015 and 2021, and followed their later filings up to March 2025. Most (89%) were imaging devices. They asked how often these devices were updated and what the public documents said about each update.\n\n## Why it matters\nAI software is meant to improve over time, but each change can alter how it performs. Clinicians and hospitals rely on FDA summaries to judge whether an updated device still works for their patients. If those summaries are thin, users cannot tell what changed.\n\n## How it works\nThis is a cross-sectional study of FDA documents. Key results:\n- 56 devices (34.4%) had at least one algorithm update. The median time to the first update was 1.8 years.\n- Of those 56, 42 (75%) had an update that changed how the device was used. Of 95 such changes, 23 added features and 72 changed the algorithm's inputs, such as new scanners or image types.\n- Only 9 devices had updates that changed performance alone.\n- Reporting was weak: participant data were missing for 42.9% of updated devices, sample size for 26.8% and performance results for 14.3%. Only 14.3% reported any clinical or organizational benefit.\n\n## Caveats\nThe sample is small and based only on FDA documents, so some cases may be misclassified. Changes that did not need a new FDA filing are invisible, including changes made under a predetermined change control plan (PCCP), which lets makers carry out pre-agreed updates without a new submission. The paper's methods and results give slightly different start dates for the cohort.\n\n## Key terms\n- **510(k):** FDA clearance based on substantial equivalence to an existing device.\n- **Algorithm update:** a change to the model or its inputs after first clearance.\n- **Predetermined change control plan (PCCP):** an FDA-approved plan that pre-authorizes certain future AI updates.\n- **Cross-sectional study:** a snapshot analysis of existing records at one point in time.",
+     "image": null,
+     "authors": [
+      "Maria Zogka",
+      "Melissa Amyx",
+      "Philippe Ravaud",
+      "Viet-Thi Tran"
+     ]
+    },
+    {
+     "kind": "news",
+     "title": "500+ comments split on how FDA should regulate generative-AI medical devices",
+     "url": "https://www.raps.org/resource/stakeholders-offer-competing-feedback-on-how-fda-should-regulate-genai-devices.html",
+     "source": "RAPS Regulatory Focus",
+     "date": "2026-11-03",
+     "tldr": "Industry groups want FDA to keep its existing device rules for generative AI, while patient advocates, researchers and some AI developers push for new benchmarks and stronger checks.",
+     "summary_md": "## What happened\nIn August 2026 the FDA published a discussion paper on medical devices that use generative AI, such as large language models. It floated a two-axis risk framework, a competency-based approach modelled on how clinicians are credentialed, and questions on when post-market monitoring could carry more weight than pre-market evidence. RAPS reports more than 500 public comments, which closed in mid-October.\n\n## Why it matters\nGenerative AI does not give one fixed output for one input, so traditional device testing fits it poorly. The rules that come out of this process will decide what evidence makers of clinical chatbots, report drafters and decision-support tools must provide.\n\n## Key details\n- **Industry (AdvaMed, MDMA, Danaher):** keep the existing risk-based device framework rather than create a genAI-specific one. MDMA argued authorized devices need no new post-market layer.\n- **Supporters of the new framework:** ACRO and ISPE backed the two-axis approach. The National Health Council, Stanford HAI and the US Chamber of Commerce asked for changes.\n- **Competency testing:** ISPE and the National Health Council welcomed it. MDMA preferred risk-based performance evaluation. Mayo Clinic asked FDA to clearly separate device competency from clinician credentialing.\n- **Benchmarks:** Danaher and Doctors for America said benchmarks should support, not replace, other evidence. Anthropic asked that authorization benchmarks be independent of both the manufacturer and the model developer, and that test cases be kept separate from the maker's own regression tests.\n- ISPE argued strong post-market monitoring could offset uncertainty before approval.\n\n## Caveats\nThe article summarizes positions only. The FDA has made no decision, and a draft guidance, if any, could look different.\n\n## Key terms\n- **Generative AI (genAI):** AI that produces new text, images or audio rather than a fixed label.\n- **Discussion paper:** an early FDA document that asks for input before any formal guidance.\n- **Benchmark:** a standard test set used to compare model performance.\n- **Regression set:** tests a developer reruns to make sure updates did not break earlier behaviour.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "FDA keeps 510(k) review for radiology AI, rejecting a request to exempt updated tools",
+     "url": "https://medfinsinternational.com/fda-september-2026-radiology-ai-510k-estar-pma/",
+     "source": "Medfins International",
+     "date": "2026-09-25",
+     "tldr": "FDA denied a Harrison.ai-backed petition to exempt certain radiology detection and triage software from premarket review, and opened comments on robotic-surgery and PMA-template drafts closing this month.",
+     "summary_md": "## What happened\nOn 17 September 2026 the FDA issued a final order denying a citizen petition filed in October 2025 on behalf of Harrison.ai. The petition asked for a partial 510(k) exemption for radiology computer-aided detection, diagnosis and triage software (CADe, CADx and CADt), for makers that already had a prior clearance and a post-market surveillance plan. FDA said the information did not show that premarket review was unnecessary. In the same month, FDA released two draft guidances with comment deadlines in November.\n\n## Why it matters\nRadiology is by far the biggest category of AI devices. An exemption would have let established makers launch new versions without FDA review. The denial means every new radiology AI product of this kind still needs a 510(k), which keeps the current evidence bar in place.\n\n## Key details\n- **Petition:** docket FDA-2025-P-5560; denied 17 September 2026.\n- **eSTAR for PMAs (draft, 18 September):** a structured electronic template for premarket approval applications; it remains voluntary. Comments close 17 November 2026 (docket FDA-2026-D-9429).\n- **Robotically assisted surgical devices (draft, 25 September):** comments close 24 November 2026 (docket FDA-2026-N-9505). A public workshop runs 2–3 December 2026; in-person registration closes 23 November.\n\n## Caveats\nThis summary comes from a regulatory consultancy, not FDA directly; the Federal Register notices were not reviewed here. It is older than this week but the comment deadlines are live now.\n\n## Key terms\n- **Citizen petition:** a formal request asking FDA to take or change an action.\n- **CADe / CADx / CADt:** software that detects findings, helps diagnose them, or flags urgent cases for faster reading.\n- **PMA (premarket approval):** FDA's strictest device pathway, for high-risk devices.\n- **eSTAR:** FDA's electronic submission template that standardizes application content.",
+     "image": null
+    }
+   ]
+  }
+ ]
+}
