@@ -1,0 +1,288 @@
+{
+ "date": "2026-11-11",
+ "generated": "2026-11-11T07:19:30Z",
+ "ai_news": [
+  {
+   "id": "agents",
+   "name": "AI Agents",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Skyfall AI hands three small businesses it bought to its agent system Steve-001",
+     "url": "https://thenextweb.com/news/skyfall-ai-steve-001-autonomous-business",
+     "source": "The Next Web",
+     "date": "2026-11-09",
+     "tldr": "A San Francisco startup is letting a network of AI agents run three small online businesses it acquired, with a human owner signing off on big decisions.",
+     "summary_md": "Skyfall AI describes Steve-001 as a team of cooperating agents that models each business from its own records and tries changes in that model before making them for real. At a social-media API tool bought in July, monthly revenue went from $3,649 to $8,307 in October, up 127.7%. A Shopify referral app is about 3% below its $8,634 purchase-time revenue, and the third business is too new to judge. A rules engine sorts every action into four levels, from fully automatic (such as refunds of $30 or less) to waiting for human approval or stopping entirely.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Automattic launches Spacefast to host apps built with AI coding agents",
+     "url": "https://techcrunch.com/?p=3186097",
+     "source": "TechCrunch",
+     "date": "2026-11-09",
+     "tldr": "WordPress.com's parent company launched a service that lets people publish websites and apps straight from the AI assistant or coding agent they already use.",
+     "summary_md": "Spacefast supplies the backend pieces a quickly built app needs, including a database, user logins, file uploads, email and analytics. Users can connect it to tools such as ChatGPT, Claude, Cursor, OpenCode and Amp, or link a Git repository instead. It started as an internal hackathon project, was soft-launched in September and is pitched as a more open rival to Lovable and Emergent. TechCrunch's report gives no pricing or usage numbers.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "OpenAI details Control Room, an off switch for its research models",
+     "url": "https://scalevise.com/resources/openai-control-room-research-workload-safety/",
+     "source": "Scalevise",
+     "date": "2026-11-09",
+     "tldr": "OpenAI described an internal safety system that can stop a research model's output within 35 seconds of a decision to intervene.",
+     "summary_md": "Each research job gets an ID when it starts, and the servers running the model check that ID with Control Room on every request; once a job is marked terminated, no more output is produced. The design is \"fail-closed\": if Control Room is down or tampered with, all requests are refused until it comes back, so containment wins over keeping work running. It covers OpenAI's internal research workloads, not ChatGPT or the API.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "name": "New Models",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Google's Gemini 4 Carbon opens to developers and AI Ultra subscribers",
+     "url": "https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price",
+     "source": "VentureBeat",
+     "date": "2026-11-10",
+     "tldr": "Google's newest frontier model, first limited to cyber defenders, is now available through the paid Gemini API and to Google AI Ultra subscribers.",
+     "summary_md": "Introductory API pricing is $2 per million input tokens and $10 per million output tokens through Nov. 30, then $4 and $20, below Claude Fable 5.2's $8/$40 and GPT-6 Astra's $10/$50. On the Artificial Analysis Intelligence Index it scores 60, behind Fable 5.2 at 65 but ahead of Opus 5.5 (59) and GPT-6 Astra (57). It leads Fable on Terminal-Bench 4.0 (65.2% vs 61.6%) but trails it on FrontierCode 2.0 (40.6% vs 49.1%). It has a 1-million-token context window, and a less-restricted cyber version stays limited to Google's Fairwind program.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Meituan releases LongCat-2.5 open weights under the MIT license",
+     "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+     "source": "VentureBeat",
+     "date": "2026-11-09",
+     "tldr": "Chinese delivery giant Meituan published the weights of its very large coding-and-vision model, free for commercial use.",
+     "summary_md": "LongCat-2.5 is a \"mixture of experts\" model, meaning only part of it runs for each word: about 48 billion of its roughly 1.6 trillion parameters. Meituan reports 88.4 on Terminal Bench v2.1, up from 70.8 for its predecessor and within a point of top closed models, though it scores much lower on the harder Terminal Bench v4.0 (38.5). It also takes images and video as input. Meituan's hosted API costs $0.30 per million input tokens and $1.20 per million output tokens for a limited time.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Nvidia unveils GR00T 2 robot model at CoRL",
+     "url": "https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026",
+     "source": "Humanoids Daily",
+     "date": "2026-11-09",
+     "tldr": "Nvidia's new 2-billion-parameter robot model predicts both future video frames and robot actions, and learns new tasks from just a handful of demonstrations.",
+     "summary_md": "Across 50 tasks on a two-armed robot, GR00T 2 averaged 40% success with no task-specific examples, 71% with one demonstration and 95% with five. Adapting it takes a 30-minute fine-tune on a single RTX 5090, and a lighter Turbo version makes a prediction in 124 ms on a Unitree G1 humanoid. Nvidia also announced Isaac Lab 3.0, its simulation training tool, with up to 2.5x the training throughput of the previous version. Weights for both models are due in December 2026, with license terms not yet published.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "name": "Fun AI News",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Boston Dynamics puts Atlas on wheels, and it lands a 360-degree jump",
+     "url": "https://www.unite.ai/?p=509324",
+     "source": "Unite.AI",
+     "date": "2026-11-09",
+     "tldr": "Boston Dynamics swapped the feet of its Atlas humanoid for scooter wheels to push its motors and AI controller to their limits.",
+     "summary_md": "Engineers bolted an off-the-shelf scooter rim to Atlas's ankle with a custom adapter, then trained a control policy over millions of simulated trials before trying it on the real robot. The wheeled Atlas rolled smoothly and copied a human's 360-degree jump, which worked on the first attempt. The company says the setup is a research testbed, not a product, and the lessons are being fed back into the normal two-legged Atlas.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Could AI help us talk with animals one day?",
+     "url": "https://www.euronews.com/2026/11/09/could-artificial-intelligence-help-us-talk-with-animals-one-day",
+     "source": "Euronews",
+     "date": "2026-11-09",
+     "tldr": "A look at projects using AI to decode the sounds of whales, dolphins, birds and frogs, and how far they still are from real translation.",
+     "summary_md": "The Earth Species Project's NatureLM-audio model can be asked questions about animal recordings in plain language; on Australian frog recordings it told frog calls apart from other sounds 99% of the time and named selected species 82% of the time. Other projects include Google DeepMind's DolphinGemma, which predicts which dolphin sound comes next, and Project CETI's work on sperm whale click patterns. The article concludes that finding patterns is not the same as knowing what animals mean, so true translation is still a long way off.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Nile Rodgers defends his AI double in a new Christmas music video",
+     "url": "https://home.nzcity.co.nz/news/article.aspx?id=457634",
+     "source": "NZCity (Bang Showbiz)",
+     "date": "2026-11-10",
+     "tldr": "Chic legend Nile Rodgers had a crew build an \"AI me\" for his upcoming Christmas Song video and pushed back on a fan who objected.",
+     "summary_md": "Rodgers posted an Instagram clip of a crew capturing him to make an AI version of himself for \"Christmas Song,\" his collaboration with Rebecca Ferguson. When a follower complained that he should have hired people instead, he said his creative team made every second and the AI only did what they told it to. He added that a traditional shoot of this kind would have cost about $100,000.",
+     "image": null
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cardiac",
+   "name": "AI in Cardiac Surgery, Robotics & AI Models",
+   "color": "#e11d48",
+   "items": [
+    {
+     "kind": "news",
+     "title": "PARAMOUNT: AI-driven coronary plaque quantification beats usual care in suspected CAD",
+     "url": "https://www.hcplive.com/view/ai-driven-quantification-of-coronary-plaque-outperforms-standard-care-in-suspected-cad",
+     "source": "HCPLive (AHA Scientific Sessions 2026)",
+     "date": "2026-11-07",
+     "tldr": "A 530-patient randomized trial found that chest-pain care guided by AI plaque analysis on coronary CT outperformed usual stress-test-based care on a combined efficiency and effectiveness score at 6 months.",
+     "summary_md": "## What happened\nThe PARAMOUNT trial was presented at the American Heart Association (AHA) Scientific Sessions 2026 in Chicago. Todd Villines of the University of Virginia reported the early results. The trial randomized 530 people with symptoms and suspected coronary artery disease (CAD) at 21 sites between January 2025 and February 2026. One group received coronary CT angiography (CCTA, a contrast CT scan of the heart arteries) with AI quantification of plaque. Their care was then planned around that plaque data. The other group went back to usual care after stress testing. At 180 days the AI plaque strategy won on a combined endpoint, with a win ratio of 2 (95% CI 1.37–2.56; P<.0001).\n\n## Why it matters\nMost chest-pain pathways still rely on stress tests and a yes/no reading of narrowing. PARAMOUNT is one of the first randomized tests of a strategy that measures plaque volume and type with AI and then acts on it. Diagnostic certainty contributed most to the win. If confirmed, this could support payer coverage of AI plaque analysis and fewer unnecessary invasive angiograms.\n\n## Key details\n- The participants had a median age of 57, and 57% were women. Their median LDL cholesterol was 128 mg/dL.\n- People already on intensive lipid therapy, those with LDL below 100 mg/dL and those with suspected acute coronary syndrome were excluded.\n- The composite endpoint combined four parts: better diagnostic certainty, lower LDL, avoiding an invasive angiogram that finds no obstructive disease, and avoiding a stent where there is no significant narrowing.\n- The trial registry (NCT06713239) is attributed to Cleerly, a maker of AI plaque software.\n- Full results are expected in early 2027.\n\n## Caveats\nThese are preliminary meeting data and have not been peer-reviewed. The trial was open-label, so doctors and patients knew which strategy they had. That matters for a soft outcome like diagnostic certainty. The report gives no results for each component or event counts per arm. The presenter consults for Cleerly, HeartFlow and Milestone. A win ratio based on a composite endpoint does not show hard clinical benefit such as fewer heart attacks.\n\n## Key terms\n- **CCTA**: a contrast-enhanced CT scan that images the coronary arteries.\n- **Plaque quantification**: software that measures the volume and makeup of artery-wall plaque, not just the degree of narrowing.\n- **Win ratio**: compares patients across arms outcome by outcome in order of priority, and reports wins divided by losses.\n- **Open-label**: participants and clinicians know which treatment was assigned.\n- **ICA**: invasive coronary angiography, an X-ray of the arteries using a catheter.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "AI echo software flagged cardiac amyloidosis about 13 months before human readers",
+     "url": "https://www.consultant360.com/conference-coverage/ai-echocardiography-detects-cardiac-amyloidosis-13-months-earlier-human-readers",
+     "source": "Consultant360 (AHA Scientific Sessions 2026)",
+     "date": "2026-11-07",
+     "tldr": "In a retrospective review of 51 patients later diagnosed with ATTR cardiac amyloidosis, FDA-cleared AI software flagged the disease on earlier echocardiograms an average of 391 days before any human report.",
+     "summary_md": "## What happened\nA team led by J. Sollee, with N. Easton and S. S. Khan, presented abstract Sa1111 at AHA Scientific Sessions 2026 on November 7. They looked back at patients diagnosed with transthyretin amyloid cardiomyopathy (ATTR-CM) between 2016 and 2022. ATTR-CM is a disease in which misfolded protein stiffens the heart. They ran the FDA-cleared EchoGo Amyloidosis tool on echocardiograms taken before diagnosis. They then compared its first positive result with the first human report that mentioned amyloid-type features.\n\n## Why it matters\nATTR-CM is underdiagnosed, and disease-modifying drugs work best early. Every one of the 51 patients had at least one AI-positive echo. Only 32 had a human report raising the concern. On average the AI flagged disease 509 days before diagnosis, compared with 162 days for humans. The AI-first lead was 391 days on average (P<.001). No human report ever came before the AI. More than a third of AI-positive patients had no human report that raised the question at all.\n\n## How it works\nThe software analyzes routine transthoracic echo images and gives a yes/no suspicion of cardiac amyloidosis. The researchers counted a human report as positive if it used terms such as amyloid, apical sparing or infiltrative. They included patients with at least two echoes before diagnosis, which gave 160 studies in the main analysis. Diagnosis was confirmed by a PYP nuclear scan without light-chain disease, or by heart biopsy.\n\n## Caveats\nThis is a small, retrospective conference abstract and was not reported as peer-reviewed. Every patient already had ATTR-CM. That means the study cannot estimate false positives or specificity in an unselected echo population. Using report keywords as a stand-in for human detection may undercount what clinicians suspected. The cohort was 89% male, with a mean age of 78.5. There are no data on whether earlier flags changed treatment or outcomes.\n\n## Key terms\n- **ATTR-CM**: heart muscle disease caused by deposits of misfolded transthyretin protein.\n- **Echocardiogram**: an ultrasound scan of the heart.\n- **PYP scan**: a nuclear imaging test that detects ATTR amyloid in the heart without a biopsy.\n- **Retrospective cohort**: a study that looks back at existing patient records.\n- **Specificity**: how well a test avoids false alarms in people without the disease.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "CARDINAL Predicts Cardiovascular Risk From Non-contrast Cardiac CT",
+     "url": "https://arxiv.org/pdf/2608.27690",
+     "source": "arXiv",
+     "date": null,
+     "tldr": "A Georgia Tech/Emory model turns routine calcium-scoring CT scans into compact learned embeddings that predicted 10-year major cardiac events better than calcium score and the PREVENT risk equations in a single health system.",
+     "summary_md": "## What happened\nResearchers at Georgia Tech and Emory built CARDINAL. It is a representation-learning model for ECG-gated non-contrast cardiac CT, the low-dose scan used for coronary artery calcium (CAC) scoring. They used 28,092 scans from 25,514 adults taken from 2010 to 2023. The scans came from 11 Emory sites and scanners made by five vendors. The analytic cohort had 17,659 patients, with 3,521 held out for testing. The model was compared with the AHA pooled cohort equations, PREVENT, CAC score, CT biomarkers and a 70-feature radiomics model.\n\n## Why it matters\nMillions of calcium scans are done each year, but most of each image is reduced to one number. CARDINAL tests whether the rest of the image carries prognostic signal. In the 10-year cohort that required complete follow-up, the model's AUROC was 0.866. That compares with 0.653 for CAC score and 0.665 for PREVENT. Patients in the top risk tertile had about 10.8 times the hazard of those in the bottom tertile. The ratio was 2.8 for PREVENT.\n\n## How it works\nThe model compresses each scan into a short vector of numbers called an embedding. A risk head uses the embedding to predict major adverse cardiovascular events (MACE). The model kept about 96% of its peak AUROC with only 64 dimensions. Survival C-index was 0.753, compared with 0.687 for radiomics. Isotonic calibration cut expected calibration error from 0.117 to 0.058.\n\n## Caveats\nThis is a retrospective preprint from one health system, with no external validation. The 10-year cohort with complete follow-up had only 833 patients, and 59% of them had events. That is far from a screening population. Using broader labels, the gains shrank. The AUROC gain over radiomics was not statistically significant (P=0.249). The Black subgroup had only 23 patients. A provisional patent has been filed.\n\n## Key terms\n- **CAC score**: a measure of calcified plaque in the heart arteries on non-contrast CT.\n- **Embedding**: a compact numeric summary of an image learned by a neural network.\n- **AUROC**: a 0.5–1.0 score of how well a model ranks people who have events above those who do not.\n- **C-index**: a version of AUROC for time-to-event survival data.\n- **PREVENT**: the AHA's 2023 equations for 10-year cardiovascular risk.",
+     "image": null,
+     "authors": [
+      "Roy Gabriel",
+      "Nattakorn Kittisut",
+      "Jamshid Hassanpour",
+      "Michael Galarnyk",
+      "Abanoub Abdelmalak",
+      "Marly van Assen"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2608.27690"
+    }
+   ]
+  },
+  {
+   "id": "health-mgmt",
+   "name": "AI in Healthcare Management",
+   "color": "#0ea5e9",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Medicare's AI prior authorization pilot had 4 of 6 vendors flagged in first weeks, records show",
+     "url": "https://www.techtimes.com/articles/329935/20261103/medicares-ai-prior-authorization-pilot-had-4-6-vendors-flagged-first-weeks-records-show.htm",
+     "source": "Tech Times",
+     "date": "2026-11-03",
+     "tldr": "FOIA records show CMS cited four of six vendors in its AI-assisted Medicare prior authorization pilot for backlogs, late letters and missed deadlines.",
+     "summary_md": "## What happened\nFederal records show that CMS flagged four of the six private vendors in its AI prior authorization pilot within the first weeks and months of 2026. The pilot is called WISeR (Wasteful and Inappropriate Services Reduction). The Electronic Frontier Foundation (EFF), a digital rights group, got the records through a freedom-of-information (FOIA) lawsuit. Tech Times reported the latest batch on November 3, 2026.\n\n## Why it matters\nPrior authorization means a provider must get approval before Medicare will pay for a service. Traditional Medicare has rarely required it. WISeR adds it for 13 categories of services in six states, covering about 6.4 million beneficiaries. It is the clearest US test of AI-driven utilization review in a public payer. For hospitals, it shifts work into revenue cycle teams and can delay procedures.\n\n## Key details\n- The pilot started January 1, 2026 and runs to the end of 2031. The states are Arizona, New Jersey, Ohio, Oklahoma, Texas and Washington.\n- Vendors can earn up to 20% of the savings from denied or modified claims. Quality failures cut that payment by 5–10%. Critics say this rewards denials.\n- A human clinician must review any non-approval.\n- CMS sent compliance actions to Genzeon, Zyter, Virtix Health and Innovaccer. Problems included backlogs, late or blank letters and missed 72-hour deadlines.\n- Innovaccer approved every Ohio request automatically at first, because its portal was not ready. So AI screening did not run in Ohio at launch.\n- An earlier EFF release showed one request waited 83 days. Two vendors denied nearly 6,000 requests in three months.\n- A senator's letter citing hospital data said procedures that took about two weeks now take four to eight weeks.\n- A CMS deputy administrator said \"a lot of things\" are not working. A Senate vote to end the pilot failed 46–50.\n\n## Caveats\nSeveral turnaround figures come from the vendors themselves. EFF's reading of the denial counts is its own analysis. The article does not report denial rates against total requests. The records also do not show how much of each decision the AI made versus human reviewers.\n\n## Key terms\n- **Prior authorization**: payer approval required before a service is delivered and paid for.\n- **WISeR**: a CMS pilot that uses AI plus human review to screen selected Medicare services.\n- **CMS**: Centers for Medicare & Medicaid Services, the US agency that runs Medicare.\n- **FOIA**: Freedom of Information Act, a US law that lets the public request government records.\n- **Corrective action plan**: a formal fix a contractor must submit after failing a requirement.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Oncologists give ambient AI scribes positive reviews, but uptake at MSK was low",
+     "url": "https://www.healio.com/news/hematology-oncology/20261027/an-exciting-time-oncologists-give-ambient-ai-scribes-positive-reviews",
+     "source": "Healio",
+     "date": "2026-10-27",
+     "tldr": "At Memorial Sloan Kettering, only about 1 in 5 of 958 clinicians used an ambient AI scribe, and time savings were small, though most users would recommend it.",
+     "summary_md": "## What happened\nMemorial Sloan Kettering Cancer Center (MSK) surveyed clinicians before and after it rolled out an ambient AI scribe in summer 2025. An ambient scribe listens to the visit and drafts the clinical note. Results were presented at the ASCO Quality Care Symposium in October 2026, with a paper in JCO Oncology Practice. Healio reported them on October 27, 2026.\n\n## Why it matters\nMost scribe studies come from primary care. Cancer visits are longer, more complex and more emotional. Health systems are buying scribes at scale, so evidence from specialty settings helps set realistic expectations on uptake and time savings.\n\n## Key details\n- 958 clinicians took part. Only 19.8% used the scribe: 124 \"adopters\" (3+ weeks of use) and 66 \"attempted adopters\" (1–2 weeks).\n- The team called uptake lower than expected. Use grew as features were added.\n- The scribe was used in about 4% of visits. Use in shared visits with two clinicians was lower (1.8%).\n- Note-closing rates barely moved. Adopters went from 56% to 54%.\n- After-hours EHR time for adopters fell only slightly, from 86.9 to 81.4 minutes per week.\n- Never-users saw the largest drop, from 69.5 to 23.2 minutes per week.\n- The share reporting high or excessive note writing fell from 78% to 60%.\n- 73% of users would recommend the tool to peers.\n\n## Caveats\nMSK launched a new electronic health record (EHR) at the same time. That likely explains the big drop among never-users. The adopter group is small. Burden and satisfaction are self-reported. Note quality and patient experience were not measured. The authors also question whether note closure and after-hours time are the right outcomes for oncology.\n\n## Key terms\n- **Ambient AI scribe**: software that records a visit and drafts the clinician's note automatically.\n- **EHR**: electronic health record, the hospital's digital chart system.\n- **After-hours EHR time**: charting work done outside scheduled clinic hours, often called \"pajama time\".\n- **Adopter**: here, a clinician who used the scribe for at least three weeks.\n- **Confounding**: when another change (like a new EHR) muddies the effect being measured.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Proactive Inpatient Bed Requests for Emergency Department Admissions",
+     "url": "https://arxiv.org/pdf/2607.15432",
+     "source": "arXiv",
+     "date": "2026-07-20",
+     "tldr": "A simulation study shows that requesting ward beds early, based on predicted admissions, could cut ED boarding time by 30-70%.",
+     "summary_md": "## What happened\nResearchers at the University of North Carolina at Chapel Hill posted a paper on arXiv in July 2026. It proposes that emergency departments (EDs) request inpatient beds before admission decisions are final. They tested the idea with data from a large North Carolina ED in a partner system of more than 15 hospitals.\n\n## Why it matters\nBoarding means admitted patients wait in the ED for a ward bed. It drives crowding and worse outcomes. In the baseline data, patients boarded about 248 minutes on average, and ED length of stay was about 407 minutes. Bed flow is one of the most practical places where prediction can change hospital operations.\n\n## How it works\n- A prediction tool sorts ED patients into high or low admission-probability groups. It also estimates time to a decision.\n- At regular intervals, the ED sends one aggregate bed request to the wards, based on those predictions.\n- The authors frame this as a Markov decision process (MDP), a model of repeated decisions under uncertainty. The cost penalizes boarding, idle prepared beds and erratic request sizes.\n- They compare three policies: an approximate dynamic programming heuristic, a \"newsvendor\" rule borrowed from inventory planning, and a deep Q-learning agent (a reinforcement learning method). These are compared with current practice.\n- Policies were trained in a fast Python simulator and tested in a detailed discrete-event simulator. They were then simplified into decision trees that staff could follow.\n\nIn simulation, boarding fell 30–70%, to roughly 77–179 minutes. ED length of stay fell about 6–15%. The cost was up to about 95 minutes of bed idle time. The newsvendor rule gave the best balance. The reinforcement learning agent gave the smoothest request pattern.\n\n## Caveats\nEverything is simulated from one ED's 2019 data. Nothing was deployed. The model treats general medicine beds as interchangeable. The admission predictor is simple. Cost weights reflect managers' tradeoffs, not real dollars. The authors say real-world controlled studies are needed.\n\n## Key terms\n- **ED boarding**: admitted patients held in the ED while waiting for an inpatient bed.\n- **Markov decision process**: a math model for choosing actions step by step when outcomes are uncertain.\n- **Newsvendor model**: an inventory rule that balances ordering too much against too little.\n- **Deep Q-learning**: a reinforcement learning method where a neural network learns which action pays off over time.\n- **Discrete-event simulation**: a computer model that replays patient arrivals and moves event by event.",
+     "image": null,
+     "authors": [
+      "Qian Cheng",
+      "Nilay Tanık Argon",
+      "Aniruddhan Ganesaraman",
+      "Serhan Ziya"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2607.15432"
+    }
+   ]
+  },
+  {
+   "id": "pharma-reg",
+   "name": "Pharmaceutical Regulation",
+   "color": "#8b5cf6",
+   "items": [
+    {
+     "kind": "news",
+     "title": "FDA's Elsa AI tool use on the rise, as generics industry seeks safeguards",
+     "url": "https://insights.citeline.com/generics-bulletin/conferences/AAM/fdas-elsa-ai-tool-use-on-the-rise-as-generics-industry-seeks-safeguards-6JUB7PVTPZFAFAARCSVTDA7RO4/",
+     "source": "Generics Bulletin (Citeline)",
+     "date": "2026-11-06",
+     "tldr": "Daily use of the FDA's Elsa AI assistant among surveyed bioequivalence reviewers rose from 4.4% to 23.2%, and generic makers want safeguards.",
+     "summary_md": "## What happened\nAt a generics industry conference on November 2, 2026, an FDA official shared survey data on how staff use Elsa. Elsa is the agency's in-house generative AI assistant. Generics Bulletin (Citeline) reported the session on November 6. Industry speakers asked whether the tool actually speeds up drug reviews.\n\n## Why it matters\nElsa now touches parts of drug review work. Generic drug sponsors depend on bioequivalence reviews to reach market. If AI shapes those reviews, sponsors want to know how outputs are checked and what safeguards exist. For people preparing submissions, it signals that reviewers may read files with AI help.\n\n## Key details\n- The data came from the FDA office that reviews bioequivalence. Bioequivalence means showing a generic delivers the same amount of drug to the body as the brand product.\n- Among surveyed staff, regular Elsa use rose from 33.0% to 47.8%.\n- Daily use rose from 4.4% to 23.2%. That is roughly a fivefold increase.\n- The article flags these figures as still to be confirmed.\n- The headline message was that adoption is clear and measurable, but the risks are still undefined.\n- The session took place at the Association for Accessible Medicines (AAM) GRx+Biosims meeting in Rockville, Maryland.\n\n## Caveats\nOnly the opening of the article was accessible, so the specific safeguards industry asked for are not covered here. The usage numbers come from one office's staff survey, not the whole agency. Survey sample size and timing were not visible. Higher use does not show faster or better reviews. Earlier versions of Elsa drew press reports of fabricated citations, which is why sponsors are asking for verification rules.\n\n## Key terms\n- **Elsa**: the FDA's internal generative AI assistant for reading and summarizing regulatory documents.\n- **Bioequivalence**: evidence that a generic and a brand drug reach the blood at similar rates and amounts.\n- **Generative AI**: AI that produces new text or content from a prompt.\n- **AAM**: Association for Accessible Medicines, the US trade group for generic and biosimilar makers.\n- **Human-in-the-loop**: a setup where a person checks and owns each AI-assisted decision.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Regulatory intelligence requires critical thinking, actionability to be valuable, experts say",
+     "url": "https://www.raps.org/resource/regulatory-intelligence-requires-critical-thinking-actionability-to-be-valuable-experts-say.html",
+     "source": "RAPS Regulatory Focus",
+     "date": "2026-11-09",
+     "tldr": "Regulatory experts in Barcelona said AI can gather regulatory updates, but humans must interpret them and stay accountable.",
+     "summary_md": "## What happened\nThe opening panel of the RAPS Regulatory Intelligence Conference Europe, in Barcelona, discussed where AI fits in tracking regulatory change. RAPS Regulatory Focus reported it on November 9, 2026. Speakers came from BSI (a UK notified body), Bausch + Lomb, and the University of Lisbon.\n\n## Why it matters\nRegulatory intelligence means collecting and interpreting new laws, guidance and agency signals. It is the work that tells a company what to change and when. Many teams now use AI to scan sources. The panel's message was that AI can gather information, but people still own the interpretation and the risk. That matches how EU rules assign accountability.\n\n## Key details\n- Angela Logue of BSI said AI \"cannot own the risk.\" She stressed fact-based decisions and controls on how AI is used.\n- Alice Forde of Bausch + Lomb said interpretation, compliance and accountability cannot be handed to an AI agent. She noted some colleagues are more willing to give AI autonomy than she is.\n- Forde said intelligence must be turned into business impact. She named possible metrics such as cost of compliance, time to compliance and time to market. No values were given.\n- Mariana Oliveira, a researcher, said automation is not the same as AI. Under the EU Medical Device Regulation (MDR), a named person remains responsible for compliance.\n- Oliveira warned that AI can lead professionals to wrong answers faster. She still verifies every change at the original source, using an in-house scraper.\n- Panelists said AI tools miss nuance. Relationships, such as with patient advocacy groups, supply information no tool can reach.\n- Microsoft Copilot was mentioned as an example tool.\n\n## Caveats\nThis is expert opinion from one panel, not data. No study or performance numbers were presented. Most examples came from medical devices rather than drugs, though the principles carry over.\n\n## Key terms\n- **Regulatory intelligence**: gathering and interpreting regulatory changes to guide company decisions.\n- **EU MDR**: the European Union Medical Device Regulation, which sets device safety and conformity rules.\n- **Notified body**: an organization designated to assess whether devices meet EU requirements.\n- **AI agent**: an AI system that takes multi-step actions toward a goal with limited human input.\n- **Accountability**: the duty of a named person to answer for a regulatory decision.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Optimizing Large Language Models for Causality Assessment in Pharmacovigilance: Developing a Performance Metric as Objective for Bayesian Hyperparameter Optimization",
+     "url": "https://www.alphaxiv.org/abs/2607.03704",
+     "source": "arXiv",
+     "date": "2026-07-04",
+     "tldr": "Tuning GPT-5.2's temperature case by case raised its agreement with experts on drug-event causality from 45% to 72% in 723 FAERS reports.",
+     "summary_md": "## What happened\nA team of seven researchers posted a preprint in July 2026 on using a large language model (LLM) to judge whether a drug caused a reported adverse event. They tuned one setting, \"temperature,\" and built new metrics to guide the tuning. The test set was 723 cases from FAERS, the FDA Adverse Event Reporting System.\n\n## Why it matters\nPharmacovigilance teams face growing volumes of individual case safety reports (ICSRs). Causality assessment is slow expert work. If an LLM can match experts reliably, it could help triage cases. Regulators will expect clear evidence of agreement with experts before such tools touch safety decisions.\n\n## How it works\n- Experts first rated each case with the Naranjo algorithm. This is a 10-question scale that sorts drug-event links into categories like doubtful, possible or probable.\n- GPT-5.2 rated the same cases using step-by-step (\"chain-of-thought\") prompting.\n- Temperature controls how random the model's answers are. The team searched values from 0 to 2.\n- They used Bayesian optimization, a method that picks the next setting to try from earlier results. It relies on a Gaussian process, a statistical model of how the score changes.\n- They designed four agreement metrics. The best was EWACS, which weights questions by how informative they are.\n\nAt temperature 0, the model agreed with experts 74.1% of the time on Naranjo question 5 and 65.4% on question 10. Only those two questions carried useful signal. Across all cases, temperature had no overall effect (p = 0.959). But choosing temperature case by case with EWACS raised agreement on the final causality category from 45.0% to 72.0%. The largest gain was in \"doubtful\" cases.\n\n## Caveats\nThis is a preprint and not peer reviewed. It uses one model and one dataset. Per-case tuning relies on expert labels, so it is unclear how it would work on new, unlabeled reports. 72% agreement still leaves many disagreements for safety work.\n\n## Key terms\n- **ICSR**: a single report describing a suspected drug side effect in one patient.\n- **FAERS**: the FDA's database of spontaneous adverse event reports.\n- **Naranjo algorithm**: a 10-question score for how likely a drug caused an adverse event.\n- **Temperature**: an LLM setting; higher values make outputs more varied.\n- **Bayesian optimization**: a search method that uses past trials to choose the most promising next setting.",
+     "image": null,
+     "authors": [
+      "Nicole Sonne Heckmann",
+      "Arnault-Quentin Vermillet",
+      "Søren Norlin Mølgaard",
+      "Manuela Del Castillo Suero",
+      "Lars Melskens",
+      "Gerard Ompad"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "devices",
+   "name": "Medical Devices",
+   "color": "#10b981",
+   "items": [
+    {
+     "kind": "news",
+     "title": "PulseAI receives FDA 510(k) clearance for AI arrhythmia analysis on wearables",
+     "url": "https://www.prnewswire.com/news-releases/pulseai-receives-us-fda-510k-clearance-of-ai-powered-arrhythmia-analysis-model-for-wearables-302930913.html",
+     "source": "PR Newswire (PulseAI company release)",
+     "date": "2026-11-05",
+     "tldr": "Belfast startup PulseAI won FDA 510(k) clearance for a cloud AI model that reads wearable ECGs for atrial fibrillation, with a study claiming 92% fewer inconclusive results than the Apple Watch's built-in algorithm.",
+     "summary_md": "## What happened\nPulseAI is a cardiac AI company founded in 2020 in Belfast, Northern Ireland. On November 5 it announced FDA 510(k) clearance for an AI model that analyzes arrhythmias in ECGs recorded by wearable devices. The main target is atrial fibrillation (AFib). CEO and founder Alan Kennedy leads the company. Its latest funding round was led by Innovation Ulster, joined by the Mortara Group.\n\n## Why it matters\nSmartwatch ECGs often come back as \"inconclusive\". That leaves the user and the clinician with no answer, and often leads to more tests. A third-party algorithm cleared to run across devices could cut that noise. It also shows the 510(k) route being used for algorithms that are separate from any one device.\n\n## How it works\nA compatible device or app uploads the ECG recording to the cloud. There, the model classifies the rhythm and sends structured results back to the app for a clinician to review. The supporting study was a prospective trial of 296 participants published in *Heart Rhythm*. It reported higher AFib sensitivity and 92% fewer inconclusive readings than the Apple Watch's native algorithm.\n\n## Caveats\nThis is a company press release. It gives no sensitivity or specificity numbers, no 510(k) number and no formal indications for use. The headline claim of \"up to 10x\" better performance is not explained. The release also does not list which devices are covered by the clearance. Readers should check the FDA 510(k) database for the cleared indications and labeling. A study of 296 participants is modest in size for a consumer screening tool.\n\n## Key terms\n- **510(k)**: an FDA premarket route in which a device is cleared by showing it is substantially equivalent to a device already legally marketed.\n- **Atrial fibrillation (AFib)**: an irregular, often fast heart rhythm that raises stroke risk.\n- **Inconclusive reading**: an ECG the algorithm cannot classify, so it gives no rhythm answer.\n- **Sensitivity**: the share of true AFib cases the tool correctly detects.\n- **SaMD**: software as a medical device, meaning software that performs a medical function on its own.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Experts call for streamlined EU AI framework for medical devices, urge greater AI literacy",
+     "url": "https://www.raps.org/resource/experts-call-for-streamlined-eu-ai-framework-urge-greater-literacy.html",
+     "source": "RAPS Regulatory Focus",
+     "date": "2026-11-05",
+     "tldr": "At a RAPS conference in Barcelona, industry, notified-body, legal and regulator panelists debated whether the EU AI Act's high-risk rules should be folded into the MDR/IVDR to avoid duplicate work for AI medical devices.",
+     "summary_md": "## What happened\nAt the RAPS AI in Regulatory Conference in Barcelona, a panel discussed how AI-enabled medical devices should be regulated in Europe. The panel included Leander Vranken of MedTech Europe, Sebastian Fischer of TÜV SÜD, lawyer Erik Vollebregt of Axon Lawyers, and Nebojsa Serafimovic of Austria's AGES. They disagreed on how well the EU AI Act fits with the Medical Device Regulation (MDR) and the In Vitro Diagnostic Regulation (IVDR).\n\n## Why it matters\nAI devices in the EU face two rulebooks: the MDR/IVDR and the AI Act's high-risk duties. The Digital Omnibus has already pushed the AI Act deadline for products like medical devices back to August 2028. How the overlap is resolved will shape technical files, notified-body workload and launch timelines for any EU-bound cardiac AI product.\n\n## Key details\n- Vranken wants the MDR/IVDR as the primary framework, with the AI Act's high-risk requirements moved into them. He noted that the European Commission has already recommended this. He warned that overlapping rules on risk management and oversight add cost and delay.\n- Fischer argued that Article 43 of the AI Act already lets one conformity assessment and one technical file cover both laws.\n- Vollebregt said major problems remain unresolved. He suggested they could be fixed in the Omnibus or the coming MDR/IVDR revisions.\n- Fischer expects a notified-body bottleneck once the AI Act applies, though a smaller one than under MDR. Designation of AI Act notified bodies has not yet begun.\n- Vranken backs EU proposals to allow predetermined change control plans (PCCPs). Fischer doubts they will be widely used, because few systems will be truly adaptive.\n- Panelists urged regulatory teams to build AI literacy and to review AI-generated output critically.\n\n## Caveats\nThis is a conference panel report, not a regulatory decision. The views reflect industry, notified-body and legal perspectives. No legislative text or timeline changed at this event.\n\n## Key terms\n- **MDR/IVDR**: the EU regulations that govern medical devices and in vitro diagnostics.\n- **Notified body**: an independent organization designated to certify device conformity in the EU.\n- **PCCP**: a pre-agreed plan describing future model changes a manufacturer may make without a new review.\n- **Digital Omnibus on AI**: a 2026 EU package that amended and delayed parts of the AI Act.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "FDA's device center releases FY 2027 guidance agenda, with AI lifecycle guidance on the A-list",
+     "url": "https://www.raps.org/resource/fda-s-device-center-releases-guidance-agenda-for-fy-2027.html",
+     "source": "RAPS Regulatory Focus",
+     "date": "2026-10-02",
+     "tldr": "CDRH plans to finalize its AI-enabled device software lifecycle guidance and PCCP guidance in fiscal 2027, and it is taking comments on its priorities until November 30.",
+     "summary_md": "## What happened\nOn October 1, FDA's Center for Devices and Radiological Health (CDRH) published its guidance agenda for fiscal year 2027. The agenda lists 11 final and three draft guidances it plans to issue. Several of the top priorities concern AI-enabled devices. CDRH is asking for public comment on how it ranked them. The deadline is November 30, 2026, under docket FDA-2012-N-1021.\n\n## Why it matters\nThe January 2025 draft guidance on lifecycle management for AI-enabled device software functions is still not final. That draft sets out what an AI device submission should contain, from data and validation to post-market monitoring. Putting it on the A-list signals that a final version is likely within the year. That would give developers of cardiac imaging AI firmer expectations for 510(k) and De Novo files.\n\n## Key details\n- The A-list (top priority) includes the final AI-enabled device software lifecycle guidance. It also includes final guidance on predetermined change control plans (PCCPs), which let makers ship pre-agreed changes without a new submission.\n- Also high priority is a new draft on generative AI conversational devices for mental health disorders.\n- A lower, third-tier item covers risk assessment for generative AI-enabled devices.\n- Other top items include robotic-assisted surgical devices (a draft was issued in September 2026) and quality management system information for premarket reviews.\n- The B-list includes drafts on software functions in devices and on post-market cybersecurity.\n- The A- and B-lists are required under the MDUFA V user-fee agreement.\n\n## Caveats\nAn agenda is a plan, not a promise. FDA often misses or reshuffles its listed guidances. This item is older than one week, but the comment window is still open.\n\n## Key terms\n- **CDRH**: the FDA center that regulates medical devices.\n- **A-list / B-list**: CDRH's ranked lists of guidances it intends to publish in the fiscal year.\n- **PCCP**: a predetermined change control plan, meaning pre-authorized future modifications to a device.\n- **MDUFA V**: the current medical device user-fee agreement between FDA and industry.\n- **Docket**: the public file where comments on an FDA action are submitted.",
+     "image": null
+    }
+   ]
+  }
+ ]
+}
