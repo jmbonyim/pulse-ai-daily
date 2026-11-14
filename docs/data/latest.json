@@ -1,6 +1,6 @@
 {
- "date": "2026-11-13",
- "generated": "2026-11-13T02:28:17-05:00",
+ "date": "2026-11-14",
+ "generated": "2026-11-14T07:29:00+00:00",
  "ai_news": [
   {
    "id": "agents",
@@ -8,33 +8,49 @@
    "items": [
     {
      "kind": "news",
-     "title": "Nectar launches an AI agent that finds and contacts social media creators for brands",
-     "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+     "title": "ChatGPT Wallet lets OpenAI's 'dots' agents buy things for you",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
      "source": "TechCrunch",
-     "date": "2026-11-12",
-     "tldr": "Nectar's new Creator Agent searches over 300 million creator profiles and handles outreach, contracts and product shipping for brand campaigns.",
-     "summary_md": "Nectar released a Creator Agent, available worldwide, that searches more than 300 million Instagram and TikTok creator profiles for brand partnerships. It drafts and sends messages, manages contracts, gifting and shipping, and remembers past conversations with each creator. Nectar plans MCP access (a standard way for other AI assistants to call outside tools) so Claude, ChatGPT, Gemini and Copilot can use it. The startup raised a $30M Series A in May led by Menlo Ventures.",
+     "date": "2026-11-13",
+     "tldr": "OpenAI's new ChatGPT Wallet lets its dots agents complete purchases with a stored card, starting with a small group of US Pro subscribers.",
+     "summary_md": "OpenAI launched ChatGPT Wallet, which lets its agents, called dots, recommend products and check out on a user's behalf. Cards are added once, and each purchase uses a payment token (a stand-in for the card number), so neither the agent nor the store sees the real card. Users review the order and approve every purchase with Face ID or a fingerprint. It is open at first to a small number of US ChatGPT Pro users aged 18+ with US Visa, Mastercard or Amex cards; spending limits are planned.",
      "image": null
     },
     {
      "kind": "news",
-     "title": "Expo rents cloud phone simulators to AI coding agents by the minute",
-     "url": "https://prnewswire.com/news-releases/expo-launches-cloud-ios-simulators-and-android-emulators-for-ai-coding-agents-302937712.html",
-     "source": "PR Newswire (Expo)",
-     "date": "2026-11-12",
-     "tldr": "Expo now lets coding agents such as Claude Code, Cursor and Codex test mobile apps on cloud iOS simulators and Android emulators for $0.10 a minute.",
-     "summary_md": "Expo, a popular toolkit for building mobile apps, launched cloud iOS simulators and Android emulators that AI coding agents can drive to test the apps they write. It works with Cursor, Claude Code and Codex, and runs the iOS simulator without a Mac. Pricing is $0.10 per simulator minute, with 60 free minutes a month on paid plans. Each session attaches a screen recording, screenshots and logs to the pull request; these are vendor claims, not independent tests.",
+     "title": "OpenAI launches Daybreak agents that attack your web apps, then draft the fixes",
+     "url": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+     "source": "SecurityWeek",
+     "date": "2026-11-13",
+     "tldr": "OpenAI's Daybreak Red Team uses AI agents to confirm security holes, and Defense Factory drafts patches that engineers review before merging.",
+     "summary_md": "OpenAI announced two security products at its Cyber at the Frontier event. Daybreak Red Team runs several agents in isolated environments to test web apps for weaknesses (penetration testing), with a review step that limits which endpoints they may touch; early access is by request. Defense Factory traces flagged flaws through the code, pulls findings from Wiz, Snyk and Endor Labs, and drafts patches as GitHub pull requests. Patches are never deployed automatically, and no pricing was given.",
      "image": null
     },
     {
      "kind": "news",
-     "title": "Block opens its in-house 'AI coworker' tools to other companies",
-     "url": "https://siliconangle.com/2026/11/12/block-builderlab-launch-event-2026-ai-agents-join-team/",
-     "source": "SiliconANGLE",
+     "title": "Anthropic launches Claude for Manufacturing with 17 factory skills",
+     "url": "https://www.manufacturingdive.com/news/anthropic-launches-claude-for-manufacturing/874303/",
+     "source": "Manufacturing Dive",
      "date": "2026-11-12",
-     "tldr": "Block is offering businesses the agent tools it uses internally, where AI agents get their own identities, can be tagged like colleagues and leave a signed audit trail.",
-     "summary_md": "At its Builderlab event in San Francisco, Block (the company behind Square and Cash App) said it will offer outside businesses the agent tools it built on Buzz, its open-source workspace for humans and AI agents. Each agent gets a human-owned identity, runs in a hardened cloud virtual machine and records its actions in a cryptographically signed log. Block's head of AI capabilities said some internal teams ship software 50% to 75% faster. Block said little about pricing, and the event coverage came from a paid media partner.",
+     "tldr": "A new Claude plugin gives manufacturers 17 ready-made task skills and connectors to Autodesk Fusion, Infor, Microsoft 365 and Oracle NetSuite.",
+     "summary_md": "Anthropic released Claude for Manufacturing, a plugin for enterprise-plan customers. Its 17 skills (packaged task instructions) cover jobs like quoting work, investigating failed inspections, diagnosing breakdowns and finding alternate suppliers. Four connectors link it to Autodesk Fusion, Infor, Microsoft 365 and Oracle NetSuite, with Infor's planning software powering the plugin. A person must approve each draft before it goes to a customer or supplier.",
      "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
+     "url": "https://arxiv.org/abs/2611.14960",
+     "source": "arXiv",
+     "date": "2026-11-11",
+     "tldr": "Coding agents often find the right fix on their first edit but keep working for a third to over half of their run, sometimes undoing the fix.",
+     "summary_md": "Researchers studied five models, two agent frameworks and three SWE-bench datasets (sets of real GitHub bugs). In 38–82% of successful runs, the first code edit was already correct. Yet 35–60% of steps in solved runs came after that point, mostly spent re-checking and exploring. In 1–8% of cases, the extra work reverted a correct patch, so the agent ended with a wrong answer.",
+     "image": "https://arxiv.org/html/2611.14960v1/figs/waste_qwen_verified.png",
+     "authors": [
+      "Musa Cim",
+      "Burak Topcu",
+      "Mahmut Taylan Kandemir"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.14960"
     }
    ]
   },
@@ -44,32 +60,32 @@
    "items": [
     {
      "kind": "news",
-     "title": "Google launches Gemini 4 Hydrogen, a faster and cheaper model for coding agents",
-     "url": "https://igeeksblog.com/gemini-4-hydrogen-launch",
-     "source": "iGeeksBlog",
-     "date": "2026-11-13",
-     "tldr": "Gemini 4 Hydrogen is Google's new speed-focused model, priced at $1.50 per million input tokens and $7.50 per million output tokens with a 1M-token context.",
-     "summary_md": "Google released Gemini 4 Hydrogen, a speed-tier model that sits beside Gemini 4 Carbon and Argon. Google says it finishes tasks about 2.5 times faster than Gemini 3.8 Flash and scores 57% on the Terminal-Bench 4.1 coding test, versus 18.2% for 3.8 Flash. API pricing is $1.50 per million input tokens and $7.50 per million output tokens across a 1-million-token context window. Free Gemini app users only reach it through automatic model selection; one outside coding test found it slower than rival flagship models.",
+     "title": "Edge0 releases a 145B open model built to run on a laptop",
+     "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+     "source": "Edge0",
+     "date": "2026-11-12",
+     "tldr": "Edge0-145B is an open mixture-of-experts model that the company says runs on a laptop with about 29GB peak memory.",
+     "summary_md": "Edge0 released Edge0-145B, a mixture-of-experts model (only about 10B of its 145B parameters work on each step). It keeps frequently used experts on the GPU, others in system memory, and vocabulary data on the SSD, for a reported peak of 29GB. Edge0 reports 80+ tokens a second on machines like a MacBook Pro or RTX 4090/5090 PCs, and internal scores such as 90.4 on GPQA-Diamond. The benchmarks are the company's own, and the page does not name a license.",
      "image": null
     },
     {
      "kind": "news",
-     "title": "Baidu previews ERNIE 5.5 Flash, a large but cheap-to-run model, free on OpenRouter",
-     "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview",
-     "source": "OpenRouter",
-     "date": "2026-11-10",
-     "tldr": "Baidu's ERNIE 5.5 Flash Preview has 280 billion parameters but uses only 14 billion per word, and is available free through OpenRouter.",
-     "summary_md": "Baidu released a preview of ERNIE 5.5 Flash, a mixture-of-experts model (only part of the network runs for each word), with 280 billion total and 14 billion active parameters and a 1-million-token context. OpenRouter lists it free of charge, served only by Baidu's Qianfan cloud. Measured speed on OpenRouter is about 90 tokens per second, below Baidu's claim of over 200. Baidu aims it at coding, 3D modeling and knowledge work.",
+     "title": "IBM previews Granite models that keep instructions and data apart to resist prompt injection",
+     "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+     "source": "Hugging Face (IBM Granite)",
+     "date": "2026-11-12",
+     "tldr": "IBM's experimental Granite 4.1 LLMON 3B and 8B models use special markup tokens to separate commands from data, sharply cutting prompt-injection attacks.",
+     "summary_md": "IBM released two experimental Granite 4.1 models built around LLMON, a markup language whose tags are reserved tokens that clearly mark what is an instruction and what is data. That targets prompt injection, where hidden text in a document tricks a model into following it. On the OPI benchmark, IBM says LLMON blocked 47% more attacks than the best frontier model tested, while matching Granite 4.1 Instruct on standard benchmarks. The models are for evaluation only, and multi-turn adaptive attacks are not yet handled.",
      "image": null
     },
     {
      "kind": "news",
-     "title": "Google adds Gemini Decision 1, a model built only to make fast yes/no and rating calls",
-     "url": "https://www.nocode.mba/ai-release-tracker",
-     "source": "No Code MBA release tracker",
-     "date": "2026-11-11",
-     "tldr": "Gemini Decision 1 answers up to 1,000 closed questions (yes/no, multiple choice or rubric scores) in one pass through Google's new Gemini Decisions API.",
-     "summary_md": "Google listed Gemini Decision 1, a closed-set model offered through a new Gemini Decisions API. Instead of writing free text, it answers up to 1,000 yes/no, multiple-choice or rubric-scoring questions about an input in a single request. This kind of model suits bulk labeling, content checks and grading tasks. Details here come from a release tracker; Google's own benchmarks and limits were not available to verify.",
+     "title": "Perplexity open-sources Decider v1.3, which can now pinpoint text in documents",
+     "url": "https://lapaasvoice.com/perplexity-open-sources-decider-v1-3-and-decider-flash-v1-3-with-new-locate-feature",
+     "source": "Lapaas Voice",
+     "date": "2026-11-14",
+     "tldr": "Perplexity's Apache-licensed Decider v1.3 (about 26B) and Flash (about 5B) decision models add Locate, which finds and returns matching text spans.",
+     "summary_md": "Perplexity's Decider models return structured answers, such as yes/no probabilities or scores, instead of chat text. Version 1.3 adds Locate, which finds the passage matching a plain-language description and gives its position and a confidence score, useful for spotting personal data or contract clauses. Perplexity reports 91.6% average accuracy on 63 classification tasks, 6.54 points above its previous classifiers; these figures are not independently checked. Both models are Apache 2.0 and free on OpenRouter for one week.",
      "image": null
     }
    ]
@@ -80,22 +96,22 @@
    "items": [
     {
      "kind": "news",
-     "title": "Ring's indoor security drone is finally coming, flying set patrol routes around your home",
-     "url": "https://www.digitalcameraworld.com/drones/rings-indoor-drone-camera-takes-off-at-last-and-ai-takes-control",
-     "source": "Digital Camera World",
-     "date": "2026-11-11",
-     "tldr": "Ring's long-teased Drone Cam, a $249.99 indoor flying camera that patrols on automatic routes, is now on limited pre-order.",
-     "summary_md": "Ring opened limited pre-orders for its Drone Cam, a small indoor drone with a 2K camera that flies preset patrol routes or launches from the app. It costs $249.99, flies for about 8 minutes and ships January 27. Ring also announced the Ring Rover, a $999.99 ground robot with a 4K camera on a periscope pole. The drone was first teased years ago, so its arrival surprised many.",
+     "title": "Claude helps decode Kurt Gödel's shorthand notebooks, cataloguing 663 theorems",
+     "url": "https://aiweekly.co/alerts/helsinki-team-uses-claude-to-surface-663-gdel-theorems",
+     "source": "AI Weekly (via The Guardian)",
+     "date": "2026-11-13",
+     "tldr": "A Helsinki logician gave Claude his transcriptions of Gödel's 1940s notebooks and got back a 650-page analysis listing 663 theorems.",
+     "summary_md": "Jan von Plato has spent years transcribing 1,009 pages of Gödel's notebooks, written in an obsolete German shorthand, at about one page a week. Claude turned his transcriptions into a 650-page analysis and a list of 663 theorems within days. About 400 checked out in the Coq proof assistant (software that verifies proofs), about 200 needed repair and about 50 were false. One notebook shows Gödel close to a result that won Paul Cohen a Fields Medal in 1966, though von Plato says every page still needs checking by hand.",
      "image": null
     },
     {
      "kind": "news",
-     "title": "A caregiver runs a small team of AI agents, including a 'chief of staff', to help care for her mother",
-     "url": "https://www.oakpark.com/2026/11/12/anita-charlot-book-profile/",
-     "source": "Wednesday Journal (Oak Park)",
+     "title": "A WIRED reporter had an AI train a virtual robot duck to chase his cat",
+     "url": "https://aiweekly.co/alerts/wireds-will-knight-uses-gpt-6-sol-to-train-virtual-microduck",
+     "source": "AI Weekly (via WIRED)",
      "date": "2026-11-12",
-     "tldr": "Oak Park author Anita Charlot wrote a caregiving guide about using AI agents, including one named 'Donna', to manage her mother's appointments and medicines.",
-     "summary_md": "Anita Charlot launched her book on her mother's 93rd birthday, at the start of National Family Caregivers Month. She started with ChatGPT for research and now uses a set of AI agents, including one she calls Donna, her 'chief of staff', to track appointments, medicines and preparation. The book mixes memoir with practical tips for other family caregivers.",
+     "tldr": "Will Knight let OpenAI's GPT-6 Sol run the training of a simulated Microduck robot so it could learn to walk and follow his Bengal cat.",
+     "summary_md": "WIRED's Will Knight used OpenAI's GPT-6 Sol to train a virtual version of Microduck, Pollen Robotics' $399 open-source walking duck. The model wrote the code, watched the duck's attempts and fixed problems, while reinforcement learning (trial-and-error training) ran 4,096 ducks in parallel on an Nvidia DGX Spark. The duck learned to walk, but only in simulation, and its vision is not yet good enough to be a real cat butler.",
      "image": null
     }
    ]
@@ -108,41 +124,41 @@
    "color": "#e11d48",
    "items": [
     {
-     "kind": "paper",
-     "title": "AI labels heart anatomy live on catheter ultrasound during atrial fibrillation ablation",
-     "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1992965/full",
-     "source": "Frontiers in Cardiovascular Medicine",
-     "date": "2026-10-30",
-     "tldr": "A deep learning system called AI-ICE identified 12 heart structures and 5 standard views on intracardiac ultrasound with AUCs around 0.95-0.98, matching or beating three cardiologists.",
-     "summary_md": "## What happened\nChinese researchers built AI-ICE, a deep learning system that reads intracardiac echocardiography (ICE) in real time. ICE is an ultrasound probe on a catheter, placed inside the heart during procedures. The team trained it on 373,091 images from 350 patients at three centers, and tested it on a separate center's 35,335 frames.\n\n## Why it matters\nDuring atrial fibrillation (AF) ablation, doctors burn or freeze small areas of heart tissue to stop an irregular rhythm. ICE helps them see where the catheter is, but reading it takes long training. A tool that labels structures on the live image could shorten the learning curve and make ICE more consistent between operators.\n\n## How it works\n- The model does two jobs at once: it outlines 12 anatomical structures and classifies which of 5 standard views is on screen.\n- It uses a ResUnet (an image network that keeps fine detail) plus an LSTM (a network that remembers earlier frames), so it uses motion across the video.\n- On the external test center, AUC was 0.984 for view classification and 0.955 for structure detection. AUC runs from 0.5 (chance) to 1.0 (perfect).\n- Against three cardiologists, mean AUC was 0.941 for AI-ICE versus 0.916 for the experts. It processed each image in about 12 ms, fast enough for live video.\n\n## Caveats\nOnly three centers and one catheter type were used, so it may not work on other systems. Live use covered only three procedures. The work is limited to AF ablation; valve or appendage-closure procedures were not tested. No regulatory submission is mentioned.\n\n## Key terms\n- **ICE (intracardiac echocardiography):** ultrasound imaging from a probe inside the heart.\n- **AF ablation:** a procedure that scars small tissue areas to stop atrial fibrillation.\n- **AUC:** a 0.5-1.0 score of how well a model separates correct from incorrect answers.\n- **External test set:** data from a hospital not used in training, to check generalization.\n- **LSTM:** a neural network type that keeps memory of earlier inputs in a sequence.",
-     "image": null,
-     "authors": [
-      "Guang Li",
-      "Qingsong Wang",
-      "Qiyue Mu",
-      "Jinchen Li",
-      "Yi He",
-      "Fei Long"
-     ]
-    },
-    {
      "kind": "news",
-     "title": "Deep learning cuts coronary CT angiography reading time by 73% while keeping accuracy high",
-     "url": "https://healthimaging.com/node/195636",
-     "source": "Health Imaging (study in European Journal of Radiology)",
-     "date": null,
-     "tldr": "In 165 patients, an AI tool that reformats coronary CT scans detected blocked arteries with 90.5% sensitivity and cut average reading time by 73%.",
-     "summary_md": "## What happened\nA team at Jinling Hospital in Nanjing tested a deep learning tool for coronary CT angiography (CCTA) in 165 patients. CCTA is a contrast CT scan of the heart arteries. The AI's reads were compared with invasive coronary angiography, the catheter-based reference test. The results appeared in the European Journal of Radiology.\n\n## Why it matters\nCCTA is now a first-line test for chest pain in many guidelines, so reading volume is rising. Each scan needs careful post-processing to straighten and measure every artery. If AI can do this reliably, radiologists can read more scans faster without losing accuracy.\n\n## How it works\n- The tool automatically reformats the images and assesses the major coronary arteries.\n- Obstructive disease was defined as narrowing of 50% or more.\n- Per patient, sensitivity was 90.5% (it caught about 9 in 10 people with real blockages) and specificity was 82.3% (about 8 in 10 people without blockages were correctly cleared). AUC was 0.90.\n- Average reading time fell 73%. Post-processing time dropped from 8.5 to 3.7 minutes.\n- The AI beat inexperienced readers and matched intermediate and senior readers. Image quality and calcium did not degrade it, the authors report.\n\n## Caveats\nThis is a single-center study of 165 patients, which is small. A specificity of 82% means some patients would be flagged falsely and might get unnecessary invasive tests. The article does not give the tool's regulatory status, and the authors frame it as a \"second reader\", not a replacement.\n\n## Key terms\n- **CCTA:** a CT scan with contrast dye that shows the heart's arteries.\n- **Invasive coronary angiography:** X-ray imaging with a catheter in the arteries; the reference standard.\n- **Sensitivity:** share of truly diseased patients the test catches.\n- **Specificity:** share of healthy patients the test correctly clears.\n- **Post-processing:** reformatting raw scan data into views a reader can measure.",
+     "title": "AI plaque analysis on coronary CT finds artery plaque in 87% of retired NFL players",
+     "url": "https://www.diagnosticimaging.com/view/ccta-study-ai-powered-plaque-analysis-coronary-plaque-87-percent-retired-nfl-players",
+     "source": "Diagnostic Imaging",
+     "date": "2026-11-05",
+     "tldr": "In 169 former NFL players, AI reading of coronary CT scans found plaque in 87% and obstructive disease in 41%, although only 13% knew they had heart disease and 2% had symptoms.",
+     "summary_md": "## What happened\nEarly results from the GAMEFILM registry were presented at AHA Scientific Sessions 2026 in Chicago (November 6-9). Researchers scanned 169 former NFL players with coronary CT angiography. Heartflow's AI software then measured plaque in the arteries and estimated blood-flow limits. The first author is David Maron of Stanford; Heartflow's chief medical officer is a co-author.\n\n## Why it matters\nOnly 13% of the men had a known coronary artery disease diagnosis before the study. The AI found plaque in 87%. Just 2% reported chest pain or breathlessness on exertion. That gap shows how much silent disease a symptom-based approach can miss in a high-risk group. It also shows AI plaque tools moving from research into screening-style use.\n\n## Key details\n- Median age was 57 and median BMI was 31.\n- 32% had high cholesterol, 31% had high blood pressure, and 14% were current or former smokers.\n- 41% had obstructive disease, and 17% had it in more than one vessel.\n- 27% had severe or extensive total plaque volume.\n- 18% had at least one lesion that limits flow, defined as a CT-derived FFR below 0.80.\n- Of 119 men not on cholesterol-lowering drugs, 105 said they were willing to start one after seeing their results.\n\n## Caveats\n- These are preliminary, not yet peer-reviewed, data from a registry with no control group.\n- Former pro football players are a selected population. The results may not apply to the general public.\n- The software maker is involved in the study.\n- Willingness to start treatment is a stated intention. It is not proof that anyone started a drug or that outcomes improved.\n- The report does not say whether the plaque burden predicts future heart attacks in this group.\n\n## Key terms\n- **Coronary CT angiography (CCTA):** a CT scan with contrast dye that images the heart's arteries.\n- **Total plaque volume (TPV):** the total amount of fatty or calcified build-up in the artery walls, measured in 3D.\n- **FFRCT:** a computer estimate, from the CT scan, of how much a narrowing reduces blood flow; below 0.80 is usually treated as significant.\n- **Obstructive disease:** a narrowing large enough to meaningfully restrict the artery.\n- **Lipid-lowering therapy (LLT):** drugs such as statins that reduce cholesterol in the blood.",
      "image": null
     },
     {
-     "kind": "news",
-     "title": "Wearables plus AI warned of high blood pressure crises up to 3 days early",
-     "url": "https://newsroom.heart.org/news/wearable-devices-+-ai-analysis-may-predict-high-blood-pressure-crisis-up-to-3-days-early",
-     "source": "American Heart Association Newsroom (AHA Scientific Sessions 2026)",
-     "date": "2026-11-02",
-     "tldr": "In 4,190 adults with severe high blood pressure, an AI reading home cuff and wrist-wearable data flagged coming crises, and quick medicine changes after alerts cut crises by about 61%.",
-     "summary_md": "## What happened\nA preliminary study presented at AHA Scientific Sessions 2026 followed 4,190 adults aged 40-85 with stage 2 hypertension at one hospital in Sindh, Pakistan, for a year. Patients used a portable cuff blood pressure monitor and a wrist wearable that tracked heart rate and heart rate variability. An AI model analysed 47 features to predict a hypertensive crisis (a sudden, dangerous spike in blood pressure).\n\n## Why it matters\nHypertensive crises can damage the heart, brain and kidneys and often lead to emergency visits. A warning a few days ahead would give doctors time to adjust medicines. Wearables are cheap and continuous, so this approach could scale, especially in low-resource settings.\n\n## Key details\n- 312 patients had 418 crises during follow-up, about 7% of the group.\n- About 32% of patients with an alert went on to have a crisis; 97.4% without an alert stayed crisis-free. So the alert is better at ruling out than ruling in.\n- No normal night-time dip in blood pressure meant nearly 5 times the odds of a crisis. A rise of more than 35 mm Hg after waking meant nearly 4 times the odds.\n- When doctors changed medicines within 24 hours of an alert, crises were about 61% lower and emergency visits about 45% lower.\n\n## Caveats\nThis is a conference abstract, not peer-reviewed. All patients came from one hospital in one country. The intervention comparison was not randomized, so patients whose doctors acted quickly may have differed in other ways. The AHA itself recommends upper-arm cuffs, not wrist devices, for measuring blood pressure.\n\n## Key terms\n- **Stage 2 hypertension:** blood pressure at or above 140/90 mm Hg.\n- **Hypertensive crisis:** a severe spike in blood pressure that can harm organs.\n- **Heart rate variability (HRV):** beat-to-beat variation in heart rhythm, linked to stress and nervous-system control.\n- **Nocturnal dipping:** the normal drop in blood pressure during sleep.",
+     "kind": "paper",
+     "title": "Only 25 randomized trials have tested AI in cardiology, and most carry a high risk of bias",
+     "url": "https://academic.oup.com/ehjdh/article/7/9/ztag164/8909588",
+     "source": "European Heart Journal - Digital Health",
+     "date": "2026-10-12",
+     "tldr": "A systematic review of randomized trials of AI tools in cardiovascular care from 2018 to April 2026 found just 25, with 68% positive but 84% rated high risk of bias or some concerns.",
+     "summary_md": "## What happened\nA Swiss-led international team searched four databases for randomized controlled trials (RCTs) of AI tools in cardiovascular care. The search covered January 2018 to April 10, 2026. From 8,599 unique records, only 25 trials qualified. The review appears in the November 2026 issue of EHJ Digital Health.\n\n## Why it matters\nHundreds of cardiac AI tools are on the market or in development, but most evidence is retrospective accuracy data. RCTs are the standard way to show that a tool actually changes care. This review shows how thin that evidence still is. For anyone building or regulating cardiac imaging AI, it maps where outcome-level proof exists and where it does not.\n\n## How it works\n- The review was pre-registered (PROSPERO) and followed PRISMA reporting rules.\n- Trials were grouped by area: electrophysiology (8), cardiac imaging (6), medical-therapy decision support (6), acute care (3) and interventional cardiology (2).\n- Bias was scored with the Cochrane RoB 2 tool. Results were summarized descriptively, with no pooled statistics.\n\nWhat they found:\n- 17 of 25 trials (68%) met their primary endpoint, showing superiority or non-inferiority.\n- All 3 workflow-efficiency trials succeeded, but only 3 of 6 trials with patient-outcome endpoints did.\n- 84% of trials were rated high risk of bias or had some concerns.\n- Only 2 trials were international, and 9 were single-centre.\n- Only 9 trials (36%) said they followed the AI-specific reporting checklist CONSORT-AI.\n- None shared analysis code, and only 3 (12%) shared the AI tool.\n- Eight of the 23 trials reporting sex enrolled fewer than 40% women.\n\n## Caveats\n- The search included English-language papers only.\n- The subspecialty groupings were chosen after data collection.\n- Trials varied so much in size (60 to over 1.5 million participants) that no meta-analysis was possible.\n- A 68% positive rate may partly reflect publication bias.\n\n## Key terms\n- **Randomized controlled trial (RCT):** a study that randomly assigns patients to the new approach or usual care, so the groups are comparable.\n- **Risk of bias (RoB 2):** a standard checklist that rates how likely a trial's design is to distort its result.\n- **Non-inferiority:** showing a new approach is not meaningfully worse than the standard one.\n- **CONSORT-AI:** an extension of trial reporting rules that adds AI items such as algorithm version and input data.\n- **External validity:** how well a study's results apply to other hospitals and populations.",
+     "image": null,
+     "authors": [
+      "Michael Kunz",
+      "Tiffany Péquignot",
+      "Tobias Zimmermann",
+      "Nicholas L Mills",
+      "Christian Mueller",
+      "Jasper Boeddinghaus"
+     ]
+    },
+    {
+     "kind": "guidance",
+     "title": "ESC scientific statement explains AI and machine learning methods for cardiologists",
+     "url": "https://academic.oup.com/ehjdh/article/7/9/ztag154/9016354",
+     "source": "European Society of Cardiology (EHJ - Digital Health)",
+     "date": "2026-11-06",
+     "tldr": "Several European Society of Cardiology groups published a plain-language statement on AI terms and methods, with firm advice on data splitting, external validation, explainability limits and EU/FDA rules.",
+     "summary_md": "## What happened\nThe ESC Working Group on e-Cardiology, joined by heart-rhythm, imaging, heart-failure, prevention, interventional and regulatory groups within the ESC, issued a scientific statement. It has 27 authors and appears in the November 2026 issue of EHJ Digital Health. Its aim is AI literacy for clinicians, not a coding manual.\n\n## Why it matters\nCardiologists are increasingly asked to judge AI papers and products. Many lack the vocabulary to spot weak validation. A society-backed reference gives reviewers, clinicians and regulatory staff a shared baseline. For imaging AI researchers, it also signals what clinical reviewers will expect to see.\n\n## Key details\n- It defines core terms: supervised, unsupervised, semi-supervised and reinforcement learning; transfer learning; tree models, CNNs and transformers. It gives ECG and echo examples.\n- Data should be split by patient, not by image or beat. Otherwise a model can memorize people and look better than it is.\n- Training, tuning and a locked test set should be kept separate. External validation should follow in different populations, centres or devices.\n- Explainability tools such as SHAP and LIME show associations, not causes. They help with debugging but do not replace clinical reasoning.\n- Accuracy and AUC alone can overstate usefulness. Prospective studies of safety, workflow and patient outcomes are needed before routine use.\n- High-risk tools need stronger human oversight and clear override options.\n- On regulation, it notes the EU AI Act treats medical-device AI as high-risk and must align with the MDR. It also names the FDA's AI/ML SaMD framework. It flags gaps: no public registry of approved AI devices in Europe and a delayed Eudamed database.\n\n## Caveats\n- It is educational and sets no performance thresholds or validation cutoffs.\n- Risk-benefit appraisal, GDPR and cybersecurity are left to other documents.\n- As a society statement, it is not binding like a regulator's guidance.\n\n## Key terms\n- **External validation:** testing a finished model on data from a different site or population than it was built on.\n- **Data leakage:** when information from test cases slips into training, inflating apparent accuracy.\n- **SHAP / LIME:** methods that estimate which inputs drove a model's prediction.\n- **SaMD:** software as a medical device, meaning software that performs a medical function on its own.\n- **EU AI Act:** the European law that sets extra duties for high-risk AI systems, including medical AI.",
      "image": null
     }
    ]
@@ -153,33 +169,42 @@
    "color": "#0ea5e9",
    "items": [
     {
-     "kind": "news",
-     "title": "India's National Health Authority picks EkaCare for a public-sector AI voice scribe",
-     "url": "https://analyticsindiamag.com/ai-news/nha-selects-ekacare-for-ai-voice-scribe-in-public-health-facilities",
-     "source": "Analytics India Magazine",
+     "kind": "paper",
+     "title": "Ninety-Six Ways to Measure a Scribe: Fragmented Evaluation of Ambient Scribes in Healthcare",
+     "url": "https://arxiv.org/html/2611.14284",
+     "source": "arXiv (Johns Hopkins University and NIST)",
      "date": "2026-11-11",
-     "tldr": "India's National Health Authority chose EkaCare to supply an open-source ambient scribe that turns doctor-patient talk into structured notes in more than 15 Indian languages.",
-     "summary_md": "## What happened\nIndia's National Health Authority (NHA), which runs the country's digital health mission, selected EkaCare as technology partner for an AI voice scribe in public health facilities. EkaCare won an open call for open-source ambient voice-to-record tools after a demo to NHA's evaluation committee.\n\n## Why it matters\nMost ambient scribe news comes from wealthy US health systems. This is a national public-sector deployment in a multilingual country, using open tools on government infrastructure. It tests whether AI documentation can help overloaded public clinics, not just private practices.\n\n## Key details\n- The scribe listens to the visit and produces structured notes in FHIR, a standard format for exchanging health records. Notes cover complaints, history, medicines, vitals, labs, diagnosis and plan.\n- It supports more than 15 Indian languages, including code-switching (mixing languages mid-sentence).\n- EkaCare's open-weight speech model, Parrotlet-A 2.5 Pro, had the lowest error rate in the company's own benchmark of 6,550 real Indian consultations.\n- A doctor must review and approve every note before it is linked to the patient's national health account.\n- The system runs in an air-gapped (isolated from the internet) environment on NHA infrastructure hosted by AWS.\n\n## Caveats\nThe accuracy claim comes from EkaCare's own benchmark. The article gives no rollout timeline, budget or number of facilities. EkaCare's existing scribe has over 1,000 private-practice users, but public clinics have heavier loads and different workflows.\n\n## Key terms\n- **Ambient scribe:** AI that listens to a visit and drafts the clinical note.\n- **FHIR:** a widely used standard for structuring and exchanging health data.\n- **Open-weight model:** an AI model whose trained parameters are published for others to run.\n- **Code-switching:** switching between languages within one conversation.",
+     "tldr": "A systematic review of 54 real-world studies of AI ambient scribes finds 40 different metrics measured 96 different ways, mostly time savings and surveys, with safety and patient outcomes rarely checked.",
+     "summary_md": "## What happened\nResearchers at Johns Hopkins University and the US National Institute of Standards and Technology (NIST) reviewed how hospitals and researchers judge AI ambient scribes. They pooled 54 studies of scribes used in real clinical practice, published between November 2024 and July 2026. Their main finding: almost everyone measures something different, so the results are hard to compare.\n\n## Why it matters\nAmbient scribes have moved from small pilots to system-wide rollouts. Health-system leaders buy them based on evidence, but that evidence is mostly about saved minutes. If each study defines \"documentation time\" its own way, a 20% saving in one report and a 50% saving in another may not mean the same thing. That makes procurement and regulation guesswork.\n\n## How it works\n- The team ran a systematic review following PRISMA 2020 across Medline, Embase, CINAHL, Web of Science, arXiv and Google Scholar.\n- Two reviewers screened papers and sorted every metric into one of ten evaluation dimensions.\n- They found 40 distinct metrics, put into practice 96 different ways. About 36% of metrics (35 of them) appeared in only one study.\n- Efficiency and time were measured in 44 of the 54 studies. Other dimensions showed up in only about 16 to 24 studies each.\n- Clinician surveys (40 studies) and EHR audit logs (39) were the main data sources. Direct observation was used in just 3.\n- Only 3 studies were randomized trials, each lasting 3 to 4 months. No study had both a concurrent control group and follow-up beyond four months.\n- Safety, patient outcomes, billing and effects on other staff were rarely assessed.\n\n## Caveats\nThis is a count of what studies measured, not a pooled estimate of whether scribes work; there is no meta-analysis. Only English-language papers were included. Most underlying studies were single-site pilots in outpatient and primary care, so hospital-ward and nursing use is thin. Even \"objective\" EHR metrics depend on what each vendor platform logs.\n\n## Key terms\n- **Ambient scribe:** software that listens to a clinical visit and drafts the note for the clinician to review.\n- **Systematic review:** a study that searches the literature with a fixed, reproducible method and summarizes all eligible papers.\n- **PRISMA 2020:** a reporting checklist for systematic reviews, including a flow chart of how papers were screened.\n- **EHR audit log:** a record the electronic health record keeps of who did what and when, often used to estimate time spent charting.\n- **Concurrent control:** a comparison group studied over the same period, so outside changes affect both groups equally.",
+     "image": "https://arxiv.org/html/2611.14284v2/PRISMA.png",
+     "authors": [
+      "Amama Mahmood",
+      "Shiye Cao",
+      "Laura Fleig",
+      "Junan Jiang",
+      "Theodore Jensen",
+      "Yee-Yin Choong"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.14284"
+    },
+    {
+     "kind": "news",
+     "title": "Dyania Health and NVIDIA bring chart-reading AI inside hospital firewalls, starting with a Cleveland Clinic valve study",
+     "url": "https://www.prnewswire.com/news-releases/dyania-health-brings-clinical-reasoning-ai-inside-the-hospital-firewall-to-advance-patient-care-with-nvidia-302939231.html",
+     "source": "PR Newswire (Dyania Health)",
+     "date": "2026-11-13",
+     "tldr": "Dyania will run its Synapsis AI record-reading engine on hospitals' own NVIDIA hardware so patient data never leaves the network; its first project extracted 88 data points per patient from 7,812 Cleveland Clinic valve-replacement records.",
+     "summary_md": "## What happened\nDyania Health announced a collaboration with NVIDIA on November 13, 2026. Dyania's product, Synapsis AI, reads a patient's whole record (years of notes, operative reports, imaging reports and labs) and answers clinical questions with evidence pointing back to the chart. The new deal lets health systems run it on their own NVIDIA computers, so records stay inside the hospital network.\n\n## Why it matters\nMuch of the useful information in a chart is free text, not structured fields. Pulling it out for registries, quality programs or research usually means slow manual chart review by nurses or analysts. Running the AI on-site also addresses a common governance objection: sending identifiable patient data to an outside cloud.\n\n## Key details\n- First project: Cleveland Clinic, 7,812 patients who had an aortic valve replacement between 2005 and 2021, with up to 16 years of records each, mostly narrative notes and echocardiogram reports.\n- Synapsis AI answered 88 questions per patient, covering valve features, other conditions, lab trends, medications, follow-up ultrasound measurements and later events.\n- A separate machine-learning model then estimated the risk of valve failure and repeat procedures at 3, 5 and 10 years, updating after each new ultrasound.\n- Reported findings: valve type mattered most for how fast the valve wore out; age and other conditions affected whether and when a second procedure happened; follow-up ultrasounds clearly improved predictions.\n- Software stack: NVIDIA AI Enterprise, models trained with the NeMo framework (including reinforcement learning), and inference on TensorRT-LLM.\n- Confidential computing, GPU partitioning and larger Blackwell Ultra deployments are described as under evaluation, not in use.\n\n## Caveats\nThis is a company press release. It gives no accuracy figures for the extracted data, no AUC or calibration for the risk model, and no time saved versus manual review beyond saying it was faster. The release itself says the valve model still needs external validation, and the results are not described as peer-reviewed. Cleveland Clinic is the only health system named.\n\n## Key terms\n- **Inference:** running a trained AI model to get answers, as opposed to training it.\n- **Behind the firewall / on-premises:** software that runs on the hospital's own servers rather than an outside cloud.\n- **Registry:** a structured database of patients with a condition or procedure, used for quality tracking and research.\n- **Chart abstraction:** pulling specific facts from free-text records into structured fields.\n- **External validation:** testing a model on data from a different site or time period than it was built on.",
      "image": null
     },
     {
      "kind": "news",
-     "title": "Health systems draw a line: AI agents for paperwork yes, autonomous clinical agents not yet",
-     "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-ai-tools-health-systems-still-wont-deploy/",
-     "source": "Becker's Hospital Review",
-     "date": "2026-10-20",
-     "tldr": "Large US health systems are running AI agents for IT tickets, HR, scheduling and billing, but keep humans in charge of any clinical decision or order.",
-     "summary_md": "## What happened\nBecker's surveyed how several US health systems govern AI agents (software that can take multi-step actions on its own). The common pattern: agents are allowed in administrative work, but not in autonomous clinical decisions.\n\n## Why it matters\nVendors are pushing \"agentic\" AI hard. Knowing where peer systems draw the line helps hospital leaders write their own policies. The examples also show practical guardrails that can be copied.\n\n## Key details\n- Intermountain Health uses an agent to triage IT incident tickets. Its AI HR front door has resolved about 35,000 employee questions without opening a case.\n- UCHealth runs agents for documentation, revenue cycle and scheduling. Guardrails include full audit logs, strict permissions, no access to ordering, and an immediate kill switch. A clinician must accept any order.\n- Yale New Haven requires a human in the loop for all clinical decision and diagnostic tools. Operational tools can run on their own once they beat set performance thresholds, with periodic audits.\n- Mass General Brigham and Hoag had not broadly deployed autonomous clinical agents at the time of the quoted statements.\n- An Illinois law signed in 2025 bans AI from making therapy decisions in mental health care, while allowing administrative uses.\n\n## Caveats\nThis is a compilation of executive statements, some months old, not a systematic survey. It reports policies, not measured outcomes such as cost savings or error rates.\n\n## Key terms\n- **AI agent:** software that plans and carries out several steps toward a goal with limited supervision.\n- **Human in the loop:** a person must review or approve the AI's output before it takes effect.\n- **Revenue cycle:** the billing process from registration to final payment.\n- **Kill switch:** a control that immediately stops an AI system.",
-     "image": null
-    },
-    {
-     "kind": "news",
-     "title": "Sompo and NTT team up to bring robots and sensors into Japanese nursing homes",
-     "url": "https://group.ntt/en/newsrelease/2026/11/12/261112b.html",
-     "source": "NTT (press release)",
+     "title": "R1 adds six connected AI modules for prior authorization, denials and claim checking",
+     "url": "https://www.globenewswire.com/news-release/2026/11/12/3401540/0/en/r1-takes-aim-at-healthcare-s-fragmented-revenue-cycle-with-six-connected-ai-solutions.html",
+     "source": "GlobeNewswire (R1 RCM)",
      "date": "2026-11-12",
-     "tldr": "Insurer and care operator Sompo and telecom giant NTT will study using 'physical AI' for cleaning, laundry, meals and transport in nursing care, to ease staff shortages.",
-     "summary_md": "## What happened\nSompo Holdings, a Japanese insurer that also runs large nursing-care businesses, signed an agreement with NTT on November 11 to study \"physical AI\" in elder care. Physical AI means cameras, sensors and robots that act in the real world.\n\n## Why it matters\nJapan's aging population is outpacing its supply of care workers. Automating indirect chores could free staff to spend more time with residents. Lessons from Japan often preview what other aging countries, including Canada, will face.\n\n## Key details\n- First targets are indirect tasks: cleaning, laundry, preparing and clearing meals, and moving items around facilities.\n- Direct physical care of residents is excluded for now.\n- Sompo brings frontline care operations knowledge; NTT brings networks, security and device platforms.\n- Next steps are to define use cases, implementation frameworks, demonstrations, data and intellectual-property rules, and who will commercialize the result.\n\n## Caveats\nThis is a study agreement, not a funded rollout. The release gives no budget, number of sites, robots or timeline. Robots in care homes have a mixed track record; reliability and cost in messy real environments remain open questions.\n\n## Key terms\n- **Physical AI:** AI that senses and acts in the physical world through robots or devices.\n- **Indirect care tasks:** support work (cleaning, meals, transport) that does not involve touching the resident.\n- **Labor shortage:** too few trained workers to meet demand.",
+     "tldr": "Revenue-cycle firm R1 expanded its Phare OS platform with six AI modules covering prior auth, utilization review, claim audits, denials, documentation integrity and recovery; four are available now and two arrive broadly in 2027.",
+     "summary_md": "## What happened\nR1, a large US revenue-cycle management company, announced six connected AI modules on its Phare OS platform on November 12, 2026, ahead of the HLTH conference. Four are on sale now. Two are in early access with select customers, with wider release planned for 2027.\n\n## Why it matters\nRevenue cycle is the chain of work that turns care into payment: checking insurance, getting prior authorization, coding, billing and fighting denials. It is labor-heavy and split across many tools. An R1-sponsored IDC survey says 68.7% of health organizations use six or more revenue-cycle vendors, and only 3.8% have a fully unified setup. Vendors are now pitching AI that links these steps instead of automating each one alone.\n\n## Key details\n- **Phare Auth:** prior authorization, now powered by Humata Health, which R1 recently acquired.\n- **Phare UM:** utilization management (reviewing whether care meets payer criteria); Guthrie Clinic has adopted it.\n- **Phare Audit:** checks claim accuracy. UF Health reports it matches existing coding on more than 95% of inpatient discharges, so coders focus on the rest.\n- **Phare Denials (new):** finds denials, gathers evidence, drafts and submits appeals, and feeds denial patterns back to prevent repeats.\n- **Phare CDI and Phare Recovery:** documentation integrity and post-payment recovery, both early access until 2027.\n- A shared \"Payer Atlas\" draws on over 1.25 billion payer transactions in 2026 and tracks more than 115,000 payer policies.\n- R1 says health systems with about $95 billion in net patient revenue adopted individual modules in the last six months.\n\n## Caveats\nThis is a vendor press release. The headline statistics come from R1's own or R1-sponsored research. The 95% match rate reflects a single customer. No per-module accuracy, savings or claim-volume figures are given, and the release does not spell out where humans review or approve AI-drafted appeals.\n\n## Key terms\n- **Revenue cycle management (RCM):** the administrative process of getting paid for patient care, from registration to final payment.\n- **Prior authorization:** insurer approval required before certain treatments or tests.\n- **Claim denial:** an insurer's refusal to pay a submitted claim, which the provider can appeal.\n- **Clinical documentation integrity (CDI):** making sure the chart accurately supports the codes billed.\n- **Net patient revenue (NPR):** what a provider actually collects for patient care after discounts and adjustments.",
      "image": null
     }
    ]
@@ -190,33 +215,40 @@
    "color": "#8b5cf6",
    "items": [
     {
-     "kind": "news",
-     "title": "Regulatory experts: specialized AI speeds dossier work, but experts must check every output",
-     "url": "https://www.raps.org/resource/experts-specialized-ai-has-great-potential-for-regulatory-needs-sme-oversight.html",
-     "source": "RAPS Regulatory Focus",
-     "date": "2026-11-12",
-     "tldr": "At RAPS's AI conference in Barcelona, practitioners said task-specific AI tools help with classification, literature searches and gap analysis, but outputs need expert review and validation.",
-     "summary_md": "## What happened\nAt the RAPS AI in Regulatory conference in Barcelona, three practitioners described how they use specialized AI tools in regulatory affairs. Speakers came from a regulatory AI vendor, a consultancy and a Swedish device company.\n\n## Why it matters\nRegulatory teams are under pressure to adopt AI for submissions and quality work. This session gives a realistic view from people using it daily: where it saves time, and where it can mislead. For anyone moving between pharmacy, regulation and AI, these limits are the practical ones that matter.\n\n## Key details\n- One speaker said checking AI output can take hours to days, so he favors separate agents per task (classification, literature search) built on fully curated data.\n- A consultant called specialized AI \"a game changer\" for research. But she noted FDA classification rarely has a single right answer, and AI relies on public precedents that lack the regulator's context.\n- She sees the biggest gains in clinical study operations, such as protocols, monitoring and source data verification.\n- A device company uses agentic AI for gap analysis: it flags missing clauses against its quality system, standards and guidance.\n- Reported limits: outdated information, missing nuance, black-and-white answers. The tool must be brought into the quality management system and validated.\n\n## Caveats\nThese are expert opinions at a conference, not measured results. No adoption rates, accuracy data or regulator statements were given. One speaker works for an AI vendor.\n\n## Key terms\n- **Regulatory affairs:** the work of getting and keeping product approvals from regulators.\n- **Gap analysis:** comparing documents against requirements to find what is missing.\n- **QMS (quality management system):** the formal procedures a company uses to ensure product quality.\n- **SME:** subject-matter expert.\n- **Validation:** documented proof that a tool works as intended for its use.",
-     "image": null
-    },
-    {
      "kind": "guidance",
-     "title": "EMA network sets up a group to coordinate the next wave of AI guidance for medicines",
-     "url": "https://www.aiforpharma.org/2026/10/17/ema-coordinates-the-next-wave-of-pharmaceutical-ai-guidance/",
-     "source": "AIforPharma (summary of EMA meeting notes)",
-     "date": "2026-10-17",
-     "tldr": "The EU medicines network created an AI Guidance Coordination Group, with good machine-learning practice guidance and an AI-in-clinical-development concept paper in the works.",
-     "summary_md": "## What happened\nSummary notes from an October 2026 meeting between EU regulators (HMA and EMA) and industry describe a new AI Guidance Coordination Group. Its job is to coordinate, not to write or approve guidance. The notes also list several AI documents in progress.\n\n## Why it matters\nDrug developers face a growing pile of separate AI papers from EMA, FDA and others. A coordinating group should reduce overlap and contradictions. The in-progress list also signals what companies will soon be expected to show when they use AI in a medicine's lifecycle.\n\n## Key details\n- Horizontal (cross-cutting) guidance on good machine-learning practice is being drafted. It would cover context of use, data quality, performance, transparency, human oversight, change control and lifecycle monitoring.\n- A concept paper on AI in clinical development is being finalized; public consultation has not started.\n- EMA and FDA are building a joint AI glossary, following their shared good AI practice principles from January 2026.\n- Industry asked for clarity on risk categories, validation, third-party AI tools, adaptive AI and what to include in submissions.\n- Draft GMP Annex 22 (on AI in manufacturing) runs on a separate track. The next stakeholder meeting is February 2027.\n\n## Caveats\nThis is a trade blog's summary of meeting notes, not an EMA guidance document. The meeting creates no new legal requirements. Timelines for the drafts are not given.\n\n## Key terms\n- **EMA / HMA:** the European Medicines Agency and the Heads of Medicines Agencies network.\n- **Context of use:** the specific question and role an AI model serves in a regulatory decision.\n- **Concept paper:** an early document explaining why guidance is needed, before drafting.\n- **GMP Annex 22:** a proposed EU good manufacturing practice annex for AI.\n- **Change control:** a formal process for managing updates to a validated system.",
+     "title": "EMA spells out how its own staff may and may not use AI",
+     "url": "https://www.ema.europa.eu/en/about-us/how-we-work/data-regulation-big-data-other-sources/artificial-intelligence/principles-rules-using-artificial-intelligence-ema",
+     "source": "European Medicines Agency",
+     "date": "2026-11-11",
+     "tldr": "EMA published new pages on 11 November setting rules for staff use of Microsoft Copilot, listing the AI tools it runs, and promising AI-content labelling guidance by end of 2026.",
+     "summary_md": "## What happened\nOn 11 November 2026 EMA reorganised the AI part of its website and added several new pages. One sets the principles and rules for how EMA staff use AI. A companion page lists the AI tools the agency actually runs. Together they show how a major drug regulator governs AI inside its own walls, not just in industry submissions.\n\n## Why it matters\nSponsors keep asking regulators to hold their own AI to the same standard they expect from industry. These pages are a partial public answer from EMA. They also tell sponsors which AI tools may touch their dossiers, and which may not.\n\n## Key details\n- Staff use two Microsoft tools: Copilot chat (public information only) and Copilot 365 (works with emails, documents and meeting recordings).\n- Three principles apply: human oversight, decisions led by humans, and ethical use. Staff stay fully responsible for anything they produce with AI.\n- AI may summarise and analyse information, but not restricted, private or confidential material.\n- Banned uses include inferring a person's performance, emotions or personal traits, and any recruitment task such as CV screening or ranking candidates.\n- Copilot 365 is not approved for cross-network medicine regulation processes and is not offered to national agencies.\n- Scientific Explorer, a search tool launched in March 2024, was extended in March 2026 to cover initial marketing authorisation applications. Assessors use it to find regulatory precedents.\n- EMA and national agencies have identified more than 60 AI use cases, grouped into five categories, including adverse drug reaction screening.\n- Guidance on labelling AI-generated or AI-modified EMA content, aligned with Article 50 of the EU AI Act, is planned for end of 2026.\n\n## Caveats\nThese are web pages, not a formal guideline or legal text. They give no usage numbers, error rates or audit results. The content-labelling guidance is a plan, not a published document. The pages describe internal practice and do not create new obligations for companies.\n\n## Key terms\n- **Copilot 365:** Microsoft's AI assistant that works inside Office files, email and meetings.\n- **Human-led decision-making:** AI can inform a choice, but a person makes and owns it.\n- **Regulatory precedent:** an earlier decision on a similar product that assessors use as a reference.\n- **EU AI Act Article 50:** the transparency rule requiring AI-generated content to be disclosed or labelled.\n- **National competent authority:** a country's own medicines regulator within the EU network.\n",
      "image": null
     },
     {
+     "kind": "paper",
+     "title": "RegDivergence-101: a benchmark testing whether AI can spot where FDA and EMA rules disagree",
+     "url": "https://arxiv.org/abs/2608.28607",
+     "source": "arXiv",
+     "date": null,
+     "tldr": "A 101-pair pilot benchmark asks models to label matched FDA and EMA requirements as agreeing, diverging or silent; a simple Claude Haiku prompt scored best at 0.83 macro-F1.",
+     "summary_md": "## What happened\nResearchers from Carnegie Mellon, Penn, Pittsburgh and Pratt released RegDivergence-101. It is a small test set for one task: given an FDA requirement and an EMA requirement on the same topic, decide whether they AGREE, DIVERGE, or whether one agency is SILENT. Companies filing in both the US and EU currently do this comparison by hand.\n\n## Why it matters\nGlobal submissions fail or slow down when teams miss a difference between agencies. A shared benchmark lets anyone measure whether a tool actually finds those gaps, instead of trusting vendor demos. The \"silent\" case is the hardest and most useful, because a missing rule is easy to overlook.\n\n## How it works\n- 101 requirement pairs across 13 topics: 59 taken from three peer-reviewed FDA/EMA comparison studies, 42 built from primary guidance.\n- Labels: 42 agree, 38 diverge, 21 silent (13 where FDA is silent, 8 where EMA is). Silence is scored separately for each direction.\n- Agreement between labelling framings was high (kappa 0.85).\n- Four approaches were compared. Macro-F1 results: word-overlap rules 0.51; a natural language inference (NLI) model 0.23; a graph of obligations with retrieval (Graph-RAG) 0.66; a plain Claude Haiku prompt 0.83 (95% CI 0.75 to 0.91).\n- The NLI model almost never detected silence (F1 0.03). Running the LLM judge on all pairs cost about $0.10.\n\n## Caveats\nThe authors call this a pilot. 101 pairs gives wide, partly overlapping confidence intervals, so the ranking is a trend, not a proven difference. Annotators had no formal regulatory-affairs credentials. Only one model family was tested, and training-data contamination was not ruled out. CMC, adaptive designs, statistical analysis plans, labelling/SmPC, oncology, rare disease, devices and vaccines are not covered. The authors say it should not drive deployment or procurement decisions. No submission date was shown on the page we read.\n\n## Key terms\n- **Macro-F1:** an accuracy score averaged equally across label classes, so rare classes count as much as common ones.\n- **NLI (natural language inference):** a model that judges whether one sentence implies or contradicts another.\n- **Graph-RAG:** retrieval-augmented generation that first turns text into a graph of linked facts (here, obligations).\n- **Cohen's kappa:** agreement between labellers corrected for chance; 0.85 is very high.\n- **SmPC:** the EU summary of product characteristics, the official prescribing label.\n",
+     "image": null,
+     "authors": [
+      "Chuchu Wu",
+      "Zhiyin Zhou",
+      "Jingzhuo Hu",
+      "Liang You"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2608.28607"
+    },
+    {
      "kind": "news",
-     "title": "AI won't erase regulatory jobs, but deskilling is a real risk, experts warn",
-     "url": "https://www.raps.org/resource/ai-won-t-erase-jobs-but-regulatory-professionals-need-to-be-vigilant-experts-say.html",
-     "source": "RAPS Regulatory Focus",
+     "title": "What draft EU GMP Annex 22 really demands from humans who oversee AI",
+     "url": "https://www.pharmaceuticalonline.com/doc/what-europe-s-draft-annex-actually-asks-of-human-oversight-of-ai-0001",
+     "source": "Pharmaceutical Online",
      "date": "2026-11-04",
-     "tldr": "Speakers at a RAPS conference said AI will stay a tool under human control, but warned regulatory staff about deskilling, 'never-skilling' and accepting AI errors as fact.",
-     "summary_md": "## What happened\nAt the RAPS Regulatory Intelligence Conference Europe in Barcelona, a panel discussed how AI will change regulatory jobs. Speakers came from Avantor and Franklyn Health, with QServe Group moderating.\n\n## Why it matters\nJunior regulatory staff traditionally learn by doing the routine work that AI now drafts. If they skip that work, they may never build the judgment needed to catch AI mistakes. This affects how companies train people and how much they can trust AI-assisted submissions.\n\n## Key details\n- The panel separated three AI types and their risks: narrow AI (bias), generative AI (privacy, hallucination, automation bias) and agentic AI (cascading failures, ethical issues).\n- Three skill risks were named: deskilling (losing skills), never-skilling (never learning them), and mis-skilling (learning AI errors as if they were correct).\n- Suggested safeguards: test before deployment, assess risk, and monitor and intervene when problems arise.\n- One speaker summed up: AI will be a tool, people stay in charge, but AI will be \"in the loop\".\n- The moderator flagged a trust gap between senior managers and junior staff on AI use.\n\n## Caveats\nThis is a panel discussion. No data on job numbers, error rates or regulator positions was presented.\n\n## Key terms\n- **Automation bias:** trusting a machine's output even when it is wrong.\n- **Hallucination:** when a generative AI states false information confidently.\n- **Regulatory intelligence:** tracking and interpreting changes in regulations and regulator expectations.\n- **Deskilling:** gradual loss of expertise when a task is handed to a tool.",
+     "tldr": "A validation consultant walks through the clauses of Europe's draft AI-in-manufacturing annex and argues human review only reduces risk when reviewers have the right information, skills and time.",
+     "summary_md": "## What happened\nA guest column by Sachin Bhandari, founder of the consultancy TrustBridge Compliance, breaks down what draft Annex 22 of the EU GMP guide asks of human oversight. Annex 22 is the first proposed EU rule set for AI used in medicine manufacturing. The draft is still not final.\n\n## Why it matters\nMany companies plan to make AI \"safe\" by putting a person in the loop. The column argues that a rubber-stamp reviewer does not satisfy the draft. It also notes regulators already lean this way: an October 2026 EMA workshop report said oversight cannot make up for weak validation, and an April 2026 FDA warning letter required AI outputs to be reviewed by an authorised person in the quality unit.\n\n## Key details\n- Scope: AI in critical GMP uses, meaning those that directly affect patient safety, product quality or data integrity.\n- Only static models with deterministic output (same input, same answer) are in scope there. The draft says generative AI and large language models should not be used in critical GMP applications.\n- For non-critical generative AI, qualified staff must check outputs (human-in-the-loop).\n- A process expert approves the intended use and acceptance criteria. The model must perform at least as well as the process it replaces.\n- Low-confidence outputs can be flagged \"undecided\" and sent to a person.\n- If testing is reduced because a human makes the final call, that human's consistency must be monitored like any manual step, and review records kept.\n- The 2025 consultation (7 July to 7 October) drew about 1,300 comments. EMA expected a final text by end of 2026.\n\n## Caveats\nThis is one consultant's reading, not regulator guidance, and the author sells validation services. The wording of Annex 22 may still change. Open questions remain on how far testing can be cut and how to measure reviewer consistency or automation bias.\n\n## Key terms\n- **GMP (good manufacturing practice):** the legal quality rules for making medicines.\n- **Annex 22:** a proposed new appendix to the EU GMP guide covering AI.\n- **Deterministic model:** a model that always gives the same output for the same input.\n- **Human-in-the-loop:** a person checks or approves each AI output before it is used.\n- **Automation bias:** the tendency to accept a machine's answer without enough scrutiny.\n",
      "image": null
     }
    ]
@@ -228,36 +260,42 @@
    "items": [
     {
      "kind": "news",
-     "title": "FDA clears Bracco and Avicenna.AI software to detect and track brain aneurysms on CT",
-     "url": "https://www.prnewswire.com/news-releases/bracco-and-avicennaai-announce-fda-clearance-for-uptunity--aneurysm-a-new-ai-enabled-software-for-brain-aneurysm-detection-and-assessment-302938500.html",
-     "source": "PR Newswire (Bracco Group)",
-     "date": "2026-11-13",
-     "tldr": "Two 510(k) clearances let UPTUNITY flag saccular brain aneurysms over 3 mm on head CT angiography and measure known aneurysms over time.",
-     "summary_md": "## What happened\nBracco and Avicenna.AI announced two FDA 510(k) clearances for UPTUNITY Aneurysm software. K262062 covers detection; K262147 covers management of known aneurysms. Both work on head CT angiography (CTA), a contrast CT scan of the brain's blood vessels.\n\n## Why it matters\nSmall brain aneurysms are easy to miss, and a rupture can be fatal. Many are found by chance on scans ordered for other reasons. A second-look tool can help radiologists catch them and track their size, which guides decisions about treatment.\n\n## How it works\n- The detection product is CADe/CADx: computer-aided detection and diagnosis used as a concurrent reading aid. The radiologist sees AI flags while reading, not after.\n- It flags suspected saccular (berry-shaped) aneurysms larger than 3 mm and reports their presence, location and size.\n- The management product gives measurements of known aneurysms and compares them between exams to show growth.\n- Avicenna.AI will lead US sales; the companies plan to show it at RSNA in early December.\n\n## Caveats\nThe press release gives no sensitivity, specificity or clinical study results. The tool covers only saccular aneurysms over 3 mm on head CTA, so smaller or other-shaped aneurysms are out of scope. It must not be used alone to make or confirm a diagnosis. The 510(k) path means FDA found it substantially equivalent to an existing device, not that it was proven to improve outcomes.\n\n## Key terms\n- **510(k):** FDA clearance based on showing a device is substantially equivalent to one already on the market.\n- **CADe / CADx:** software that marks possible findings (detection) or characterizes them (diagnosis).\n- **CTA:** CT angiography, a contrast scan that shows blood vessels.\n- **Saccular aneurysm:** a round, berry-like bulge on an artery wall.\n- **Concurrent reading aid:** AI output shown while the clinician reads the scan.",
-     "image": null
-    },
-    {
-     "kind": "guidance",
-     "title": "FDA finalizes Class II rules for an AI Pap smear tool and a dementia-risk app, opening the 510(k) route",
-     "url": "https://insights.citeline.com/medtech-insight/policy-and-regulation/approvals/fda-finalizes-class-ii-status-for-ai-pap-slide-tool-dementia-risk-software-two-vibration-devices-HC5VR7K2NFG4DD3YNVFENPPHVI/",
-     "source": "Medtech Insight (Citeline)",
-     "date": "2026-11-12",
-     "tldr": "FDA orders published Nov 5-6 formally classify four De Novo devices, including Hologic's AI cervical cytology system and Darmiyan's BrainSee, as Class II.",
-     "summary_md": "## What happened\nFDA published orders in the Federal Register on November 5 and 6 that formally classify four device types as Class II (moderate risk). Each had first been authorized through the De Novo pathway. Two are AI products: Hologic's Genius Digital Diagnostics System, which flags areas of interest on cervical cytology (Pap) slides, and Darmiyan's BrainSee, software that estimates the risk that mild cognitive impairment will progress. The other two are vibration devices.\n\n## Why it matters\nWhen a novel device gets De Novo authorization, FDA creates a new device type with special controls. Publishing the classification order makes that type official. Competitors can then use the faster 510(k) route by pointing to the first device as a predicate. This is how a new AI category becomes an established market.\n\n## Key details\n- The orders codify special controls: the specific testing, labeling and performance requirements later devices of the same type must meet.\n- Hologic's system uses AI to point cytologists to the slide regions most worth reviewing.\n- BrainSee is prognosis software for people with mild cognitive impairment.\n- Both are decision-support tools; clinicians make the final call.\n\n## Caveats\nThe source article was only partly available, so device-level performance data and the full special controls were not reviewed. Readers should check the Federal Register orders before relying on specific requirements.\n\n## Key terms\n- **De Novo:** FDA pathway for new low-to-moderate-risk devices with no existing predicate.\n- **Class II:** moderate-risk devices that need special controls, usually cleared by 510(k).\n- **Special controls:** device-type-specific requirements such as performance tests and labeling.\n- **Predicate device:** an already-marketed device that a new device is compared against.\n- **Cervical cytology:** examining cells from the cervix to screen for cancer.",
+     "title": "Senate draft PATIENT AI Act would add component reviews, in-review PCCPs and third-party review for software devices",
+     "url": "https://www.thefdalawblog.com/2026/11/the-patient-ai-act-a-new-prescription-for-fda-software-review-or-more-of-the-same/",
+     "source": "FDA Law Blog (Hyman, Phelps & McNamara)",
+     "date": "2026-11-08",
+     "tldr": "Sen. Bill Cassidy's discussion draft would give FDA new optional review tools for AI and software devices, but device lawyers say much of it repeats powers FDA already has.",
+     "summary_md": "## What happened\nSenator Bill Cassidy, who chairs the Senate HELP Committee, released a discussion draft of the PATIENT AI Act. The bill is broad. It touches privacy, cybersecurity, liability, Medicare payment and more. Two device lawyers at Hyman, Phelps & McNamara analysed Title II, the part that changes how FDA reviews software devices.\n\n## Why it matters\nAI device makers often complain that FDA review is slow and that every model update needs a new submission. This draft is Congress's most direct attempt so far to change that process for software. If it passes in some form, it could change how you plan a 510(k) or De Novo for an imaging algorithm.\n\n## Key details\n- **Two device types.** The draft defines \"integrated devices\" (software plus other parts, similar to SiMD) and \"software-based devices\" (mainly software, similar to SaMD). The authors note it is unclear if the two overlap.\n- **Component review (Sec. 201).** Sponsors could ask FDA to pre-review single parts, such as inputs, a software function or outputs. FDA should reuse earlier evaluations where it can. The full device still needs a normal 510(k), De Novo or PMA.\n- **PCCPs during review (Sec. 202).** Sponsors could submit a change plan for edits made while FDA is still reviewing the file. Accepted changes would not restart the review clock.\n- **Third-party review (Sec. 203).** Accredited outside reviewers could handle low- to moderate-risk software devices, including De Novo and PMA files. FDA would get 30 days to accept their recommendation.\n- **Postmarket pilot (Sec. 204).** A voluntary pilot would test real-world data and automated data collection, coordinated with CMS.\n- FDA would have 180 days to write guidance for several provisions.\n\n## Caveats\nThis is a discussion draft, not a bill on its way to a vote. The authors argue that Title II mostly duplicates existing authority. They say component review may become an elaborate pre-submission meeting, and fees are not addressed. They warn that mid-review PCCPs need clear version-control rules or they could strain review deadlines. They also doubt a software third-party program will work better than today's one. The analysis is opinion from a law firm.\n\n## Key terms\n- **SaMD / SiMD:** software that is itself the medical device, versus software that runs inside a hardware device.\n- **PCCP (predetermined change control plan):** a pre-agreed plan listing model changes a maker can make later without a new submission.\n- **De Novo:** FDA pathway for new low- to moderate-risk devices with no existing predicate.\n- **Third-party review:** FDA-accredited outside organisations review a submission and recommend a decision to FDA.\n- **MDUFA:** the user-fee deal that funds FDA device reviews and sets its review-time goals.",
      "image": null
     },
     {
      "kind": "news",
-     "title": "The first 'LLM agent' device FDA cleared may say little about how FDA will treat generative AI",
-     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13739653",
-     "source": "Journal of Medical Internet Research (News and Perspectives)",
-     "date": "2026-11-02",
-     "tldr": "JMIR looks at UpDoc, an insulin-dosing tool cleared as a 510(k) calculator, and argues its undisclosed design means it sets no clear precedent for generative AI devices.",
-     "summary_md": "## What happened\nA JMIR news feature examined UpDoc, a prescription software device for insulin management in adults with type 2 diabetes. It was cleared through 510(k) K253281 and has been called the first FDA-cleared AI agent. The piece asks what this tells us about how FDA will regulate generative AI devices, where binding guidance does not yet exist.\n\n## Why it matters\nMany companies want to put large language models (LLMs) in front of patients. If UpDoc were a true precedent, others could follow its path. The article suggests the reality is narrower: an AI conversation layer wrapped around a rules-based dosing engine.\n\n## Key details\n- FDA cleared UpDoc as substantially equivalent to an insulin dose calculator. Its decision summary does not mention LLMs or AI.\n- The company calls the system \"semiautonomous\" but says it cannot disclose the technical architecture. Dosing logic is deterministic within limits the physician sets.\n- A 2023 trial with 32 participants found the approach reached optimal insulin doses about 40 days faster than usual care.\n- UpDoc is among recipients of ARPA-H's US$62.7 million ADVOCATE program, for a patient-facing heart failure agent.\n- FDA's TEMPO pilot will test four generative AI devices in real-world use. Public comments on FDA's generative AI discussion paper closed October 19.\n\n## Caveats\nThis is a news and perspective piece, not a study. Because the architecture is undisclosed, outsiders cannot judge how much the clearance covers the AI itself. The cited trial was very small.\n\n## Key terms\n- **LLM (large language model):** AI trained on large text collections to generate language.\n- **Deterministic algorithm:** gives the same output for the same input every time.\n- **Substantial equivalence:** the 510(k) standard that a new device is as safe and effective as a predicate.\n- **ARPA-H:** the US Advanced Research Projects Agency for Health.\n- **PCCP:** a predetermined change control plan that lets a maker update a device within approved limits.",
+     "title": "Australia's TGA finds most AI scribes it checked likely qualify as medical devices, while the UK takes a lighter line",
+     "url": "https://insights.citeline.com/medtech-insight/digital-technologies/digital-health-roundup-fdas-genai-comment-divide-agilents-proscia-bet-ai-scribes-device-status-EPMZDLUFZBC5VDHHV5MTEN552Y/",
+     "source": "Citeline Medtech Insight",
+     "date": "2026-11-12",
+     "tldr": "The TGA judged that 8 of 12 AI scribe products it examined likely meet Australia's medical device definition because of added generative AI features, a sharper stance than the MHRA's.",
+     "summary_md": "## What happened\nMedtech Insight's November 12 digital health roundup covered a review by Australia's Therapeutic Goods Administration (TGA) of AI scribes. These tools listen to a consultation and write the clinical note. The TGA surveyed 40 of the more than 100 scribe suppliers in Australia and looked closely at 12 products. None of the 12 suppliers called its product a medical device. The TGA concluded that 8 likely are devices. It needs more information to decide on 2 more.\n\n## Why it matters\nAI scribes are spreading fast in hospitals and clinics. Most are sold as admin tools with no device oversight. This review shows a regulator saying that what a product does, not how it is marketed, decides its status. It is a useful case study in intended use and function creep for anyone planning a SaMD strategy.\n\n## Key details\n- The core problem is \"function creep\". Scribes started as transcription tools. Many now use generative AI to analyse the conversation, flag clinically relevant content, or suggest conclusions and recommendations.\n- Under TGA rules, software outputs that support clinical decisions must be regulated as clinical decision support (CDS) systems.\n- The UK's MHRA currently takes a different view. Its latest guidance says scribes that only transcribe, summarise, or suggest billing codes for a clinician to check are not devices.\n- The MHRA plans to move to a more function-based definition, following recommendations from an independent commission.\n- The same roundup reported that FDA received 540 comments on its generative AI device discussion paper, and that the MHRA plans draft PCCP guidance by the end of 2026.\n\n## Caveats\nThe TGA did not publicly name the products, so you cannot tell which scribes are affected. \"Likely meets the definition\" is not an enforcement action. The TGA review itself was first reported in October; this roundup puts it next to the UK position. FDA's position on scribes is not covered here.\n\n## Key terms\n- **AI scribe (digital scribe):** software that records a clinical visit and drafts the note automatically.\n- **Function creep:** a product slowly gaining features beyond its original purpose, which can change its regulatory status.\n- **Clinical decision support (CDS):** software that gives clinicians information or suggestions to help with diagnosis or treatment.\n- **TGA / MHRA:** the medical product regulators of Australia and the United Kingdom.\n- **Medical device definition:** the legal test, based on intended purpose, that decides whether a product must meet device rules.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Reaching the last mile? How design decisions shape EU medical device qualification and classification of patient support chatbots",
+     "url": "https://arxiv.org/abs/2611.09911",
+     "source": "arXiv (cs.HC)",
+     "date": null,
+     "tldr": "Using a stroke-survivor chatbot as a case, HCI and legal researchers show that small conversational design choices can change how the EU MDR, GDPR and AI Act apply.",
+     "summary_md": "## What happened\nA team of human-computer interaction (HCI) researchers and legal scholars studied a chatbot built to support people recovering from stroke. They asked a practical question. How do the chatbot's design choices change its legal status in the EU? They looked at three laws: the Medical Device Regulation (MDR), the GDPR data-protection law, and the AI Act.\n\n## Why it matters\nMany health chatbots work well in research but never reach patients. The authors call this the \"last mile\" problem. One reason is that designers rarely know which features turn an app into a regulated medical device. For a device-minded engineer, this paper links everyday design decisions to qualification (is it a device at all?) and classification (which risk class?).\n\n## How it works\n- The team used Design Space Analysis with the QOC method. QOC lists design **Q**uestions, possible **O**ptions, and the **C**riteria used to choose between them.\n- They examined three chatbot functions: answering health questions, monitoring recovery, and encouraging patients to stick to medical advice.\n- For each function, lawyers and designers worked out how each option would be read under the MDR, GDPR and AI Act.\n- Key levers were the chatbot's role, how actionable its answers are, and whether it acts proactively (starting conversations) or only replies.\n- The paper distils ten conversational design considerations that shape regulatory interpretation. It also sketches compliance-aware routes to market.\n\n## Caveats\nThis is one case study of one chatbot in one disease area, analysed by its own team. It offers legal interpretation, not a regulator's decision or a court ruling. It does not report clinical outcomes or user testing numbers in its abstract. EU rules on AI are still shifting, so some conclusions may date quickly. We could read only the abstract page; the full text was not accessible.\n\n## Key terms\n- **Qualification:** deciding whether software counts as a medical device at all.\n- **Classification:** assigning a device a risk class (I, IIa, IIb, III under the MDR), which sets how much evidence and review it needs.\n- **EU AI Act:** the EU law that adds extra duties for high-risk AI, including AI in many medical devices.\n- **QOC (Questions, Options, Criteria):** a structured way to record design choices and the reasons behind them.\n- **Proactivity:** whether a chatbot starts contact with the user, rather than only responding.",
      "image": null,
      "authors": [
-      "Simon Spichak"
-     ]
+      "Milo Marsfeldt",
+      "Frantisek Kasl",
+      "Michal Koščík",
+      "Pavel Loutocky",
+      "Vaclav Stupka",
+      "Robert Mikulik"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.09911"
     }
    ]
   }
