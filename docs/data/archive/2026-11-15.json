@@ -1,0 +1,315 @@
+{
+ "date": "2026-11-15",
+ "generated": "2026-11-15T07:35:04+00:00",
+ "ai_news": [
+  {
+   "id": "agents",
+   "name": "AI Agents",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Google's Antigravity /teamwork puts teams of AI agents on open math and software problems",
+     "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+     "source": "Google Research",
+     "date": "2026-11-13",
+     "tldr": "Google says coordinated teams of Gemini 4 agents, checked by dedicated 'falsifier' agents, formalized major math proofs and rewrote large codebases.",
+     "summary_md": "Google Research described /teamwork, a multi-agent mode in its Antigravity coding tool where many AI agents split up a task, check each other, and hand work to fresh agents. Dedicated 'falsifier' agents test each candidate answer with tools such as the Lean proof checker (software that verifies math proofs line by line) or unmodified test suites. Google reports a 1.8-million-line Lean formalization of the Weil conjectures across 28,800 subagent runs, and a Rust rewrite of an AV1 video decoder that ended up 20-30% faster than the original. External users can try it with Gemini 4 models now, and Google is offering 10,000 academic researchers six months of free top-tier access.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Cloudflare open-sources Kitesurf, its browser engine built for AI agents",
+     "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+     "source": "Cloudflare Blog",
+     "date": "2026-11-13",
+     "tldr": "Cloudflare released the code for Kitesurf, a lightweight agent browser that runs on its Workers platform, under the Apache 2.0 license.",
+     "summary_md": "Kitesurf is a web browser meant for AI agents rather than people: it loads pages, runs their JavaScript and takes screenshots without needing a full Chrome container. Its code is now on GitHub under Apache 2.0, a permissive license that allows commercial use. Developers can run it locally or deploy their own copy to Cloudflare Workers, which requires a paid Workers plan. It speaks the Chrome DevTools Protocol, so existing automation tools like Puppeteer can drive it.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Sierra ships Poppy 1.0, a protocol for personal AI agents to deal with businesses",
+     "url": "https://sierra.ai/blog/releasing-poppy",
+     "source": "Sierra",
+     "date": "2026-11-13",
+     "tldr": "Version 1.0 of the Personal Agent Protocol is now switched on for every Shopify merchant and every user of Meta's Muse agent.",
+     "summary_md": "Poppy (Personal Agent Protocol) sets rules for how a customer's own AI agent finds a company, identifies itself and gets permission to act. It builds on existing standards such as OAuth (the sign-in system behind 'Log in with Google') and MCP, a common way for AI models to call tools. Every Shopify store now publishes a Poppy file automatically, and Meta's Muse agent checks for one on every site it visits. Sierra says more than 100 design partners back the protocol, and version 1.0 adds a validator kit and industry extensions, starting with commerce.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Agent startup LangChain raises $300M at a $3B valuation",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+     "source": "TechCrunch",
+     "date": "2026-11-13",
+     "tldr": "LangChain more than doubled its valuation in about a year as it shifts toward tools for managing AI agents.",
+     "summary_md": "CapitalG led a $300 million Series C in LangChain, with GIC, DFJ Growth, IVP and Sapphire Ventures also joining. The $3 billion valuation is more than double the $1.25 billion it reached about a year ago. LangChain says 7,000 customers use LangSmith, its platform for building, monitoring and containing agents, including Harvey, Rippling and Toyota. The company did not disclose revenue.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "name": "New Models",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Salesforce releases SOV-Transcribe-1, an open-weight speech-to-text model",
+     "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+     "source": "Hugging Face Blog (Salesforce)",
+     "date": "2026-11-12",
+     "tldr": "Salesforce's new open transcription model tops open-weight models on a major word-error-rate leaderboard.",
+     "summary_md": "SOV-Transcribe-1 converts recorded speech to text and its weights are free to download under Apache 2.0, so companies can run it on their own servers. It is a mixture-of-experts model (only part of the network runs for each input) with about 4 billion active parameters. Salesforce reports a 2.28% word error rate on Artificial Analysis, first among open-weight models and seventh overall. It works on finished recordings, not live streaming audio, and a technical report is still to come.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Bland previews Tofu-1, a voice model built for noisy phone calls",
+     "url": "https://glitchwire.com/news/bland-claims-tofu-1-can-hear-a-caller-through-a-crying-baby-and-a-highway/",
+     "source": "Glitchwire",
+     "date": "2026-11-14",
+     "tldr": "Voice-AI startup Bland unveiled a speech-to-speech model it says can pick out a caller's voice over TVs, children and road noise.",
+     "summary_md": "Tofu-1 is a full-duplex speech-to-speech model, meaning it listens and talks at the same time and goes straight from audio to audio, so callers can interrupt it. Bland says it can separate a caller from background sounds and that over 92% of listeners in closed screenings could not tell its output from real recordings, though the test method is unpublished. It is in a limited research preview aimed at banking, healthcare, insurance and government, with no pricing yet and no independent testing.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "millionways launches Thorsten-4, a model trained to read human motivations",
+     "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-millionways-introduces-thorsten-4-the-foundation-model-that-teaches-ai-to-read-the-room-and-understand-human-behavior",
+     "source": "Business Wire (via FinancialContent)",
+     "date": "2026-11-12",
+     "tldr": "A startup released a 'large psychology model' that scores people on 50 behavioral traits from how they communicate.",
+     "summary_md": "Thorsten-4 was trained on about 7,000 structured interviews run by more than 50 psychologists and over 35 million hand-tagged words. The company claims 90% predictive accuracy against established psychological assessments, but this is its own figure and has not been checked independently. Businesses can plug it in through an API, MCP or a self-hosted setup, and the startup disclosed $6 million in funding.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Runway releases Praxis-1 robotics model weights under Apache 2.0",
+     "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+     "source": "Runway",
+     "date": "2026-11-11",
+     "tldr": "Runway made its 27-billion-parameter 'world action model' for robots freely downloadable.",
+     "summary_md": "Praxis-1 predicts both future video frames and the robot actions to take, building on Runway's video-generation training. The 27B mixture-of-experts model, plus its inference and fine-tuning code, is now on GitHub and Hugging Face under a license that allows commercial use. Runway reports 46.2% task success on NVIDIA's RoboLab-120 benchmark, ahead of the rival models it compared against. It runs on GPUs from data-center H100s down to the Jetson Thor robot computer.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "name": "Fun AI News",
+   "items": [
+    {
+     "kind": "news",
+     "title": "An AI-generated singer sweeps the first U.S. AI Music Awards",
+     "url": "https://www.yahoo.com/entertainment/music/articles/awards-show-celebrates-ai-music-090450426.html",
+     "source": "Reuters (via Yahoo)",
+     "date": "2026-11-14",
+     "tldr": "Avatar act Xania Monet won artist, song and album of the year at a new Los Angeles awards show for music made with AI.",
+     "summary_md": "The first AI Music Awards in the U.S. took place Friday night in downtown Los Angeles, honoring songs made at least partly with AI. The top three prizes went to Xania Monet, an AI avatar created by Telisha 'Nikki' Jones, who says she writes the lyrics and uses AI to set them to music. Winners were picked by AI artists who are members of the Sonic Intelligence Academy, which runs AI music charts.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "World Labs opens Atlas to everyone: turn a few photos into a 3D world",
+     "url": "https://byteiota.com/world-labs-atlas-api-3d-worlds-from-photos/",
+     "source": "byteiota",
+     "date": "2026-11-13",
+     "tldr": "Fei-Fei Li's World Labs dropped the waitlist for Atlas, which turns photos into explorable 3D scenes.",
+     "summary_md": "As of November 12, anyone can use Atlas, a 'world model' that builds a walk-through 3D scene from a single image or up to 64 photos. Apps such as Viewfinder and Chisel sit on top of four public API endpoints, and the output can be Gaussian splats (a photo-like 3D point format), meshes for games, or video keyframes. Pricing has not been published yet.",
+     "image": null
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cardiac",
+   "name": "AI in Cardiac Surgery, Robotics & AI Models",
+   "color": "#e11d48",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "Artificial intelligence in cardiology: an evidence map across subspecialties, 2014–26",
+     "url": "https://academic.oup.com/ehjdh/article/7/9/ztag152/8830146",
+     "source": "European Heart Journal – Digital Health",
+     "date": "2026-09-23",
+     "tldr": "A review of 937 cardiology AI papers found that only a small fraction were tested in multicentre prospective studies or randomized trials, so most tools are not yet ready for guidelines.",
+     "summary_md": "## What happened\nA European team mapped twelve years of published cardiology AI research (January 2014 to April 2026). They searched Embase and MEDLINE, found 2,807 records, and checked 937 papers for whether the model had been validated outside the data it was built on. 490 papers passed that bar and were mapped by subspecialty, data type and study design.\n\n## Why it matters\nFor anyone building cardiac imaging AI, this is a sober baseline. The field is large, but the evidence is thin at the top. Only 35 of the 937 assessed papers (3.8%) were randomized trials, and only 25 (2.7%) were multicentre prospective validations. The authors argue this gap is what keeps AI out of clinical guidelines.\n\n## How it works\nThe authors built a five-level \"Grade of Validation\" scale. Level 1 means the model was only tested internally; higher levels add external data, prospective testing and finally randomized trials. Two reviewers screened each paper, a third settled disagreements, and a large language model helped pull data from full texts. Among included studies, about two thirds were diagnostic, a quarter prognostic and under a tenth therapeutic. CT was the most common data type (21.6%), followed by 12-lead ECG (19.2%), health records (18.4%) and echocardiography (11.4%). Most included studies were retrospective (60.4%). Cardiovascular imaging, especially coronary CT and echo, led all subspecialties.\n\n## Caveats\nThe unit of counting was the paper, not the algorithm, so one model may appear several times. The team could not compare accuracy across studies because methods and data access varied too much. Regulatory status and conflicts of interest were not assessed, and non-English or unpublished work may be missing. The paper was published in September, so it is not from this week, but it frames the week's news well.\n\n## Key terms\n- **Evidence map:** a structured review that charts where research exists, rather than pooling results.\n- **External validation:** testing a model on data from a different hospital, time or population than it was trained on.\n- **Prospective study:** a study that collects data going forward, after the model is fixed.\n- **Randomized controlled trial (RCT):** a study that randomly assigns patients to care with or without the tool, to measure its real effect.\n",
+     "image": null,
+     "authors": [
+      "Łukasz Kołtowski",
+      "Mikołaj Basza",
+      "Mateusz Soliński",
+      "Bartosz Rolek",
+      "Helge Brandberg",
+      "Francesco Costa"
+     ],
+     "pdf_url": "https://academic.oup.com/ehjdh/article-pdf/7/9/ztag152/71326876/ztag152.pdf"
+    },
+    {
+     "kind": "news",
+     "title": "Robocath's next-generation coronary robot completes first-in-human PCI study, presented at TCT 2026",
+     "url": "https://www.globenewswire.com/news-release/2026/11/02/3393182/21634/en/first-in-human-coronary-intervention-study-results-of-robocath-s-next-generation-robotic-system-highlighted-at-tct.html",
+     "source": "Stereotaxis (GlobeNewswire)",
+     "date": "2026-11-02",
+     "tldr": "A new robot for opening blocked heart arteries was used in its first 20 patients in France, with all procedures clinically successful and no device-related complications at 30 days.",
+     "summary_md": "## What happened\nStereotaxis reported first-in-human results for Robocath's next-generation robotic system for percutaneous coronary intervention (PCI). The prospective pilot study treated 20 patients at Centre Cardiologique du Nord in Saint-Denis, France. Dr. Mohammed Nejjari presented the data on November 1 at the TCT conference in San Diego, in a session on robotics for transcatheter heart procedures.\n\n## Why it matters\nCath-lab robots let the cardiologist steer wires, balloons and stents from a shielded console instead of standing at the table. That can cut the operator's radiation dose and physical strain. In this study the operating physicians received no fluoroscopy radiation exposure. The new system can also handle up to five devices at once, which matters for complex lesions.\n\n## Key details\n- Clinical success, defined as minimal remaining narrowing after the procedure, was 100% (20 of 20).\n- Technical success was 95%. In all but one case, the physician finished the procedure robotically without switching to manual.\n- No device-related adverse events, vascular complications during the procedure, or major adverse events were reported through 30 days.\n- Lesions ranged from simpler to complex types (A/B1, B2 and C), including some in winding vessels far down the artery.\n- The system builds on Robocath's first-generation R-One robot. A manuscript is under journal review.\n- Stereotaxis says it plans to move toward regulatory submissions, and also mentions stroke as a future use.\n\n## Caveats\nThis is a small, single-centre, company-reported pilot with only 30 days of follow-up and no peer-reviewed data yet. The release does not describe any AI features; it is robotics news, not an AI model. No regulator has cleared the new system.\n\n## Key terms\n- **PCI (percutaneous coronary intervention):** opening a narrowed heart artery with a balloon and stent passed through a catheter.\n- **First-in-human study:** the first time a device is used in patients, mainly to check safety and feasibility.\n- **Fluoroscopy:** live X-ray video used to guide catheters, which exposes staff to radiation.\n- **Technical success:** the procedure was completed as planned with the device, as distinct from the patient outcome.\n",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Domain adaptation of a video foundation model for heart failure diagnosis from echocardiography",
+     "url": "https://arxiv.org/abs/2611.13297",
+     "source": "arXiv",
+     "date": "2026-11-09",
+     "tldr": "Researchers fine-tuned a general-purpose video AI model to spot heart failure with reduced pumping function from standard four-chamber ultrasound clips.",
+     "summary_md": "## What happened\nA four-person team posted a short feasibility study on arXiv on November 9. They asked whether a video model pretrained on ordinary videos can be adapted to read echocardiograms. Their target was heart failure with reduced ejection fraction (HFrEF), detected from apical four-chamber (A4C) views. They trained and tested on the public RVENet A4C dataset.\n\n## Why it matters\nEcho is cheap and everywhere, but reading it well takes expertise. Building a new model from scratch for every echo task needs large labelled datasets that most hospitals lack. If general video models can be adapted with modest data, smaller groups could build useful echo tools faster. For cardiac imaging researchers, the paper is a concrete recipe for adapting a transformer video model to cardiac motion.\n\n## How it works\nThe base model is TimeSformer, a video transformer that splits attention into space (within a frame) and time (across frames). The authors cut each echo video into clips aligned with the cardiac cycle, so the model sees both contraction (systole) and filling (diastole). They used layer-wise learning-rate decay, which changes early, general layers less than later, task-specific ones. At test time they combined predictions from several clips per video. They report that fully fine-tuning the whole model beat both tuning only the final classifier and a 3D convolutional network baseline.\n\n## Caveats\nThe abstract gives no accuracy numbers, so the size of the gain is unclear from what we could read. It is a six-page preprint, not peer reviewed. It uses one public dataset with no external test set, and the authors themselves frame it as an early feasibility step. We could not open the full HTML or PDF version, so details on data size and metrics are not included here.\n\n## Key terms\n- **Foundation model:** a large model pretrained on broad data that can be adapted to many tasks.\n- **Ejection fraction (EF):** the share of blood the left ventricle pumps out per beat; low EF signals HFrEF.\n- **Apical four-chamber view:** a standard echo view from the tip of the heart showing all four chambers.\n- **Fine-tuning:** further training a pretrained model on task-specific data.\n",
+     "image": null,
+     "authors": [
+      "Mahyar Bolhassani",
+      "Tijana Geroski",
+      "Narayana S. Singam",
+      "Amir Amini"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.13297"
+    }
+   ]
+  },
+  {
+   "id": "health-mgmt",
+   "name": "AI in Healthcare Management",
+   "color": "#0ea5e9",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "Real-World Adoption, Use, and Governance of an LLM-Based Electronic Health Record Search and Synthesis Platform",
+     "url": "https://arxiv.org/abs/2611.08672",
+     "source": "arXiv",
+     "date": null,
+     "tldr": "Duke Health reports 11 months of logs from Scout, an AI tool inside Epic that searches a patient's chart and cites its sources, showing fast uptake once access opened, heavy use by a small group, and governance that struggled to keep pace.",
+     "summary_md": "## What happened\nA team at the Duke Institute for Health Innovation studied how clinicians actually used Scout, a tool built in-house that runs inside Epic, the hospital's electronic health record (EHR). Scout answers one plain-language question about one patient's chart. The study covers 80,465 tasks from 2,635 users across 37,002 patient records, from September 2025 to August 2026.\n\n## Why it matters\nMost AI papers in health care test accuracy on a benchmark. This one shows what happens when a health system switches a tool on for everyone. When system-wide access opened on July 9, 2026, new users per day jumped about 21-fold, from 2.9 to 61. Weekly active users went from 317 before rollout to 1,299 soon after. Of staff who finished the required training, 77.9% used Scout, with a median of 1.7 days to first use. The top 20% of users ran 59% of tasks and drove about 61% of the compute cost. Median cost per task fell from $1.35 to $0.27 over six months.\n\n## How it works\nScout pulls from notes, labs, medications, pathology and imaging, then writes an answer where every claim links to an evidence card showing the source. It does not diagnose or recommend treatment. Users can save prompts as \"SmartTasks\", recalled with a dot shortcut like EHR dot phrases. Governance runs in four tiers, from individual use up to \"Duke Approved\" tools that get ongoing automated fact-checking. Users created 752 SmartTasks, invoked 15,322 times, but only two reached enterprise approval. That gap shows review capacity lagging behind demand.\n\n## Caveats\nThis is one health system with only 29 days of follow-up after full launch. The authors did not measure effects on safety, quality or revenue. Cost covers only AI service charges. The governance thresholds and the AI-based prompt classifier were not formally validated.\n\n## Key terms\n- **EHR (electronic health record):** the digital chart that holds a patient's notes, results and orders.\n- **Large language model (LLM):** an AI system trained on large amounts of text that can read and write language.\n- **Citation grounding:** linking each AI-written claim to the exact source document so a clinician can check it.\n- **Power user:** a person in the top usage group; here, the top fifth of users by task count.\n- **Retention:** the share of users who keep using a tool after their first month.",
+     "image": null,
+     "authors": [
+      "Jiunn-Tyng Yeh",
+      "Michael Gao",
+      "Marshall Nichols",
+      "Anika Mohan",
+      "Tareq Aljurf",
+      "Michael Revoir"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.08672"
+    },
+    {
+     "kind": "news",
+     "title": "Just 16% of AI-using healthcare organizations fully document model checks after launch, CHIME finds",
+     "url": "https://www.marketscale.com/industries/healthcare/just-16-of-ai-using-health-systems-fully-document-model-checks-after-launch-chime-finds",
+     "source": "MarketScale",
+     "date": "2026-11-14",
+     "tldr": "CHIME's 2026 Most Wired survey finds that 93% of participating health organizations use AI, but only about one in six AI users has fully documented processes for monitoring models after they go live.",
+     "summary_md": "## What happened\nCHIME, the College of Healthcare Information Management Executives, released its 2026 Digital Health Most Wired National Trends Report on November 13, 2026. MarketScale summarized the findings a day later. The survey was run with Digital Health Analytics and draws on more than 48,800 facilities in 46 U.S. states and five countries.\n\n## Why it matters\nThe headline gap is between adoption and oversight. AI is now nearly everywhere in these organizations, yet few can show how they check that a model still works after launch. For hospital leaders and researchers who build clinical AI, this means the weak point is often not the model itself but what happens to it over months of real use.\n\n## Key details\n- **Adoption:** 93.2% of participating organizations use AI somewhere in clinical or operational work. Full adoption of generative AI rose from 31.0% to 54.8% in one year.\n- **Monitoring:** only 16.4% of AI users have fully documented post-deployment monitoring.\n- **Ambient listening:** fully adopted for physicians at 60.8%, but for nurses at only 9.5%.\n- **Prior authorization:** 49.4% have automated it overall, versus 28.9% of smaller organizations. CMS payer API rules take effect in January 2027.\n- **Value and resilience:** 77.0% name uncertain return on investment as their top barrier. Only 39.1% can restore all critical systems within four hours. Organizations that test failover hit that target about twice as often (45.7% vs. 23.5%).\n- **Training:** 15.7% run a full role-based data literacy program.\n\n## Caveats\nThe survey is self-reported, and the article does not give response rates or sampling methods. The 16.4% figure is a share of AI users, while most other figures are shares of all participants, so the numbers are not directly comparable. Links between practices and outcomes are correlations, not proof of cause. MarketScale is summarizing the report, not reporting independently.\n\n## Key terms\n- **Post-deployment monitoring:** ongoing checks that a model still performs as expected after it goes into routine use.\n- **Ambient listening (ambient scribe):** software that listens to a clinic visit and drafts the clinical note.\n- **Prior authorization:** insurer approval required before certain tests, drugs or procedures are covered.\n- **Failover:** switching to a backup system when the main one fails.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "NHS launches £200k project to shape how safety and performance of AI diagnostic tools are monitored",
+     "url": "https://publictechnology.net/2026/11/13/health-and-social-care/nhs-launches-200k-project-to-shape-how-safety-and-performance-of-ai-diagnostic-tools-are-monitored",
+     "source": "PublicTechnology",
+     "date": "2026-11-13",
+     "tldr": "NHS England plans to hire the Royal College of Radiologists for a five-month study on how to watch AI diagnostic tools for drift, bias and safety problems once they are in use across the country.",
+     "summary_md": "## What happened\nNHS England published a procurement notice for a discovery project on post-deployment monitoring of AI tools that support diagnosis. It plans to sign a five-month agreement with the Royal College of Radiologists (RCR) on November 26, 2026. The headline puts the value at £200k; the article body says almost £230,000 including VAT.\n\n## Why it matters\nThe NHS already uses AI widely in diagnostics, especially cancer screening. The government said this summer that AI had sped up lung cancer screening for four million people. But approval before launch does not guarantee a tool keeps working. Patient groups, scanners and workflows change. A national approach to monitoring would mean hospitals stop building their own checks one by one. It also echoes the US survey finding that few organizations document such checks.\n\n## Key details\n- The work is early-stage research meant to shape later national oversight, not a finished system.\n- It will set out requirements for national monitoring across diagnostics.\n- It will look at whether NHS England needs to buy a monitoring platform.\n- Named problems to solve include continuous tracking of real-world performance, spotting model drift, checking for unfair outcomes between patient groups, and keeping deployment consistent across the country.\n- The RCR would lead, possibly with support from other suppliers. The RCR already runs AI workstreams aimed at safe, clinician-led change in radiology and oncology.\n\n## Caveats\nThis is a procurement notice, not a policy. The two cost figures in the article differ. No outputs, standards or deadlines beyond the five-month term are stated. The project covers diagnostic AI only, not operational or documentation tools.\n\n## Key terms\n- **Post-deployment monitoring (PDM):** checking an AI tool's accuracy and safety after it is in routine clinical use.\n- **Model drift:** a gradual drop in a model's accuracy because real-world data differ from the data it was trained on.\n- **Procurement notice:** a public statement that a government body intends to award a contract.\n- **Discovery project:** a short study that defines a problem and options before any build begins.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pharma-reg",
+   "name": "Pharmaceutical Regulation",
+   "color": "#8b5cf6",
+   "items": [
+    {
+     "kind": "guidance",
+     "title": "EMA publishes overview of AI tools used across the European medicines regulatory network",
+     "url": "https://www.ema.europa.eu/en/about-us/how-we-work/data-regulation-big-data-other-sources/artificial-intelligence/artificial-intelligence-tools-technology",
+     "source": "European Medicines Agency",
+     "date": "2026-11-11",
+     "tldr": "A new EMA page lays out which AI tools regulators in the EU network use, from a search tool for past assessments to the first AI method qualified for drug trials, and where the limits on staff tools sit.",
+     "summary_md": "## What happened\nOn November 11, 2026, the European Medicines Agency (EMA) published a new page on the AI tools and technology it uses. It is part of a reorganized set of AI pages, alongside separate pages on governance, guidance and collaboration. This page focuses on what tools exist and how they are used.\n\n## Why it matters\nCompanies preparing submissions increasingly want to know how regulators themselves use AI. This page gives a concrete inventory. It also confirms that trial data produced with one specific AI method can be submitted, which signals how EMA treats AI as evidence.\n\n## Key details\n- **Use cases:** workshops with national agencies found more than 60 AI use cases. They fall into five groups: knowledge mining, personal productivity, process automation, process improvement (such as adverse drug reaction screening and pharmacovigilance triage), and anonymisation and spotting commercially confidential information.\n- **Tools catalogue:** a shared framework listing tools that use language models, natural language processing, speech recognition and text recognition. The joint EMA-HMA data steering group adopted it in 2025.\n- **Prompt community:** a pilot to build validated, reusable prompts, set up in 2025 and tested in 2026.\n- **Scientific Explorer:** an AI search tool, launched in March 2024 for scientific advice records. Since March 2026 it also covers initial marketing authorisation applications. Access is limited to authenticated network users.\n- **AIM-NASH:** PathAI's tool that helps pathologists score liver biopsies in MASH trials. In March 2025 it became the first AI method to receive a CHMP qualification opinion. A pathologist still makes the final call.\n- **Microsoft Copilot:** widely used inside EMA, but not approved for cross-network regulatory processes.\n\n## Caveats\nThe page describes tools; it is not binding guidance for industry. It gives no performance data for any internal tool. The page also contains an apparent typo in the name of the Heads of Medicines Agencies group.\n\n## Key terms\n- **Pharmacovigilance:** monitoring the safety of medicines after they reach patients.\n- **Qualification opinion:** a formal CHMP view that a method is acceptable for a defined use in drug development.\n- **CHMP:** EMA's Committee for Medicinal Products for Human Use, which issues scientific opinions on medicines.\n- **MASH:** metabolic dysfunction-associated steatohepatitis, a fatty liver disease formerly called NASH.\n- **Knowledge mining:** using AI to search and pull information from large document collections.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Artificial Intelligence in Pharmaceutical Development: Building Rigorous, Decision-Ready Evidence",
+     "url": "https://arxiv.org/abs/2611.00557",
+     "source": "arXiv",
+     "date": "2026-10-31",
+     "tldr": "Statisticians from Pfizer, NIH, Bayer and Takeda argue that AI outputs in drug development need the same evidence standards as any regulatory analysis, and set out seven functions and a five-step roadmap to get there.",
+     "summary_md": "## What happened\nNine authors, most from Pfizer, with others from NIH, Bayer and Takeda, posted a 23-page review on October 31, 2026. It asks what it takes for AI outputs to support real decisions in drug development, regulatory review and drug safety. Their answer: good prediction scores are not enough.\n\n## Why it matters\nRegulators on both sides of the Atlantic now expect sponsors to show that AI used in a submission is credible for its purpose. The paper ties those expectations to concrete statistical practice. It cites EMA's 2024 reflection paper, FDA's 2025 draft guidance on AI for regulatory decisions, and the January 2026 FDA-EMA good AI practice principles. For anyone preparing an AI-supported submission, it reads as a checklist.\n\n## How it works\nThe authors list seven functions an AI output must serve: define the exact question (the estimand), use fit-for-purpose data, control bias, quantify uncertainty, validate in the intended setting, stay interpretable, and keep decision-grade documentation. They then propose a five-step causal roadmap for combining randomized trials with real-world data: define the estimand under ICH E9(R1); align data sources and state assumptions; choose matched estimators; test robustness with sensitivity analyses; and place results in a benefit-risk context. External data can add to a concurrent control group but never replace it. For pharmacovigilance, they recommend drift detection, explainable signals, and keeping AI triage separate from final adjudication.\n\n## Caveats\nThis is a review and position paper, not an experiment. It has no dedicated limitations section. The authors say some recommended methods, such as federated causal inference, are still immature. Some sources are preprints or white papers. Most authors work for drug makers, which shapes the framing.\n\n## Key terms\n- **Estimand:** a precise statement of the treatment effect a study is trying to measure.\n- **Real-world data (RWD):** health data collected outside trials, such as records and claims.\n- **ICH E9(R1):** an international guideline on estimands and sensitivity analysis in trials.\n- **Conformal prediction:** a method that wraps predictions in ranges with guaranteed coverage.\n- **Concurrent control:** a comparison group enrolled at the same time as treated patients.",
+     "image": null,
+     "authors": [
+      "Xin Luo",
+      "Margaret Gamalo",
+      "Achilleas Livieratos",
+      "Maria Kudela",
+      "Qilu Yu",
+      "Yunxun Wang"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.00557"
+    },
+    {
+     "kind": "news",
+     "title": "Regulator to use AI for earlier safety signals and overhaul patient information by 2030",
+     "url": "https://pharmaceutical-journal.com/article/news/regulator-to-use-ai-for-earlier-safety-signals-and-overhaul-patient-information-by-2030",
+     "source": "The Pharmaceutical Journal",
+     "date": "2026-10-15",
+     "tldr": "The UK's MHRA has published a five-year strategy that commits it to using AI to catch drug safety problems earlier, modernise Yellow Card reporting and publish an AI medicines development action plan in 2027.",
+     "summary_md": "## What happened\nThe Medicines and Healthcare products Regulatory Agency (MHRA), the UK's medicines and devices regulator, published its 2030 strategy on October 14, 2026. The Pharmaceutical Journal reported on it the next day. AI runs through several of its commitments, especially on drug safety.\n\n## Why it matters\nFor pharmacists and regulatory staff, this sets the direction for UK pharmacovigilance for the rest of the decade. Using AI to find safety signals earlier could shorten the time between a new side effect appearing and a warning reaching prescribers. A planned AI action plan for medicines development tells sponsors that clearer UK expectations are coming.\n\n## Key details\n- **Safety signals:** by 2030 the MHRA will use AI to spot potential safety issues sooner.\n- **Yellow Card:** the adverse event reporting scheme will become simpler and faster, with a more conversational interface reachable through tools such as the NHS App.\n- **Real-world data:** the agency will work with the Health Data Research Service, set up in 2025, for a fuller view of product safety in routine use.\n- **Centre for AI and Digital Health:** planned to clarify what the regulator expects from developers of AI-driven medicines and devices.\n- **Action plan:** an AI medicines development action plan is due in 2027.\n- **Product information:** all product information should be structured digital content by 2030, with paper and braille kept for those who need them.\n- **Enforcement:** a large increase in criminal enforcement capacity against illegal medicines and devices.\n\nReaction was positive but cautious. A pharmacy professional body representative stressed accountability and real human oversight. The ABPI, the UK industry body, welcomed the strategy.\n\n## Caveats\nThis is a strategy, not guidance or law. The article gives no budget, metrics or detail on which AI methods will be used. Many commitments run to 2030, so delivery is years away.\n\n## Key terms\n- **Yellow Card scheme:** the UK system where patients and professionals report suspected side effects.\n- **Safety signal:** new information suggesting a possible link between a medicine and a harm.\n- **Pharmacovigilance:** monitoring medicines for side effects after they are on the market.\n- **Structured digital product information:** medicine leaflets stored as machine-readable data rather than fixed documents.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "devices",
+   "name": "Medical Devices",
+   "color": "#10b981",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Coreline Soft wins FDA 510(k) clearance for AI aorta measurement software",
+     "url": "https://www.itnonline.com/content/coreline-soft-receives-fda-clearance-aview-aorta-metrics",
+     "source": "Imaging Technology News",
+     "date": "2026-11-06",
+     "tldr": "FDA cleared AVIEW Aorta Metrics, software that automatically outlines the aorta on chest CT and measures its diameter zone by zone.",
+     "summary_md": "## What happened\nKorean imaging AI company Coreline Soft received FDA 510(k) clearance for AVIEW Aorta Metrics on October 16, 2026. Imaging Technology News reported it on November 6. The company says it is its 13th 510(k) clearance.\n\n## Why it matters\nAortic diameter decides when patients with an enlarged aorta (aneurysm) need closer follow-up or surgery. Manual measurement on CT is slow and varies between readers, especially when the vessel curves. Automated, zone-by-zone measurement could make follow-up scans easier to compare. Because it runs on chest CT, it may also flag aortic enlargement on scans ordered for other reasons, such as lung screening.\n\n## How it works\nThe software automatically segments the aorta from chest CT images. It then splits the vessel into anatomical zones and measures the diameter in each one. Readers get a straightened curved planar reformation, cross-sectional and 3D views, and a report. The clearance extends Coreline's U.S. products beyond lung nodule detection and coronary artery calcium scoring.\n\n## Caveats\nThe report gives no accuracy figures, study sizes or comparison with expert readers, and does not name the AI method. A 510(k) shows the device is substantially equivalent to an existing one; it does not prove better patient outcomes. Launch timing and pricing were not stated. The company plans to show the product at RSNA 2026 (November 29 to December 3).\n\n## Key terms\n- **510(k):** the FDA pathway for devices shown to be substantially equivalent to one already on the market.\n- **Segmentation:** an algorithm marking exactly which pixels belong to an organ or vessel.\n- **Curved planar reformation (CPR):** a CT view that \"straightens\" a curved vessel so it can be measured along its length.\n- **Aortic aneurysm:** an abnormal widening of the aorta that can rupture if it grows too large.\n",
+     "image": null
+    },
+    {
+     "kind": "guidance",
+     "title": "UK government accepts all 44 recommendations of the National Commission on regulating AI in healthcare",
+     "url": "https://assets.publishing.service.gov.uk/media/6ac3b9e0c9bd185c481eca06/National_Commission_Government_Response_v1.0.pdf",
+     "source": "UK Government / MHRA",
+     "date": "2026-10-06",
+     "tldr": "The UK will overhaul how it classifies, changes and monitors AI medical devices, starting with draft guidance on pre-approved change plans by December 2026.",
+     "summary_md": "## What happened\nThe UK government published its response to the National Commission into the Regulation of AI in Healthcare, which the MHRA set up in September 2025. The government accepted all 44 recommendations and named 10 priority areas for the coming year. The document was produced by the MHRA, with a foreword from health innovation minister James Frith.\n\n## Why it matters\nThis is a full roadmap for how a major regulator will treat AI devices across their whole life, not only at approval. For manufacturers, the near-term items are concrete: draft guidance on predetermined change control plans (PCCPs) is due by December 2026, and a consultation on a new classification system by spring 2027. It also signals a move toward post-market evidence, similar in spirit to FDA's PCCP approach.\n\n## Key details\n- **Classification:** the MHRA will consult on a new risk classification and update the legal device definition and \"intended purpose\" through secondary legislation, with interim guidance first.\n- **Proportionate, function-based rules:** oversight scaled to risk, focused on the medical function inside multi-purpose products.\n- **Change control:** draft PCCP guidance for public comment by December 2026.\n- **General-purpose models:** a voluntary \"Master File\" and disclosure of which underlying models a device depends on.\n- **Post-market monitoring:** stronger surveillance, Yellow Card reporting upgrades, a public adverse-incident database and unique device identifiers.\n- **Enforcement:** possible civil sanctions with financial penalties.\n- **Sandboxes:** phase 3 of the AI Airlock programme, including post-market questions.\n- An implementation roadmap is due by spring 2027, with yearly progress reports.\n\n## Caveats\nMost actions are commitments, not rules yet; many details are deferred to spring 2027. The liability question is handled by a working group that, by its own terms, will not redistribute responsibilities. The response dates from early October, so it is older than this week's items.\n\n## Key terms\n- **MHRA:** the UK regulator for medicines and medical devices.\n- **PCCP (predetermined change control plan):** a pre-approved plan describing how an AI model may be updated without a new submission.\n- **AI Airlock:** the MHRA's regulatory sandbox for testing AI devices under supervision.\n- **Yellow Card:** the UK system for reporting side effects and device problems.\n",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Use and public reporting of predetermined change control plans for AI-enabled medical devices",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197871/",
+     "source": "JAMA Health Forum",
+     "date": "2026-05-22",
+     "tldr": "Only 43 of 794 FDA-authorized AI devices from 2023 to 2025 (5.4%) came with a pre-approved plan for future model updates, though cardiovascular devices used them more often.",
+     "summary_md": "## What happened\nResearchers including Florence Bourgeois and Ariel Stern reviewed every AI-enabled device the FDA authorized from 2023 through 2025, 794 in total. They checked which ones had an FDA-authorized predetermined change control plan (PCCP) and how much of that plan the public summaries revealed.\n\n## Why it matters\nPCCPs are the FDA's main tool for letting AI models improve after approval without a new submission each time. If few companies use them, AI devices may stay frozen, or updates may move slowly. The finding is relevant to the UK and EU too, as both are now writing similar change-plan rules. For cardiac AI developers, the cardiology share is notable.\n\n## How it works\nThis was a cross-sectional study using public FDA databases and manufacturer summaries. The team compared devices with and without PCCPs by specialty, review pathway, review time and company experience, and scored public disclosure of the four elements FDA recommends.\n\nKey numbers:\n- 43 devices (5.4%) from 33 manufacturers had PCCPs. The first appeared in Q3 2023; by Q4 2025, 9.7% of that quarter's devices had one.\n- Cardiovascular devices made up 20.9% of PCCP devices versus 7.1% of others; radiology was 58.1% versus 78.4%.\n- Review pathway (97.7% 510(k)) and median review time (150 vs 145 days) were similar between groups.\n- 90.7% disclosed the list of planned changes, 83.7% the testing protocol, 74.4% the user notification plan, but only 32.6% the impact assessment.\n\n## Caveats\nPublic summaries are far less detailed than full FDA files, so disclosure may look weaker than the real submissions. The study could not judge whether PCCPs led to better or safer updates. It was published in May, so it is not new, but it gives useful context for current PCCP policy work.\n\n## Key terms\n- **PCCP:** an FDA-authorized plan spelling out how and how far a device's AI may be changed later.\n- **Modification protocol:** the methods a company commits to for building and testing each planned change.\n- **Impact assessment:** the analysis of benefits and risks a planned change could bring.\n- **Cross-sectional study:** a snapshot analysis of data at one point, without following outcomes over time.\n",
+     "image": null,
+     "authors": [
+      "Patryk A. Dabek",
+      "Florence T. Bourgeois",
+      "Ariel D. Stern",
+      "Yi Zhu",
+      "Alexander O. Everhart"
+     ]
+    }
+   ]
+  }
+ ]
+}
