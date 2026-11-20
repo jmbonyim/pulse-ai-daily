@@ -1,0 +1,311 @@
+{
+ "date": "2026-11-20",
+ "generated": "2026-11-20T07:28:29+00:00",
+ "ai_news": [
+  {
+   "id": "agents",
+   "name": "AI Agents",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Google's Gemini app can now operate your Mac for you",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+     "source": "Google Blog",
+     "date": "2026-11-19",
+     "tldr": "Gemini for Mac gains \"computer use\": it clicks, types and fills forms across your apps and files while you keep working.",
+     "summary_md": "\"Computer use\" means an AI controls a computer the way a person does, through menus, clicks and typing. Gemini runs these tasks in a hidden background window and shows a live preview in the chat, so your own screen and cursor stay free. Google's examples include pulling weights and addresses from local PDFs into shipping forms and building a slide deck from live dashboards. It is U.S.-only and English-only for now, needs an Apple Silicon Mac and a paid Google AI Plus, Pro or Ultra plan, and asks you to approve key actions first.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "OpenAI: its agents now finish 46% of 2–4 hour research tasks without help",
+     "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+     "source": "OpenAI",
+     "date": "2026-11-18",
+     "tldr": "OpenAI's internal data shows its coding agents doing more research work alone, but very unevenly from task to task.",
+     "summary_md": "On tasks that would take a person 2–4 hours, OpenAI estimates its agents succeeded with no human help 46% of the time in October, up from 23% in March. Results vary a lot: 79% for watching training runs, but 25% for writing serving code, which is why OpenAI calls the frontier \"jagged\". The median researcher's agent use reached about $2,400 a day at list prices. OpenAI warns that the rates are estimates and mix real gains with changes in which tasks people chose to hand off.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "More big banks say customers are on their own if an AI agent loses their money",
+     "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+     "source": "TechCrunch",
+     "date": "2026-11-18",
+     "tldr": "Citi, PNC and Citizens now make customers liable for anything an outside AI agent does in their accounts, even after a hack.",
+     "summary_md": "AI agents can be given bank logins to pay bills, analyze spending or move money. Citi's new terms make customers responsible for whatever such third-party agents do, including what hackers do if the tool leaks credentials; Citi's own agents are exempt. PNC and Citizens made similar changes this week, following JPMorgan and Bank of America last month. TechCrunch notes the banks see these tools as both unreliable and a competitive threat.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Replit Missions sends a swarm of agents after a goal, with a budget cap",
+     "url": "https://replit.com/blog/introducing-replit-missions",
+     "source": "Replit",
+     "date": "2026-11-17",
+     "tldr": "Replit's new Missions feature lets teams set an outcome and a spending limit, then has many AI agents plan, build and test in parallel.",
+     "summary_md": "You describe a goal, Replit asks questions to pin down what success means, and you set a spending cap plus which actions need your sign-off. A separate AI \"judge\" checks results against your criteria and ends the mission when they are met or the money runs out. Replit says its agents built an internal monitoring tool in two days on a $3,000 budget that passed all 51 of its checks. The company notes these were controlled tests, not proof of production performance.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "name": "New Models",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Kling Image 4.0 generates native 8K images with long, readable text",
+     "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+     "source": "Kling AI",
+     "date": "2026-11-18",
+     "tldr": "Kuaishou's new image model makes 8K pictures, sets of up to 10 matching images, and up to 2,000 characters of text in one image.",
+     "summary_md": "Native 8K means the model draws at that resolution directly instead of upscaling a smaller image. It can write up to 2,000 characters of text in seven languages, with 70+ preset fonts, which suits ads and product pages. One prompt can produce up to 10 images in a consistent style, and prompts can run to 15,000 tokens (word pieces). It is live in Kling's creative studio and through an API; pricing was not given in the post.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "SenseTime open-sources Loop-9B, a small model that reuses its own layers",
+     "url": "https://technode.com/2026/11/18/sensetime-releases-open-weight-loop-9b-model-that-reuses-layers-for-deeper-computation/",
+     "source": "TechNode",
+     "date": "2026-11-18",
+     "tldr": "SenseNova Loop-9B runs some of its layers twice per step, getting 56 layers' worth of thinking from 32 physical layers.",
+     "summary_md": "A model's layers are its stacked processing stages; looping shared middle layers gives more computation without adding parameters (the learned numbers that set model size). The roughly 9-billion-parameter model reads text and images and handles up to 512,000 tokens of context. A 4-bit compressed version is about 4.9 GB, small enough for a strong laptop or desktop GPU. SenseTime says it competes with the larger Qwen3.8-27B on some agent and data-analysis tests; those are the company's own claims.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Cloudflare releases open weights for its Clairic data-extraction models",
+     "url": "https://www.unite.ai/cloudflare-releases-open-weight-clairic-models-for-data-extraction/",
+     "source": "Unite.AI",
+     "date": "2026-11-18",
+     "tldr": "Cloudflare's Clairic and smaller Clairic-flash turn messy text, images and PDFs into structured data, and are now free to download.",
+     "summary_md": "Clairic pulls typed values, like totals or dates, out of unstructured documents instead of writing free-form text. The release has a 27-billion-parameter Clairic and a 9-billion-parameter Clairic-flash, both under the permissive Apache-2.0 license. On Cloudflare's own tests Clairic-flash answered in about 155 milliseconds at the median, and both scored near-perfect, but Cloudflare says no public benchmark for this task exists. Hosted use costs $0.24 or $0.10 per million input tokens, with both at $0.10 until December 1.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Microsoft's Decision-1.1 model for quick yes/no and routing choices is generally available",
+     "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+     "source": "Microsoft",
+     "date": "2026-11-17",
+     "tldr": "Decision-1.1 makes structured choices inside software, such as routing or classifying requests, more than twice as fast as its predecessor.",
+     "summary_md": "A \"decision model\" returns a choice plus a confidence score instead of prose, so an app can hand off to a human when the model is unsure. Microsoft says it takes about 123 milliseconds per task versus 274 for Decision-1, at about the same cost of roughly $140 per million tasks, and now accepts images. It scored 68 on Artificial Analysis's Decision Index, six points above the previous version. More than 4,000 customers used the preview; it is now in Microsoft Foundry, OpenRouter and Vercel.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "name": "Fun AI News",
+   "items": [
+    {
+     "kind": "news",
+     "title": "The Sims creator Will Wright's next game turns your memories into a playable world",
+     "url": "https://www.gadgetreview.com/the-sims-creator-will-wrights-next-game-uses-ai-to-turn-your-memories-into-content",
+     "source": "Gadget Review",
+     "date": "2026-11-19",
+     "tldr": "In MyMems, players tell short stories from their lives and AI turns them into characters, places and objects they can play with.",
+     "summary_md": "MyMems is a mobile game from Will Wright's Gallium Studios, his first big simulation since Spore in 2008. AI-driven characters, built with Artificial Agency's behavior engine, can be modeled on friends and family and teamed up to solve puzzles. A live community release is targeted for 2027. Open questions remain about how memory data is stored and about consent from the real people who show up in other players' worlds.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Google books a Blue Origin rocket to launch AI data-center satellites in 2029",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+     "source": "Google Blog",
+     "date": "2026-11-19",
+     "tldr": "Google's Project Suncatcher, a plan to run AI computers in orbit on solar power, now has a heavy-lift launch date: early 2029.",
+     "summary_md": "Project Suncatcher is Google's long-shot plan to put AI computing in space, where sunlight is nearly constant. Blue Origin's New Glenn rocket is set to carry the satellites into a sun-synchronous orbit (one that keeps the same angle to the Sun) in the first quarter of 2029. Google says each satellite holds roughly as much computing as one data-center rack. It did not say how many satellites will fly.",
+     "image": null
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cardiac",
+   "name": "AI in Cardiac Surgery, Robotics & AI Models",
+   "color": "#e11d48",
+   "items": [
+    {
+     "kind": "news",
+     "title": "SS Innovations reports a dual-console, five-arm robotic beating-heart TECAB in India",
+     "url": "https://www.globenewswire.com/news-release/2026/11/19/3406575/0/en/ss-innovations-announces-world-s-first-dual-console-beating-heart-tecab-surgery-utilizing-all-five-arms-of-the-ssi-mantra-surgical-robotic-system.html",
+     "source": "SS Innovations International (GlobeNewswire)",
+     "date": "2026-11-19",
+     "tldr": "Two surgeons on two consoles used all five arms of the SSi Mantra robot to do a closed-chest coronary bypass on a beating heart, which the company calls a world first.",
+     "summary_md": "## What happened\nSS Innovations, the maker of the SSi Mantra surgical robot, announced on 19 November that surgeons at Medanta - The Medicity in Gurugram, India, performed a totally endoscopic coronary artery bypass (TECAB) on a beating heart. Two surgeons, from Medanta and Manipal Hospital Jaipur, each worked from their own console, and the team used all five robotic arms plus a heart stabilizer. The company calls it the first procedure of this kind in the world.\n\n## Why it matters\nStandard bypass surgery opens the breastbone and often stops the heart on a heart-lung machine. TECAB aims to do the same graft through small ports, with the heart still beating, which can mean less trauma and faster recovery. A lower-cost robot that can support it could widen access, especially outside the US and Europe. A second console lets two surgeons share the work or lets an expert guide a less experienced colleague, which matters for training and, later, for remote surgery.\n\n## Key details\n- Surgery took place at Medanta - The Medicity, Gurugram, India.\n- Two consoles were used at once; the company CEO also gave guidance during the case.\n- The procedure needed no heart-lung machine and no chest opening.\n- Hospital leaders say the patient is recovering well. The release gives no age, diagnosis or number of grafts.\n- The company says the Mantra system has been used clinically in India for more than 190 types of procedures.\n- The release does not mention artificial intelligence and does not state the system's US or EU regulatory status.\n\n## Caveats\nThis is a company press release, not a peer-reviewed report. It describes one patient, with no operating time, graft patency (whether the new bypass stays open), complications or follow-up. The \"world first\" claim and the 190-procedure figure are not independently verified. One successful case shows feasibility, not safety or benefit compared with standard bypass.\n\n## Key terms\n- **TECAB:** totally endoscopic coronary artery bypass; a bypass graft placed entirely through small ports using a robot.\n- **Beating-heart (off-pump) surgery:** an operation done without stopping the heart or using a heart-lung machine.\n- **Surgical console:** the station where the surgeon sits and controls the robot's arms and camera.\n- **Heart stabilizer:** a device that holds a small patch of the beating heart still so the surgeon can sew the graft.\n",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "GE HealthCare leads up to $160M round for Laza Medical's AI-guided robotic TEE system for the cath lab",
+     "url": "https://cardiovascularbusiness.com/topics/clinical/interventional-cardiology/ge-healthcare-invests-ai-powered-cath-lab-robotics",
+     "source": "Cardiovascular Business",
+     "date": "2026-11-05",
+     "tldr": "GE HealthCare led an up-to-$160 million Series B for Laza Medical, which is building a robot that steers a transesophageal echo probe and uses AI to guide structural-heart and electrophysiology procedures.",
+     "summary_md": "## What happened\nLaza Medical, a start-up from the Shifamed portfolio, raised up to $160 million in a structured Series B round led by GE HealthCare. Returning investors AMED, PA MedTech and Unorthodox Ventures also took part. Laza is building an AI-powered robotic transesophageal echocardiography (TEE) imaging system for the cardiac catheterization lab. Cardiovascular Business framed the deal as part of a wider push toward automated and remote cath-lab robotics.\n\n## Why it matters\nMany structural-heart procedures, such as valve repairs and left atrial appendage closures, depend on a skilled echocardiographer holding and adjusting a TEE probe for the whole case. Those experts are scarce, and image quality varies with the operator. A robot that holds and steers the probe, with AI that keeps the right view on screen, could make procedures more consistent and free up staff. A large investor like GE HealthCare, which already sells cath-lab and ultrasound systems, also signals that imaging vendors see robotic, AI-guided imaging as a commercial direction.\n\n## How it works\nAccording to the reports, the system combines four parts: real-time 3D modelling of the heart, procedural guidance software, robotic control of the TEE probe, and a simplified user interface. Its targets are structural heart, electrophysiology (heart-rhythm) and diagnostic procedures. A cardiologist at Oregon Health & Science University who took part in a first-in-human study last year said that keeping a steady anatomical view made procedures simpler.\n\n## Caveats\nThe system is still in development and has no regulatory clearance or approval anywhere. Neither report gives clinical results, accuracy figures, patient numbers from the first-in-human study, technical specifications or a timeline for submission. \"Up to\" $160 million means some funds are likely tied to future milestones; the terms were not disclosed. Executive quotes in the coverage are promotional.\n\n## Key terms\n- **TEE (transesophageal echocardiography):** heart ultrasound taken from a probe passed down the oesophagus, which sits just behind the heart.\n- **Cath lab:** the hospital room where catheter-based heart procedures are done under X-ray and ultrasound guidance.\n- **Structural heart procedure:** a catheter treatment of heart valves or walls, such as valve repair or appendage closure.\n- **First-in-human study:** the first small test of a new device in patients, mainly to check feasibility and safety.\n- **Series B:** a later-stage funding round used to move a product toward clinical trials and market.\n",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "FM-Recon: Exploring Foundation Model Features for Accelerated Cardiac Cine MRI Reconstruction",
+     "url": "https://arxiv.org/abs/2611.21290",
+     "source": "arXiv (cs.CV)",
+     "date": "2026-11-16",
+     "tldr": "Researchers feed features from a frozen medical-imaging foundation model into an unrolled MRI reconstruction network and find they help rebuild undersampled cardiac cine images, especially at moderate speed-ups.",
+     "summary_md": "## What happened\nFM-Recon was posted on arXiv on 16 November. The paper asks a simple question: can the image features learned by large, pretrained medical-imaging foundation models help reconstruct cardiac cine MRI scans that were acquired faster than normal? The authors tested this on the public CMRxRecon2023 challenge dataset and report that it does, with the clearest gains at moderate acceleration factors.\n\n## Why it matters\nCine MRI shows the heart beating and is the reference standard for measuring chamber size and pumping function. It is slow, and patients usually hold their breath many times. Speeding it up means collecting less raw data, which creates artifacts that a reconstruction network must remove. Foundation models are trained on huge image collections and work well as general feature extractors for tasks like segmentation, but their use inside reconstruction pipelines is largely unexplored. If they help, groups could reuse existing models rather than train new ones.\n\n## How it works\nFM-Recon keeps the foundation model's image encoder frozen, so its weights do not change. At each step of an unrolled network, the partly reconstructed, artifact-laden image passes through the encoder. A small module refines the resulting features, and they are merged back into the network, which alternates between learned image cleanup and data-consistency steps that keep the output faithful to the measured scanner data. The authors evaluated this across several reconstruction settings and offer practical guidance on how to plug such features into unrolled designs.\n\n## Caveats\nThe abstract gives no numeric results, so the size of the improvement is not stated here; check the full paper for image-quality metrics and acceleration factors. The benefit appears smaller outside moderate acceleration. Results come from one public dataset and have not been tested prospectively on scanners or for downstream measurements such as ejection fraction. This is a preprint and has not been peer reviewed.\n\n## Key terms\n- **Cine MRI:** a series of MRI frames that shows the heart moving through one beat.\n- **Acceleration factor:** how much less raw data is collected than a full scan; higher means faster but noisier.\n- **Unrolled network:** a deep network that mimics the steps of a classic iterative reconstruction algorithm, one block per step.\n- **Foundation model:** a large model pretrained on broad data whose features can be reused for many tasks.\n- **Frozen encoder:** a pretrained part of a network whose weights are kept fixed during new training.\n",
+     "image": null,
+     "authors": [
+      "Donghang Lyu",
+      "Marius Staring",
+      "Ruochen Gao",
+      "Jochen Keupp",
+      "Hildo J. Lamb",
+      "Mariya Doneva"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.21290"
+    }
+   ]
+  },
+  {
+   "id": "health-mgmt",
+   "name": "AI in Healthcare Management",
+   "color": "#0ea5e9",
+   "items": [
+    {
+     "kind": "news",
+     "title": "HCA Healthcare takes its Google-built AI nurse handoff tool to about 100 hospitals",
+     "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/hca-healthcares-ai-nurse-handoff-tool-heads-to-100-hospitals/",
+     "source": "Becker's Hospital Review",
+     "date": "2026-11-05",
+     "tldr": "HCA plans to put an AI tool that drafts nurse shift-change handoffs into roughly 100 of its 189 hospitals within about two months, after pilots it says nearly eliminated handoff-related safety events.",
+     "summary_md": "## What happened\nHCA Healthcare, one of the largest US hospital operators, is expanding an AI-powered nurse handoff tool built with Google. After pilots in two of its divisions, the company plans to switch it on in eight divisions, covering about 100 of its 189 hospitals over roughly two months. Tens of thousands of nurses will get access. HCA's chief clinical officer, Dr. Michael Schlosser, called it the company's fastest technology rollout so far.\n\n## Why it matters\nA handoff is the moment one nurse passes responsibility for a patient to the next, usually at the end of a 12-hour shift. Missed details at handoff are a well-known source of errors, and preparing a good handoff takes time that tired nurses often do not have. Most hospital AI news focuses on physician scribes. This is one of the biggest nursing-side deployments so far, and it targets a safety step rather than billing or paperwork.\n\n## Key details\n- In early testing at a single HCA hospital, nurses rated the tool's output 86% accurate and 90% helpful.\n- HCA tracked handoff-related safety events and near misses (errors caught before they reached a patient) through its internal safety reporting system. Leadership says these fell to about zero at pilot sites.\n- Nurses reportedly felt more prepared and more confident starting their shifts.\n- The article does not name the tool or explain how it builds the handoff summary.\n\n## Caveats\nAll results come from HCA itself, not an independent evaluation. The article gives no pilot sample size, no study design, and no definition of what \"accurate\" or \"helpful\" meant to raters. The 86% and 90% figures come from one hospital. Safety-event reporting systems depend on staff choosing to file reports, so a drop can reflect reporting habits as well as real change. It is also unclear how nurses check the AI summary before relying on it.\n\n## Key terms\n- **Nurse handoff:** the structured exchange of patient information when one nurse hands care to another, usually at shift change.\n- **Near miss:** an error that was caught before it reached or harmed the patient.\n- **Patient safety event reporting:** an internal system where staff log errors, harms and near misses for review.\n- **Division:** a regional group of hospitals that HCA manages together.\n",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Medicare's AI-assisted prior-authorization pilot cut use of targeted services by up to 20%, JAMA study finds",
+     "url": "https://sph.brown.edu/news/2026-11-04/prior-authorization-pilot",
+     "source": "Brown University School of Public Health (study in JAMA)",
+     "date": "2026-11-04",
+     "tldr": "In the first six months of Medicare's WISeR pilot, which encourages AI review of prior-authorization requests, epidural steroid injections dropped about 15% and other targeted services nearly 20% compared with expected trends.",
+     "summary_md": "## What happened\nResearchers from the University of Minnesota and Brown University published a research letter in JAMA on early effects of WISeR (Wasteful and Inappropriate Service Reduction Model). This Medicare pilot started in January 2026 in traditional Medicare. It requires advance approval for 41 types of services that rarely needed approval before, and it encourages the use of AI to review requests. The team compared service use in the six pilot states (Arizona, New Jersey, Ohio, Oklahoma, Texas and Washington) with trends in states without the rule.\n\n## Why it matters\nPrior authorization is a core revenue-cycle step for hospitals and clinics: staff must get payer approval before delivering care, or risk not being paid. WISeR is the first large test of AI-assisted prior authorization inside traditional Medicare. It shows how quickly a payer-side AI policy can change what care health systems deliver and how much administrative work they carry.\n\n## Key details\n- Data came from Epic Cosmos, a large pooled database of electronic health records, covering 2024, 2025 and the first half of 2026.\n- Epidural steroid injections for back pain, the most common targeted service, were about 15% lower than expected.\n- The other targeted services, analyzed together, were nearly 20% lower.\n- The drop was largest in the first three months. Use stayed lower in months four to six, but the gap with other states narrowed.\n- The pilot is planned to run six years. The study was funded by Arnold Ventures.\n\n## Caveats\nSix months is a short window. The study cannot say whether the avoided care was wasteful or needed, and the authors say this is the key open question. Effects on patient health, clinician workload and Medicare spending were not measured. The news release does not describe how AI was actually used in reviews, so the drop cannot be credited to AI itself rather than to the approval requirement. I could read only the university summary; the JAMA paper itself was not accessible.\n\n## Key terms\n- **Prior authorization:** a payer rule that a clinician must get approval before giving a service for it to be covered.\n- **Traditional Medicare:** the government-run fee-for-service Medicare program, as opposed to private Medicare Advantage plans.\n- **WISeR:** a six-year Medicare pilot that adds AI-assisted prior authorization for 41 service types in six states.\n- **Epic Cosmos:** a research database that pools de-identified records from many health systems using Epic software.\n",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Actionable Feedback: Improving Model Capabilities from User Edit Data on Clinical Documentation",
+     "url": "https://arxiv.org/abs/2611.12904",
+     "source": "arXiv (cs.CL)",
+     "date": "2026-10-14",
+     "tldr": "Clinicians' edits to AI-drafted notes look like free training data, but more than 45% of edits in a deployed product added facts the model never saw, and training on them unfiltered teaches the model to make things up.",
+     "summary_md": "## What happened\nSix researchers examined how clinicians edit outputs from a deployed AI clinical documentation product. They asked whether those edits can safely be used to retrain the model. In the deployment data, over 45% of edited outputs contained information added by the clinician that was not supported by anything the model had as input. The authors built a taxonomy of editing behaviors, created test data based on it, and proposed simple filters to keep only \"actionable\" edits.\n\n## Why it matters\nHealth systems rolling out ambient scribes and note-drafting tools collect huge numbers of clinician corrections. Vendors increasingly treat those corrections as a cheap way to improve models. This paper shows the risk: if a doctor adds a detail from memory or another chart, the model cannot learn where that fact came from. Training on such edits rewards the model for inventing content. For anyone governing documentation AI, it raises a concrete question to ask vendors: how do you filter feedback before you train on it?\n\n## How it works\n- The team first sorted real clinician edits from deployment into categories of editing behavior.\n- Because real deployment data cannot be shared, they generated semi-synthetic edits guided by that taxonomy. These were applied to a discharge-summary writing task built on MIMIC-III, a public database of de-identified intensive-care records.\n- They then designed simple filters to separate grounded edits (supported by the input) from ungrounded ones, and checked filter accuracy with expert review.\n- Naive fine-tuning on all raw edits increased ungrounded content in model outputs. Filtering step by step toward grounded edits improved agreement with clinician preferences while keeping outputs faithful to the source record.\n\n## Caveats\nThe main training experiments use semi-synthetic edits on one public dataset and one task (discharge summaries), not live deployment data. The abstract does not name the product, the health system, or the sample size. Results on intensive-care records may not carry over to outpatient or specialty notes. This is a preprint and has not been peer reviewed.\n\n## Key terms\n- **Fine-tuning:** further training of an existing AI model on new examples to change its behavior.\n- **Grounded vs ungrounded:** whether a statement in the output can be traced back to the model's inputs.\n- **Hallucination:** confident AI output that is not supported by its source data.\n- **Discharge summary:** the note that sums up a hospital stay when the patient leaves.\n- **MIMIC-III:** a free research database of de-identified ICU patient records from a Boston hospital.\n",
+     "image": null,
+     "authors": [
+      "Daniel P. Jeong",
+      "Yewon Byun",
+      "John Giorgi",
+      "Peng Xu",
+      "Zachary C. Lipton",
+      "Michael Oberst"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.12904"
+    }
+   ]
+  },
+  {
+   "id": "pharma-reg",
+   "name": "Pharmaceutical Regulation",
+   "color": "#8b5cf6",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "Retrieval-Augmented Large Language Models for Clinically Aligned Adverse Event Coding in Acute Myeloid Leukemia Clinical Trials",
+     "url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360282v1.full",
+     "source": "medRxiv (preprint)",
+     "date": "2026-08-18",
+     "tldr": "A locally run LLM that picks MedDRA codes from a retrieved shortlist matched human coders' exact term only about half the time, yet clinicians judged 91–97% of its codes acceptable for regulatory use.",
+     "authors": [
+      "Naghme Dashti",
+      "Martin M. K. Schneider",
+      "Jan-Niklas Eckardt",
+      "Frank Fiebig",
+      "Dirk Schweigler",
+      "Sophia Büttner"
+     ],
+     "pdf_url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360282v1.full.pdf",
+     "image": null,
+     "summary_md": "## What happened\nA German team built a tool that turns free-text adverse event descriptions from leukemia trials into standard MedDRA codes. They tested it on past data from three acute myeloid leukemia (AML) trials: MOSAIC, DELTA and DaunoDouble. After removing duplicates, these held 179, 226 and 443 unique event descriptions. Clinicians then judged whether each code the tool chose would be acceptable in a regulatory safety dataset.\n\n## Why it matters\nEvery trial and safety report needs adverse event coding, and trained coders still do most of it by hand. MedDRA has tens of thousands of low-level terms, so two humans often pick different but equally valid codes. This study tests a more realistic standard than \"did the model match the coder exactly?\" It asks whether a safety reviewer would accept the code. That is closer to what sponsors and regulators actually care about.\n\n## How it works\n- **Shortlist first:** Each MedDRA Low-Level Term (LLT) was turned into a numerical \"meaning\" vector. For each event, the 100 closest terms formed a candidate list. The human coder's term was on that list about 81% of the time, against 66–72% for simple word matching.\n- **Then choose:** LLaMA-3.3-70B, run on local hardware with no extra training, wrote a short reason and picked one LLT. Higher levels (PT and SOC) followed automatically from the MedDRA hierarchy.\n- **Results:** Exact LLT agreement with coders was 50–58%. At the PT level it was 78–85%, and at the SOC level 90–93%. Clinicians rated 91–97% of outputs acceptable. About 38–41% of the exact-match \"errors\" were valid alternatives.\n- **Baselines:** Without a shortlist, exact LLT accuracy fell to 28–40%.\n\n## Caveats\nThis is a preprint and has not been peer reviewed. It used only AML data and one MedDRA version (v25.0). The review was retrospective and not blinded. Agreement between reviewers was only moderate to good (kappa 0.58–0.81). The trial data are restricted, and the code is not yet public.\n\n## Key terms\n- **MedDRA:** the standard medical dictionary regulators use to code adverse events, organised from detailed LLTs up to broad System Organ Classes (SOCs).\n- **Preferred Term (PT):** the MedDRA level most often used for safety analysis and signal detection.\n- **Retrieval-augmented generation:** giving a model a shortlist of relevant options so it chooses from them instead of inventing an answer.\n- **Fleiss' kappa:** a score for how much several reviewers agree beyond chance (1 means perfect agreement).\n"
+    },
+    {
+     "kind": "guidance",
+     "title": "FDA launches a 'Super Intelligence' hub and two councils to govern its AI work",
+     "url": "https://www.fda.gov/science-research/fda-and-super-intelligence",
+     "source": "U.S. Food and Drug Administration",
+     "date": "2026-11-16",
+     "tldr": "FDA opened a central web hub for its AI activities (now officially called 'Super Intelligence'), set out two governing councils, and confirmed that staff make all decisions and that SI-assisted documents may carry machine-readable watermarks.",
+     "image": null,
+     "summary_md": "## What happened\nOn 16 November 2026, FDA published a new hub page that gathers its AI resources in one place. Under Executive Order 14434, the agency now uses the term \"Super Intelligence\" (SI) for what it used to call artificial intelligence. The hub goes beyond the change of name. It describes how FDA governs SI across its centers and links to each product area's own AI page.\n\n## Why it matters\nSponsors have struggled to find one front door for AI questions at FDA. A former FDA AI policy official has also said it was unclear who led AI governance after earlier leadership changes. The hub gives a partial answer: two named councils, contact points for each center, and a few clear statements about how reviewers use these tools. For anyone preparing a submission, it matters that FDA says staff, not tools, make every decision. Some agency documents may also now carry a hidden mark that shows SI helped write them.\n\n## Key details\n- **External Policy council:** a forum where FDA centers align policy and regulatory strategy on SI, coordinate outreach to stakeholders, and agree on how FDA states its positions.\n- **Internal Operations council:** oversees FDA's own SI tools and projects, including guidance and support for staff, working with HHS and other federal partners.\n- **Product pages:** drugs point to CDER's AI for drug development page; there are also pages for biologics (CBER), devices (Digital Health Center of Excellence), oncology, tobacco and food.\n- **Internal use:** SI tools assist with reviews, inspections and investigations, and run on systems that meet federal FISMA security levels.\n- **Watermarks:** some FDA documents may carry machine-readable marks showing SI use, even if it only helped with editing or formatting.\n- **Contacts:** CDER takes AI questions at a dedicated mailbox, and there is a general SI inbox.\n\n## Caveats\nThe hub lists no new guidance. The two January 2025 drafts, including the drug \"credibility\" framework, are still drafts. The page does not name council members or say how sponsors can engage the councils. Existing guidance keeps the term \"AI\", and sponsors do not have to adopt the new wording.\n\n## Key terms\n- **Super Intelligence (SI):** FDA's new official term for AI, required by a September 2026 executive order; it signals no new technology.\n- **CDER:** FDA's Center for Drug Evaluation and Research, which reviews most drugs.\n- **FISMA:** the U.S. federal law that sets security standards for government IT systems.\n- **Machine-readable watermark:** a hidden marker embedded in a file that software can detect to flag AI involvement.\n"
+    },
+    {
+     "kind": "news",
+     "title": "London panel: regulators are catching up with AI-accelerated drug innovation, but standards still differ",
+     "url": "https://www.clinicaltrialsarena.com/news/regulators-starting-to-keep-pace-with-innovative-medicine-development/",
+     "source": "Clinical Trials Arena",
+     "date": "2026-11-19",
+     "tldr": "At the London Biotechnology Show, industry speakers said regulators now largely keep pace as AI speeds up discovery of new kinds of medicines, while an analyst warned that standards for complex modalities are still not harmonised across countries.",
+     "image": null,
+     "summary_md": "## What happened\nAt the London Biotechnology Show (18–19 November 2026, ExCeL London), a panel discussed whether medicines regulators can keep up with the pace of new science. Clinical Trials Arena reported that the panel broadly agreed regulators have caught up. The pressure comes partly from AI-assisted drug discovery, which is producing more medicines that work in new ways. An outside analyst disagreed for some product types.\n\n## Why it matters\nFor several years, companies said slow regulators held back new drugs. If the industry mood has shifted, the main friction may now be uneven rules between countries, not slow agencies. That affects how sponsors plan early meetings and global filings for AI-discovered and complex products.\n\n## Key details\n- **Industry view:** Anusha Foy (Allucent, a contract research organisation) said regulators must keep their expertise current. She called the number of ways to talk with agencies encouraging, citing work in cell and gene therapy and RNA and gene editing trials.\n- **Early dialogue:** Nicola Kimes (Siolta Therapeutics) said FDA has been open to new therapies at the IND and CTA stages. She called the lack of set guidance frustrating but not a bottleneck.\n- **Trial technology:** The article cites ICH E6(R3) good clinical practice, which moves trial monitoring from reactive to proactive and risk-based. It also cites FDA's real-time clinical trials work and MHRA guidance on technology-enabled trials.\n- **AI platforms:** Erik Scalfaro (Rivia, an AI trial-data company) said regulators see AI as an opportunity rather than a threat.\n- **Dissent:** Ruplekha Choudhurie (Everest Group) said complexity is rising for cell and gene therapies, RNA medicines and antibody-drug conjugates. She noted that standards are not harmonised across regions.\n\n## Caveats\nThis is a conference report built on short quotes. It has no data on review times or approvals. Several speakers sell services to drug developers. The article does not describe any AI-specific rule for drug discovery.\n\n## Key terms\n- **Mechanism of action (MOA):** the biological way a drug produces its effect.\n- **IND / CTA:** the applications needed to start human trials in the U.S. (Investigational New Drug) and in Europe or the UK (Clinical Trial Application).\n- **ICH E6(R3):** the latest international good clinical practice guideline for running trials.\n- **Antibody-drug conjugate (ADC):** an antibody linked to a toxic drug so the drug reaches specific cells.\n"
+    }
+   ]
+  },
+  {
+   "id": "devices",
+   "name": "Medical Devices",
+   "color": "#10b981",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "Applications and Gaps of Generative AI in the Medical Device Lifecycle: A Scoping Review",
+     "url": "https://www.mdpi.com/2306-5354/13/11/1385",
+     "source": "Bioengineering (MDPI)",
+     "date": "2026-11-19",
+     "tldr": "A review of 61 studies finds generative AI is mostly being tested on regulatory paperwork and risk modelling for devices, with almost no real-world evidence that it can deliver MDR or FDA compliance on its own.",
+     "authors": [
+      "Ali Salman",
+      "Alessio Rotelli",
+      "Alessio Luschi",
+      "Adna Softić",
+      "Ernesto Iadanza"
+     ],
+     "image": null,
+     "summary_md": "## What happened\nA team from the University of Siena mapped how generative AI (GenAI) is being used across the life of a medical device, from design to maintenance. They charted 61 studies published from 2022 to 2026. Their main message: the work is early, mostly experimental, and does not show that GenAI can automate compliance with the EU Medical Device Regulation (MDR) or FDA requirements.\n\n## Why it matters\nMany regulatory and quality teams are trying large language models to draft technical files, risk analyses and literature reviews. This review gives a sober baseline. It shows where evidence exists (document analysis, risk and cybersecurity modelling) and where it is thin (keeping devices running in the field, safety systems built into devices). For someone with a regulatory background, it is a useful map of what can be claimed today and what cannot.\n\n## How it works\nThe authors searched PubMed, IEEE Xplore, Scopus and arXiv. They kept studies that applied GenAI to hardware devices, software as a medical device (SaMD) or medical wearables. They split uses into two groups: GenAI as a tool around the lifecycle (for example, writing or checking documents) and GenAI embedded inside a device. They then sorted findings into four pillars: design, regulatory management, maintenance and risk assessment. Many studies used retrieval-augmented generation or multi-agent pipelines to anchor model outputs to source documents, but each reported its own task-specific metrics, so results are hard to compare.\n\n## Caveats\nThis is a scoping review, so it maps the field rather than judging study quality or pooling results. The public page gives few details on screening and inclusion counts. Most included studies were lab experiments, with little long-term real-world testing and few designs that keep a human reviewer in the loop. A literature search this wide can still miss industry work that is never published.\n\n## Key terms\n- **Generative AI (GenAI):** AI that produces new text, images or code, such as large language models.\n- **Retrieval-augmented generation (RAG):** a setup where the model first pulls relevant passages from a document set and then answers using them.\n- **Scoping review:** a structured survey that maps what research exists on a topic without formally scoring or combining it.\n- **SaMD (software as a medical device):** software that is itself a medical device, not part of a hardware device.\n- **EU MDR:** the European Union regulation that sets the rules for placing medical devices on the EU market."
+    },
+    {
+     "kind": "news",
+     "title": "FDA warning letter says retraining an AI model and moving to the web needed a new 510(k)",
+     "url": "https://www.orrick.com/en/Insights/2026/10/FDA-Warning-Letter-Tells-Software-Device-Makers-That-Retraining-AI-Algorithms",
+     "source": "Orrick",
+     "date": "2026-10-09",
+     "tldr": "FDA told O.N. Diagnostics to stop shipping version 3.0.0 of its spine-fracture software because a new machine learning model, a switch to web delivery and a platform migration each went beyond its original clearance.",
+     "image": null,
+     "summary_md": "## What happened\nFDA issued a warning letter to O.N. Diagnostics over VirtuOst VFA, software that reads spine CT scans to find and grade vertebral fractures. The device was cleared through 510(k) K171435. After a March 2026 inspection, FDA said version 3.0.0 went beyond that clearance. The agency treated the product as adulterated and misbranded, and asked the company to stop distributing that version. Law firm Orrick summarized the letter on 9 October 2026.\n\n## Why it matters\nThis is one of the clearest public signals of how FDA views software updates to an AI device. The letter says, in effect, that an improvement is still a change. Swapping in a new or retrained model can alter how a device performs and fails, so it can trigger a new submission. The letter also treats cloud or browser delivery as a safety issue, not just an IT decision. Firms planning regular model updates now have a strong reason to use a predetermined change control plan.\n\n## Key details\n- FDA listed three changes, each of which on its own needed a new 510(k):\n  - A new machine learning algorithm for finding landmarks on the spine. FDA warned weak validation could lead to missed or late diagnoses and overreliance on the output.\n  - A move from a desktop program to a web-based system. This opened new network attack surfaces and login weaknesses.\n  - A migration of the technology platform, which meant the whole codebase and its third-party libraries needed re-checking. FDA had not reviewed the software bill of materials for those parts.\n- FDA also cited quality-system problems (corrective actions and supplier controls) and gaps in adverse-event reporting.\n- Orrick advises firms to log a documented assessment for every model change, validate on independent data with subgroup checks, keep the SBOM current, and audit past releases against their clearance.\n\n## Caveats\nThis summary relies on a law firm's reading of the letter, which may stress the points most useful to its clients. The article does not give the letter's issue date. A warning letter reflects FDA's position on one case. It is not a court ruling or new guidance.\n\n## Key terms\n- **510(k):** an FDA premarket submission showing a device is substantially equivalent to one already on the market.\n- **Warning letter:** a formal FDA notice that a company has significant violations that it must correct.\n- **Predetermined change control plan (PCCP):** a plan FDA authorizes in advance that lets a maker apply specified device changes without a new submission.\n- **Software bill of materials (SBOM):** a list of all software components, including third-party libraries, inside a product.\n- **Adulterated / misbranded:** legal terms for a device that breaks FDA rules on its approval status or labeling."
+    },
+    {
+     "kind": "paper",
+     "title": "Growth, Specialty Distribution, and Regulatory Pathways of AI-Enabled Medical Devices Authorized in the US, 1995–2026",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13733602",
+     "source": "Cureus",
+     "date": "2026-11-03",
+     "tldr": "An analysis of all 1,614 entries on FDA's AI-enabled device list shows authorizations growing about 35% a year, with 96% cleared through 510(k) and a handful of De Novo grants seeding most later clearances.",
+     "authors": [
+      "Suhail S. Alshahrani"
+     ],
+     "image": null,
+     "summary_md": "## What happened\nA researcher at King Saud University analyzed every entry on FDA's AI-Enabled Medical Device List with decisions from September 1995 to June 2026. That is 1,614 marketing authorizations. The study tracks how fast authorizations are growing, which specialties they fall in, which regulatory routes they used, and which companies hold them.\n\n## Why it matters\nThe numbers show how AI devices actually reach the US market. Almost all use the 510(k) route, which relies on comparison with an existing device, rather than a fresh safety and effectiveness review. The study also shows that one early decision can shape a whole category for years. For anyone planning a submission, it highlights how much depends on whether a suitable predicate device already exists.\n\n## How it works\nThe author copied the full FDA table on 15 October 2026 and treated each row as one authorization. The pathway came from the submission number prefix. The FDA review panel stood in for medical specialty. Company names were merged into 559 manufacturer groups. Log-linear regression estimated growth, and a deduplicated set of 1,195 unique devices served as a check.\n\nKey results:\n- Yearly authorizations rose from 18 in 2016 to 335 in 2025, about 35% growth per year. Of all entries, 60.5% came from 2023 onward.\n- Radiology made up 76.2% of entries. Its share has slipped from a peak of 85.7% (2020–2022) as neurology, cardiology and other areas grow.\n- 510(k) covered 96.2% of entries, with 40 De Novo and 21 PMA decisions. Radiology devices were much less likely to use a novel route (adjusted odds ratio 0.14).\n- 22 of the 40 De Novo grants created product codes later used by 181 clearances. One 2018 stroke-triage grant alone led to 85.\n- About a quarter of entries were AI built into scanners, and seven large imaging firms held 72% of those.\n\n## Caveats\nThe FDA list is incomplete and updated irregularly. Counts reflect authorizations, not distinct products, and 2026 data are partial. The dataset says nothing about clinical performance, recalls or adverse events, so it cannot speak to safety. It is a single-author, descriptive study.\n\n## Key terms\n- **De Novo:** an FDA route for new low-to-moderate-risk devices with no predicate; it creates a new device type that later products can cite.\n- **PMA (premarket approval):** FDA's most demanding review, used for high-risk devices.\n- **Predicate device:** an already-marketed device that a new product is compared against in a 510(k).\n- **Product code:** an FDA label that groups devices of the same type and use.\n- **Odds ratio:** a measure of how much more or less likely an outcome is in one group than another."
+    }
+   ]
+  }
+ ]
+}
