@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-23",
+ "generated": "2026-11-23T07:44:25+00:00",
+ "ai_news": [
+  {
+   "id": "agents",
+   "name": "AI Agents",
+   "items": [
+    {
+     "kind": "news",
+     "title": "LangChain launches Tool Gateway to control what AI agents can touch",
+     "url": "https://langchain.com/blog/langsmith-tool-gateway",
+     "source": "LangChain",
+     "date": "2026-11-19",
+     "tldr": "A new public-beta service in LangSmith routes every agent tool call through one place that handles logins, permissions and logging.",
+     "summary_md": "Tool Gateway sits between an AI agent and the outside tools it uses, such as Google, Salesforce or GitHub. Admins can give each agent a limited \"kit\" of tools, block certain users or keys, and require a human to approve sensitive actions before they run. Each call is recorded in the agent's trace without storing sensitive data, and it works with MCP (Model Context Protocol, a common standard for connecting agents to tools) clients like Claude Code and Cursor.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Signal blocks screenshots by default to keep phone AI agents out of chats",
+     "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/",
+     "source": "Engadget",
+     "date": "2026-11-20",
+     "tldr": "Signal now stops built-in phone assistants like Siri AI and Gemini from reading its chats off the screen.",
+     "summary_md": "Signal calls AI agents built into phones an \"existential threat\" because they read what is on screen and can send private messages to remote servers. On iOS 27 it now blocks screenshots by default, and on Android it uses its Screen security option to stop assistants capturing the screen. The fix has gaps: it does nothing on Mac, and a recipient who turns protections off can still expose messages. Signal says it is asking Apple and Google for a proper system-level way to keep agents out of apps.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Startup says AI agents co-designed a CPU with 4.59x better performance per watt",
+     "url": "https://xenospectrum.com/en/frostbite-cpu-design-energy-efficiency/",
+     "source": "XenoSpectrum",
+     "date": "2026-11-19",
+     "tldr": "Architect Labs claims AI agents helped design a new processor, Frostbite, that beats a similar-sized simple CPU on energy efficiency in simulation.",
+     "summary_md": "Human researchers set the goals while AI agents read documents, proposed 58 design ideas and kept 37 over four rounds. The resulting chip hands spare work to idle processing units and, across 25 tasks, delivered on average 4.59 times the performance per watt of a comparable in-order CPU (a simple design that runs instructions strictly one after another). Gains ranged from 1.15x to 23x depending on the task. These are pre-silicon numbers from design-stage simulation, not measurements from a real chip.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "name": "New Models",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Zhipu rolls out GLM-5.4 with vision to Coding Plan subscribers",
+     "url": "https://technode.com/2026/11/23/zhipu-rolls-out-glm-5-4-with-vision-and-million-token-context/",
+     "source": "TechNode",
+     "date": "2026-11-23",
+     "tldr": "Chinese AI lab Zhipu quietly added GLM-5.4, which can now understand images, to its paid coding subscription.",
+     "summary_md": "GLM-5.4 appeared in the model menu of Zhipu's Coding Plan, listed with image understanding and a one-million-token context window (how much text it can consider at once). Eligible subscribers get 50% more usage allowance than they had with GLM-5.3. Zhipu has not yet published benchmarks, parameter counts or a technical write-up, so the claims come only from the menu listing.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Baseten releases bison-1 and groundhog-1, open decision models built on Gemma 4",
+     "url": "https://www.baseten.co/resources/changelog/bison-1-and-groundhog-1-available-on-baseten/",
+     "source": "Baseten",
+     "date": "2026-11-20",
+     "tldr": "Baseten released two open-weight models built to sort inputs, route requests and score content, and both can read up to about 131,000 tokens per question.",
+     "summary_md": "A \"decision model\" doesn't write long answers. It returns a short, structured verdict, such as a label, a routing choice or a rubric score, that software can use directly. bison-1 is fine-tuned from Google's 31-billion-parameter Gemma 4, and groundhog-1 from a 26-billion-parameter Gemma 4 variant. Both accept up to 131,072 tokens per question, which Baseten says is eight times more than its earlier decision models. They run through Baseten's paid API, and the weights are on Hugging Face, though the announcement doesn't name a license.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "AMD releases Nitro-P, an image generator that works directly on pixels",
+     "url": "https://rocm.blogs.amd.com/artificial-intelligence/nitro-p/README.html",
+     "source": "AMD ROCm Blogs",
+     "date": "2026-11-20",
+     "tldr": "AMD released weights and training code for Nitro-P, a 679-million-parameter text-to-image model that skips the usual compression step and produces images on a single GPU at high speed.",
+     "summary_md": "Most image generators first compress pictures with an autoencoder (VAE), work in that compressed space, and then decode back to pixels. Nitro-P skips the VAE: a transformer lays out the image's overall structure in 16x16-pixel patches, and a small U-Net fills in full-resolution detail. On one AMD MI300X GPU, it scores 0.88 on GenEval, a test of whether images match the prompt, at 512x512 pixels while making about 10 images per second. A one-step distilled version reaches about 90 images per second at 0.85. It was trained on about 25 million image-text pairs, and the weights are on Hugging Face, though the post doesn't name a license.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Metric AI releases Ayb-0.5, open Armenian-English models built on Qwen3.5",
+     "url": "https://huggingface.co/Metric-AI/Ayb-0.5-9B",
+     "source": "Hugging Face (Metric AI Lab)",
+     "date": "2026-11-20",
+     "tldr": "Armenian lab Metric AI released Ayb-0.5 in 0.8B, 4B and 9B sizes, adapting Alibaba's Qwen3.5 to Armenian with a bigger vocabulary and extra training.",
+     "summary_md": "The team added 2,558 Armenian word pieces (tokens) to Qwen3.5's vocabulary. That cuts the average from 5.51 to 2.90 tokens per Armenian word, so the model reads Armenian text faster and more cheaply. It then trained on about 26 billion more tokens and tuned the model to follow instructions. The 9B model scores 0.616 overall on ArmBench, an Armenian test set, and has early image-reading ability. The weights use a CC BY-NC 4.0 license, which bans commercial use.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "name": "Fun AI News",
+   "items": [
+    {
+     "kind": "news",
+     "title": "AI spots baby beluga whales in Arctic drone footage after seeing just 34 labeled images",
+     "url": "https://dronexl.co/2026/11/20/fau-ai-beluga-whales-34-labeled-dji-drone-images/",
+     "source": "DroneXL",
+     "date": "2026-11-20",
+     "tldr": "Researchers trained an AI to find beluga calves in drone video using only a handful of expert-labeled examples.",
+     "summary_md": "Florida Atlantic University and Fisheries and Oceans Canada used semi-supervised learning, where a model learns from a few hand-labeled images plus many unlabeled ones. With only 34 labeled images, their model found 27.8% of calves, compared with 1.3% for a standard detector. With more labels it found about two-thirds of calves and 84% of adults. The work could make whale counts from drone surveys faster and cheaper.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "A tiny AI that fits on a floppy disk and runs on a 1990s PC",
+     "url": "https://www.xataka.com/robotica-e-ia/alguien-ha-creado-modelo-ia-que-disquete-funciona-486-ms-dos-ha-programado-otra-ia",
+     "source": "Xataka",
+     "date": "2026-11-17",
+     "tldr": "A hobbyist used Claude to build a question-answering model small enough to run in MS-DOS on a 486 or Pentium.",
+     "summary_md": "The model, Tiny 2.1, has about 367,000 parameters (millions of times fewer than modern chatbots) and takes up about 380 KB, so it fits on a 1.44 MB floppy. It needs roughly 540 KB of memory and is written in Turbo C 2.0, a compiler from the late 1980s; the builder says Claude wrote the code and trained the model. It was trained on about 3,500 examples, so it often makes up answers outside that set, but it is a charming proof that AI can run almost anywhere.",
+     "image": null
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cardiac",
+   "name": "AI in Cardiac Surgery, Robotics & AI Models",
+   "color": "#e11d48",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "Beyond Segmentation: Enriching ImageCAS with Coronary Ostia Landmarks, Rooted Centerline Graphs, and Open-Weight Localization Models",
+     "url": "https://arxiv.org/abs/2611.09714",
+     "source": "arXiv (eess.IV)",
+     "date": "2026-11-09",
+     "tldr": "An Italian-Swiss team added coronary ostium landmarks and vessel centerlines to all 1,000 scans of the public ImageCAS CT angiography dataset and released models that find the ostia with sub-millimetre median error.",
+     "summary_md": "## What happened\nResearchers led by groups in Milan and Zurich released a large add-on to ImageCAS, the biggest public coronary CT angiography (CCTA) dataset. They marked the left and right coronary ostia on all 1,000 scans, built vessel centerline graphs that start at those ostia for 999 patients, and trained six 3D models to find the ostia automatically. Annotations, code and most model weights are public.\n\n## Why it matters\nThe ostia are the two openings where the coronary arteries leave the aorta. Their position matters for spotting anomalous coronary origins, planning bypass and aortic root surgery, and judging the risk of blocking a coronary artery during TAVI (catheter-based aortic valve replacement). They are also the natural starting points for automated vessel tracking. Until now, public ostium labels were scarce: the two small CCTA benchmarks, CAT08 and ASOCA, have 32 and 40 scans.\n\n## How it works\n- For the first 500 scans, three annotators per scan placed markers, and the consensus point was their centroid (about 144 person-hours).\n- For the next 500, a model trained on the first batch proposed points and one annotator corrected them (about 5 person-hours).\n- Six localizers that predict heatmaps were benchmarked on 58 held-out scans. SwinUNETR-V2 and nnResUNet never missed by more than 5 mm, with median errors of 0.70 to 0.87 mm, about the same as the spread between human annotators.\n- Trained only on CAT08 and ASOCA, SwinUNETR-V2 failed on 34% of right and 53% of left ostia; adding 250 ImageCAS scans removed every failure. That shows how much a larger training set helps.\n- Centerlines grow from each ostium along minimal-cost paths through the vessel mask. On ASOCA they covered a median 99.5% of the reference length.\n\n## Caveats\nImageCAS comes from a single institution. Annotators were engineers, not clinicians, and the second 500 scans were checked by one person only. The protocol assumes one ostium per side, so anatomical variants are not handled. Centerlines were measured against a reference only on ASOCA. The data and weights carry a non-commercial licence, and the models have not been validated clinically.\n\n## Key terms\n- **CCTA**: a contrast-enhanced CT scan timed to the heartbeat that shows the coronary arteries.\n- **Coronary ostium**: the opening in the aortic wall where a coronary artery begins.\n- **Centerline graph**: a branching line that runs down the middle of each vessel, used for measuring and tracking arteries.\n- **Heatmap localization**: a model outputs a map of likely positions, and the peak marks the landmark.\n- **nnResUNet / SwinUNETR-V2**: two widely used 3D neural network designs for medical images (one convolutional, one transformer-based).",
+     "image": null,
+     "authors": [
+      "Matteo Leccardi",
+      "Andrea Moglia",
+      "Marco Morandini",
+      "Michele Brembilla",
+      "Alessandro Nicosia",
+      "Andrea Penserini"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.09714"
+    },
+    {
+     "kind": "paper",
+     "title": "Deep learning versus conventional risk scores for postoperative mortality prediction in adult cardiac surgery: a systematic review",
+     "url": "https://link.springer.com/article/10.1186/s43057-026-00230-3",
+     "source": "The Cardiothoracic Surgeon",
+     "date": "2026-11-02",
+     "tldr": "A systematic review found no solid evidence that deep learning predicts death after adult heart surgery better than EuroSCORE II, the STS score or plain logistic regression.",
+     "summary_md": "## What happened\nA team published an open-access systematic review in *The Cardiothoracic Surgeon* that asked one question: does deep learning beat standard risk scores at predicting short-term death after adult cardiac surgery? After screening 1,330 records from four databases, only four studies (five cohort comparisons) met every criterion. None of the comparisons with numbers favoured deep learning.\n\n## Why it matters\nSurgeons use risk scores such as EuroSCORE II and STS-PROM to counsel patients, choose between surgery and catheter procedures, and compare hospitals. Many papers claim AI improves on them. This review suggests those claims are not yet backed by head-to-head evidence, which matters for anyone building or buying such tools.\n\n## How it works\n- The authors searched MEDLINE, Europe PMC, Lens.org and IEEE Xplore in late September 2026 and judged risk of bias with PROBAST+AI, a checklist for prediction-model studies.\n- A chest X-ray neural network scored lower than STS-PROM: an AUC of 0.829 vs 0.884 in a later cohort and 0.738 vs 0.803 in an outside cohort. Each cohort had only about two dozen deaths.\n- Small two-layer neural networks matched but did not beat logistic regression (0.761 vs 0.762; 0.77 vs 0.80).\n- In a second set of 12 comparisons where network depth was unclear, the network won 4 times and lost 8, with a median AUC difference of -0.004. A tabular transformer did beat EuroSCORE II internally (0.834 vs 0.807).\n- All four core studies had high or unclear risk of bias. Few reported calibration (whether predicted risks match observed rates) or clinical usefulness.\n\n## Caveats\nThe search left out Embase, CINAHL and CENTRAL, skipped 22 reports that could not be retrieved, and excluded preprints and non-English papers. There was no meta-analysis. A large language model helped with screening, extraction and drafting, and the authors say this version replaces a preprint that had extraction errors. A small evidence base cannot prove deep learning is worse, only that it has not been shown to be better.\n\n## Key terms\n- **EuroSCORE II / STS-PROM**: standard calculators that estimate a patient's risk of dying after heart surgery.\n- **AUC**: a 0-1 measure of how well a model separates patients who die from those who survive; 0.5 is chance.\n- **Calibration**: how closely predicted risks match what actually happens.\n- **Logistic regression**: a classic statistical model that combines risk factors in a simple weighted formula.\n- **Systematic review**: a structured search and appraisal of all studies on a defined question.",
+     "image": null,
+     "authors": [
+      "Ibrahim Ibrahim Shuaibu",
+      "Ahmad Yaseen Al Mahmoud",
+      "Ibrahem Aaroud",
+      "Abdalsalam Rizq Abazid",
+      "Mohamed Helmy Mohamed Abdelsalaam",
+      "Numaira Naeem Gazge"
+     ]
+    },
+    {
+     "kind": "news",
+     "title": "HeartLung.AI will present nine RSNA 2026 abstracts on AI calcium scoring, opportunistic CT and chest X-ray heart risk",
+     "url": "https://www.heartlung.ai/post/heartlung-ai-to-present-nine-abstracts-at-rsna-2026",
+     "source": "HeartLung.AI (company release)",
+     "date": "2026-11-16",
+     "tldr": "Ahead of RSNA 2026, HeartLung.AI previewed nine studies. In one, its AI found coronary calcium in 21.7% of people whose standard calcium score was zero, and those people had about twice the 20-year rate of coronary heart disease.",
+     "summary_md": "## What happened\nOn 16 November 2026, HeartLung.AI announced that nine abstracts using its AI tools were accepted for the RSNA 2026 meeting in Chicago (29 November to 3 December). Most come from large long-running heart studies such as MESA, Framingham and the Miami Heart Study. They test whether AI can pull more heart-risk information from CT scans and chest X-rays that patients already get.\n\n## Why it matters\nThe standard coronary calcium score (Agatston score) counts only bright, dense calcium spots, so a score of zero is often read as very low risk. If AI can find smaller or fainter calcium that the standard method misses, some \"zero\" patients may need a second look. The chest X-ray and non-contrast CT work follows the \"opportunistic screening\" idea: getting extra heart information from scans done for other reasons, at no extra radiation or cost.\n\n## Key details\n- **Zero-score patients (MESA and Framingham):** The AI (\"Agatston-2.0\") found calcium in 21.7% of participants with an Agatston score of zero. Their 20-year coronary heart disease rate was 7.7%, against 3.8% for those with no AI-detected calcium.\n- **Low scores (1–99), 1,238 participants:** Combining calcium amount with plaque density split people into risk groups. A high calcium amount with less dense plaque carried the highest rate.\n- **Density across groups (MESA, 1,751 people):** Denser plaque was linked to lower risk at every calcium level.\n- **Chest X-ray model (AI-CX-CVD, MIMIC-CXR):** In people without known heart disease, the AUC was 0.751 for new cardiovascular events and 0.790 for cardiovascular death. It added the most for atrial fibrillation and heart failure. A traditional risk score did better for heart attack and stroke.\n- **Epicardial fat (Miami Heart Study):** Among people with low calcium, median non-calcified plaque volume was 34.5 mm³ in the top fat quartile and 11.9 mm³ in the bottom one.\n- Other abstracts cover chamber size on non-contrast CT and the Sybil lung-cancer model.\n\n## Caveats\n- These are conference abstracts described by the company, not peer-reviewed papers. Many are led by the same researchers.\n- The release states no FDA clearance for the tools described.\n- Several results come from research cohorts, which may not match today's clinic patients.\n\n## Key terms\n- **Agatston score**: the standard coronary calcium score, based on the area and brightness of calcium on CT.\n- **Opportunistic screening**: using scans taken for one purpose to look for other diseases.\n- **Epicardial fat**: the fat layer around the heart, linked to inflammation and plaque.\n- **AUC**: a 0.5–1.0 measure of how well a model ranks higher-risk people above lower-risk ones.\n- **Non-calcified plaque**: softer artery plaque without calcium, which standard calcium scoring cannot see.\n",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "health-mgmt",
+   "name": "AI in Healthcare Management",
+   "color": "#0ea5e9",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Corewell Health pilot: ambient AI drafts nurses' flowsheets, top users cut charting time by about half",
+     "url": "https://www.healthcareitnews.com/news/corewell-healths-ambient-ai-cuts-nursing-documentation-time-52",
+     "source": "Healthcare IT News",
+     "date": null,
+     "tldr": "In a 90-day pilot on two hospital units, Corewell Health let nurses speak their care aloud while Epic's ambient AI drafted the chart, saving an average of 28 minutes per shift for regular users.",
+     "summary_md": "## What happened\nCorewell Health, a Michigan health system, ran a 90-day phased pilot of Epic's ambient AI documentation for nurses on two medical-surgical units. The pilot involved 101 registered nurses and 81 nursing support staff. Nurses narrated care on hospital-issued phones (Epic Rover) and the system drafted structured chart entries for them to review and sign.\n\n## Why it matters\nMost ambient AI so far has targeted physician notes. Nursing charting is different: it is mostly structured flowsheet rows filled in many times per shift. Acute-care nurses spend about two hours per shift in the electronic health record (EHR), and 38% of Corewell's surveyed acute-care nurses reported burnout symptoms in 2025. If AI can take on part of that work, it frees time for patients.\n\n## Key details\n- 44% of nurses said they saved time and felt less charting burden; 41% reported better patient interactions.\n- Nurses who used the tool for about 60% of a shift saved an average of 28 minutes per shift.\n- The heaviest users cut flowsheet documentation time by 52% on average.\n- Charting latency (delay between care and documentation) improved by 15 minutes, or 9%.\n- The units logged about 754 recordings per week and avoided more than 277,000 clicks.\n- The rule is simple: AI drafts, the nurse reviews, edits and signs. Patients get a verbal explanation and can decline.\n- Hard parts included choosing which templates were in scope, avoiding duplicate templates, and making the review step quicker than typing.\n\n## Caveats\nThis is a small, self-reported pilot on two units picked for strong engagement, so results may not hold system-wide. The headline 52% applies only to top users. Patient-experience results were mixed between the two units. Effects on length of stay and documentation accuracy still need validation. The article gives no clear publication date.\n\n## Key terms\n- **Ambient AI documentation:** software that listens to speech during care and drafts the chart entry automatically.\n- **Flowsheet:** the grid of structured rows (vital signs, assessments, interventions) nurses fill in during a shift.\n- **Documentation latency:** the time between doing a task and recording it in the chart.\n- **EHR (electronic health record):** the hospital's digital patient chart system, here Epic.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Ninety-Six Ways to Measure a Scribe: Fragmented Evaluation of Ambient Scribes in Healthcare",
+     "url": "https://arxiv.org/abs/2611.14284",
+     "source": "arXiv",
+     "date": "2026-11-10",
+     "tldr": "A review of 54 studies of AI scribes finds researchers used 40 different metrics in 96 different ways, mostly measuring time saved and rarely measuring safety or patient outcomes.",
+     "summary_md": "## What happened\nResearchers reviewed 54 recent evaluations of ambient AI scribes, the tools that listen to a clinic visit and draft the doctor's note. They catalogued what each study measured and how. They found 10 broad evaluation dimensions and 40 distinct metrics, applied in 96 different ways. Thirty-five of those variants appeared in only one study.\n\n## Why it matters\nHealth systems are moving scribes from pilots to system-wide rollouts and spending real money on them. Leaders want evidence to choose vendors and justify cost. If every study measures something different, results cannot be compared or pooled, and buyers end up relying on vendor claims. For anyone designing a deployment study, this paper is a map of what has been measured and what is missing.\n\n## How it works\nThe authors grouped each study's outcome measures into dimensions such as documentation efficiency, note quality, clinician experience, safety and clinical outcomes. They then counted how often each metric appeared and how it was defined. Efficiency and time dominated: 44 of the 54 studies measured them. Safety and clinical outcomes were measured least consistently. System-level effects were rarely studied, such as changes in patient outcomes, shifting workload to other staff, billing and coding, and how downstream clinicians use the notes. Many measures relied on clinician self-report and were defined differently from study to study. The authors call for a shared, multi-dimensional core set of metrics.\n\n## Caveats\nThis is a review of existing studies, not a new trial, so it says nothing directly about whether scribes work. It is a preprint and has not been peer reviewed. The abstract does not detail the search method or date range, so coverage of the literature is hard to judge from the summary alone.\n\n## Key terms\n- **Ambient AI scribe:** software that records a patient visit and drafts a clinical note for the clinician to edit.\n- **Metric:** a specific, defined measurement, such as minutes spent on notes after hours.\n- **Self-report:** data that comes from participants' own answers on surveys rather than from system logs.\n- **Core outcome set:** an agreed minimum list of outcomes that all studies in a field should report.",
+     "image": null,
+     "authors": [
+      "Amama Mahmood",
+      "Shiye Cao",
+      "Laura Fleig",
+      "Junan Jiang",
+      "Theodore Jensen",
+      "Yee-Yin Choong"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.14284"
+    },
+    {
+     "kind": "news",
+     "title": "Health system IT leaders warn AI and staff-built tools are outpacing governance",
+     "url": "https://healthsystemcio.com/2026/11/16/ai-governance-change-control/",
+     "source": "healthsystemCIO",
+     "date": "2026-11-16",
+     "tldr": "At a CHIME fall forum panel, IT leaders from LifeBridge, CHRISTUS, UNC Health and Tanner Health said quiet failures from bots and homemade AI tools now pose more risk than outright outages.",
+     "summary_md": "## What happened\nAt the CHIME26 Fall Forum on 13 November, four health-system technology executives discussed where control breaks down as AI spreads. The moderator, LifeBridge Health's CIO, said innovation is now moving faster than governance. Panelists came from CHRISTUS Health, UNC Health and Tanner Health, a five-hospital system in Georgia and Alabama.\n\n## Why it matters\nHospitals now run bots, AI agents and tools that staff build themselves. These can fail silently. A CHRISTUS leader described a scenario in which a background referral bot left cardiology referrals stuck in a queue for six to eight months. A full outage is easier to spot because everyone knows something is broken. For hospital operations, the lesson is that governance must cover monitoring and change control, not just initial approval.\n\n## Key details\n- **Watch for odd patterns, not just crashes.** A queue that normally holds 1,500 items but suddenly holds 12,000, or a clinic that gets no cardiology referrals on a Monday when it usually gets 3 to 4, should trigger a check.\n- **One front door for outside connections.** After the 2024 Change Healthcare cyberattack, CHRISTUS cut its 15 or 16 separate links to that vendor down to one integration point, so a compromised partner can be cut off fast.\n- **Separate builders from reviewers.** Staff can build tools in a test environment, but people who did not build them should approve the move into production.\n- **Control is spreading out.** UNC Health's analytics chief cited an unapproved AI connector server on a personal computer and patients using AI agents to book appointments.\n- **Clinicians decide downtime.** Tanner sends clinician-built AI apps to an AI governance committee and has departments write their own business-impact plans.\n\n## Caveats\nThese are views and anecdotes from four executives, not measured outcomes. The stuck-referral case was presented as a scenario and the organization was not named. Who is liable when a patient's AI agent makes a mistake remained an open question.\n\n## Key terms\n- **Change control:** a formal process for approving and tracking changes to systems in live use.\n- **Zero trust:** a security approach where no user or system is trusted by default; every action must be verified.\n- **Integration platform:** central software that routes all data exchanges between the hospital and outside systems.\n- **Business impact analysis:** a plan describing what happens to operations if a system fails and how to cope.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pharma-reg",
+   "name": "Pharmaceutical Regulation",
+   "color": "#8b5cf6",
+   "items": [
+    {
+     "kind": "guidance",
+     "title": "Scotland's medicines HTA body tells companies how to disclose AI use in their submissions",
+     "url": "https://scottishmedicines.org.uk/about-us/latest-update/position-statement-on-the-use-of-artificial-intelligence-ai-in-medicines-submissions/",
+     "source": "Scottish Medicines Consortium",
+     "date": "2026-11-03",
+     "tldr": "The Scottish Medicines Consortium now expects drug companies to say exactly where and how AI was used in a submission, name the model version, keep humans accountable, and validate AI work in proportion to its risk.",
+     "summary_md": "## What happened\nThe Scottish Medicines Consortium (SMC), which advises NHS Scotland on whether new medicines are worth funding, published a position statement on AI in company submissions. The PDF is dated 22 October 2026, and SMC announced it on 3 November alongside updated submission templates.\n\n## Why it matters\nHealth technology assessment (HTA) bodies decide whether medicines get paid for, and they are now writing AI rules of their own. SMC joins Canada's Drug Agency and NICE, which it cites. Companies that use large language models (LLMs) to draft dossiers or run literature reviews will need a disclosure trail, and that trail should hold up across agencies.\n\n## Key details\n- **Scope:** literature reviews, evidence synthesis, data extraction, real-world data analysis, economic modelling, drafting, quality checks, and synthetic patient cohorts.\n- **Disclosure:** companies should say which parts of the submission AI supported and why. They should name the tool type, the platform, the exact model version and the dates it was run.\n- **Prompts as methods:** for generative AI, prompts count as part of the methodology. Companies should be ready to share them when the AI did analytically important work.\n- **Human oversight:** qualified people must check every AI-supported output. Companies stay responsible for errors, made-up references and hallucinations, and should report any they found and fixed.\n- **Proportionality:** economic models and literature reviews get close scrutiny. Routine drafting gets lighter scrutiny but still needs disclosure.\n- **Synthetic data and digital twins:** these must be checked against real-world data, which matters most for rare diseases and external control arms.\n- **Confidentiality:** companies should take care when external or public AI tools handle confidential data, and explain how they kept it secure.\n- SMC does not expect routine pre-submission talks about AI use.\n\n## Caveats\nThis is a position statement, not a binding regulation. It names no banned uses and gives no fixed review date. It covers HTA submissions in Scotland, not marketing authorisation. How strictly assessors will enforce the disclosure expectations is not yet clear.\n\n## Key terms\n- **HTA (health technology assessment):** judging whether a medicine's benefits justify its cost to a health system.\n- **Human-in-the-loop:** a qualified person reviews and signs off on what the AI produces.\n- **Hallucination:** a confident but false output from a generative AI model, such as a citation that does not exist.\n- **Synthetic cohort:** computer-generated patient data used in place of, or alongside, real patients.\n- **Economic model:** a calculation that estimates a drug's costs and health gains over time.\n",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "IFPMA sets out what drugmakers expect when regulators use AI to review their dossiers",
+     "url": "https://www.ifpma.org/publications/the-use-of-artificial-intelligence-in-regulatory-activities-key-areas-and-considerations/",
+     "source": "IFPMA",
+     "date": "2026-11-09",
+     "tldr": "The global innovative-pharma trade group asks regulators that use AI to keep humans accountable, check AI findings against source documents, keep sponsors' confidential data out of model training, and record which model version produced each output.",
+     "summary_md": "## What happened\nThe International Federation of Pharmaceutical Manufacturers and Associations (IFPMA) published a position paper on 9 November 2026. It looks at the other side of the usual question: not how companies use AI, but how regulators use it on companies' submissions. It covers retrieving documents, reviewing submissions, scientific assessment, inspection support and drafting regulatory outputs.\n\n## Why it matters\nAgencies already use AI in review work. The paper points to examples at Japan's PMDA, the EMA/HMA network, the UK MHRA, the US FDA and Brazil's ANVISA. If an AI tool helps write a deficiency letter or an inspection finding, sponsors want to know about it and want the finding to be traceable. For people working in regulatory affairs, this sets out the industry's opening position before agencies write their own internal AI rules.\n\n## Key details\n- **Accountability:** the final decision stays with the agency and its qualified assessors and inspectors. AI may support the work but should not make the decision.\n- **Source verification:** the proposed workflow runs from AI-supported analysis, to checking against authoritative documents, to expert judgement, and only then to a regulatory output.\n- **Sponsor data:** confidential dossier data should not be used to train or fine-tune models without authorisation and safeguards.\n- **Segregation:** when one system handles many companies' files, one sponsor's data must not influence another sponsor's outputs. The paper raises prompt isolation and separate retrieval indexes.\n- **Transparency and traceability:** sponsors should be able to tell when AI materially shaped a question or conclusion. Records should log the tool, the model version and the conditions behind each output.\n- **Lifecycle and convergence:** the paper calls for version control, monitoring and re-evaluation as models change. It also backs shared terminology and evaluation methods across agencies, building on FDA–EMA and ICMRA work.\n\n## Caveats\nThis is an industry lobbying document, not guidance, and it creates no obligations. It describes regulators' AI use from public information, not from internal audits. Some of the details here come from a secondary summary by AIforPharma.org, because the full PDF could not be opened.\n\n## Key terms\n- **Position paper:** a formal statement of an organisation's views, meant to influence policy.\n- **Fine-tuning:** further training of an existing AI model on a narrower dataset.\n- **Retrieval index:** the searchable store of documents an AI system draws on when it answers.\n- **Traceability:** being able to reconstruct which tool, data and model version produced an output.\n- **ICMRA:** the International Coalition of Medicines Regulatory Authorities, a forum where agency heads coordinate.\n",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "AICURIS: an AI system that tracks and compares how FDA, EMA and WHO regulate AI in therapeutics",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006491/",
+     "source": "Frontiers in Drug Safety and Regulation",
+     "date": "2026-03-09",
+     "tldr": "Researchers built a pipeline that scanned more than 440,000 FDA, EMA and WHO documents and caught about 95% of the most clearly AI-related ones, giving a weekly-updated map of how drug regulators talk about AI.",
+     "summary_md": "## What happened\nA team led by Rominder Singh and Jared Auclair built AICURIS, a regulatory-intelligence system that collects and labels AI-related content from FDA, EMA and WHO websites. Regulatory intelligence means tracking and interpreting what regulators publish. They report it in *Frontiers in Drug Safety and Regulation* (March 2026).\n\n## Why it matters\nRules on AI in drug development are scattered across agencies, guidance pages, meeting notes and press releases. The authors note that AI rules in healthcare are spread across more than 70 countries. Regulatory affairs teams struggle to keep up by hand. A system that flags new AI-related documents each week could cut that monitoring work, as long as its blind spots are understood.\n\n## How it works\n- **Collection:** automated crawlers gathered 442,437 documents from 2019 to 2025, following each site's crawling rules. Filtering to English and dropping irrelevant categories left 99,070.\n- **Classifier:** each document is compared with 34 agency reference documents and one synthetic \"concept anchor\" text. The comparison uses semantic embeddings, which turn text into numbers that capture meaning, plus keyword scores. A document is flagged if either method passes its threshold.\n- **Results:** on 127 hand-labelled FDA documents, the system found 94.6% of high-priority items and 71.7% of all relevant ones. It flagged about 3% of the corpus for human review (2,988 documents): 2,433 from FDA, 538 from EMA and 17 from WHO.\n- **Bias fix:** adding 8 EMA examples to the reference set raised EMA's flag rate from 1.6% to 2.4%. This shows the system leaned toward FDA wording.\n- **Monitoring:** weekly updates take under an hour.\n\n## Caveats\nPrecision, meaning how many flagged documents are truly relevant, was not measured. The test set came only from FDA. Coverage is limited to English and to three Western-leaning bodies, so it does not reach PMDA, Health Canada or African regulators. A fixed reference set may miss new AI terms. The trend analyses are illustrative, not validated. This paper is older than this week's other items but relevant to anyone building AI watch-lists.\n\n## Key terms\n- **Recall:** the share of truly relevant documents the system catches.\n- **Precision:** the share of flagged documents that are truly relevant.\n- **Semantic embedding:** a numeric representation of text that places similar meanings close together.\n- **Ensemble (OR rule):** combining two methods so that a document counts if either one flags it.\n",
+     "image": null,
+     "authors": [
+      "Rominder Singh",
+      "Mukesh Pareek",
+      "Michael Prokle",
+      "Eduardo Sanchez",
+      "Uwe Hohgrawe",
+      "Jared R. Auclair"
+     ],
+     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006491/pdf/fdsfr-06-1718379.pdf"
+    }
+   ]
+  },
+  {
+   "id": "devices",
+   "name": "Medical Devices",
+   "color": "#10b981",
+   "items": [
+    {
+     "kind": "news",
+     "title": "HealthAI unveils a global public directory of registered AI medical devices, with an adverse-event warning system to follow",
+     "url": "https://natlawreview.com/press-releases/ai-safety-concerns-grow-international-health-leaders-convene-healthai-global",
+     "source": "HealthAI press release (via The National Law Review)",
+     "date": "2026-11-18",
+     "tldr": "HealthAI launched a free, searchable directory that pulls together registration records for AI medical devices from national and regional databases, and says a shared system for warning regulators about AI-related harms will come next.",
+     "summary_md": "## What happened\nAt its Global Governance Forum in London on 18 November 2026, HealthAI (a global body that works with governments on AI in health) unveiled the Global Public Directory of Registered AI-enabled Healthcare Solutions. Version 1 opens for use after the forum. HealthAI also announced plans for a Global Early Warning System, but gave no launch date.\n\n## Why it matters\nRight now, if you want to know where a given AI device is legally on the market, you have to search each regulator's database separately, and each one labels devices differently. One place that lines up these records could help smaller regulators rely on decisions made elsewhere instead of repeating full reviews. A shared warning system could also help a problem seen in one country reach regulators in other countries faster. For anyone working on post-market surveillance, that is the part to watch.\n\n## Key details\n- The directory combines records from national and regional device databases into one standard format. Each entry lists intended use in each region, the authority that registered it, the manufacturer and the risk class.\n- An optional AI section can describe the algorithm type and the training data.\n- The planned early warning system would let regulators collect, analyse and share reports of AI-related adverse events.\n- HealthAI's Global Regulatory Network has 10 member countries, according to its website. They include the UK (MHRA), Singapore, India, Brazil and Portugal (INFARMED, the first EU member).\n- The forum is an official pre-event for the 2027 Geneva AI Summit. The UK MHRA's chief executive gave a keynote.\n\n## Caveats\n- This is the organiser's own press release. It gives no count of devices in the directory and does not say which national databases feed it.\n- The optional AI fields mean details like training data may often be missing.\n- The FDA and EU-level bodies are not listed as network members, so how fully US and EU records are covered is unclear.\n- The warning system is a plan, not a working tool.\n\n## Key terms\n- **Regulatory reliance**: one regulator using another's review to speed up or simplify its own decision.\n- **Risk class**: the category a regulator gives a device based on how much harm it could cause (for example, Class I to III).\n- **Adverse event**: an unwanted, harmful outcome linked to using a medical product.\n- **Post-market surveillance**: tracking how a device performs and what goes wrong after it is on sale.\n",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Critical points of conformity assessment of AI-based medical device software in the European Union",
+     "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1937428/full",
+     "source": "Frontiers in Artificial Intelligence",
+     "date": "2026-11-05",
+     "tldr": "Researchers at Italy's National Institute of Health list the places where the EU's medical device rules and its AI Act overlap or clash for AI software, from incident reporting to notified body skills.",
+     "summary_md": "## What happened\nFour researchers from Italy's National Institute of Health (Istituto Superiore di Sanità, ISS) published a policy and practice review on how AI medical device software is checked before it can be sold in the EU. They focus on how the device regulations (MDR and IVDR) fit with the EU AI Act. The journal accepted the paper on 5 November 2026; the final formatted version is still to come.\n\n## Why it matters\nUnder the AI Act, AI device software that already needs a third-party check under the MDR is usually treated as a \"high-risk\" AI system. That means manufacturers face two sets of rules for the same product. The authors argue that the two rulebooks do not fully match. Where they don't, companies face uncertainty and duplicated work, and so do the notified bodies that certify them. For someone moving between regulatory and engineering roles, this gives a useful checklist of where an EU technical file can fall short.\n\n## How it works\nThe paper reviews the legal texts and compares the obligations side by side. It points to these gaps:\n- Quality management and post-market surveillance duties that overlap but are not the same.\n- Different surveillance duties for low-risk AI device software.\n- Different thresholds for when an incident must be reported.\n- Open questions about adaptive systems tested in real-world conditions.\n- Uncertainty over the exemption for devices made and used inside one health institution.\n- Roles that sound similar in the two laws but carry different responsibilities.\n- How to classify general-purpose AI models built into clinical apps.\n- Notified bodies that lack AI assessment skills.\nThe authors call for joint guidance from the boards that oversee each law.\n\n## Caveats\n- It is a policy review with no new data and no numbers.\n- Only the abstract was available when this summary was written, so the detailed arguments could not be checked.\n- The EU has since proposed changes to the AI Act timelines and the MDR, which may change some of these points.\n\n## Key terms\n- **Conformity assessment**: the process of showing that a product meets EU legal requirements before it gets a CE mark.\n- **Notified body**: an independent organisation designated by an EU country to certify medium- and high-risk devices.\n- **MDR / IVDR**: the EU Medical Device Regulation and In Vitro Diagnostic Regulation.\n- **High-risk AI system**: an AI Act category that carries the strictest duties, such as risk management, data governance and human oversight.\n- **In-house exemption**: a rule letting hospitals make and use certain devices internally without full certification.\n",
+     "image": null,
+     "authors": [
+      "Carla Daniele",
+      "Giuseppe D'Avenio",
+      "Sandra Morelli",
+      "Cecilia Poli"
+     ]
+    },
+    {
+     "kind": "news",
+     "title": "Analysis of FDA's AI device list: 1,614 devices, 96% via 510(k), and at least 69 recent clearances mention a change control plan",
+     "url": "https://www.arca.inc/blog/fda-ai-enabled-medical-devices-list",
+     "source": "Arca (company analysis)",
+     "date": "2026-11-18",
+     "tldr": "A breakdown of FDA's public list of AI-enabled devices finds radiology still dominates at 76%, but its share is slipping, and change control plans show up far more often in cardiology clearances than in radiology ones.",
+     "summary_md": "## What happened\nArca, a regulatory software company, published an analysis of the FDA's public list of AI-enabled medical devices on 9 November 2026 and updated it on 18 November. The list held 1,614 devices with FDA decisions through 29 June 2026.\n\n## Why it matters\nThe FDA list is the main public record of which AI devices are authorised in the US. This analysis adds one useful number: how often recent clearances mention a predetermined change control plan, a tool that lets makers update a model without a new submission. Cardiovascular devices use these plans about three times as often as radiology devices. That matters if you are building an imaging or ECG model you plan to retrain later.\n\n## Key details\n- **Specialty:** Radiology review panels handled 1,230 devices (76%). Cardiovascular had 154, neurology 73, anesthesiology 30 and gastroenterology-urology 27.\n- **Pathway:** 1,553 devices (96%) were cleared via 510(k), 40 via De Novo and 21 via premarket approval (PMA).\n- **Concentration:** Five product codes cover 49% of devices. One radiology image-processing regulation (21 CFR 892.2050) covers 527 devices, about a third of the list.\n- **Trend:** Radiology's share of each year's devices peaked at 87% in 2020 and fell to 75% in 2026. Non-radiology devices rose from 24 in 2022 to 81 in 2025.\n- **Growth:** 335 devices were decided in 2025, up 43% from 2024. 181 were decided in the first half of 2026.\n- **Change control plans:** Of 949 510(k)s decided since 2023, at least 69 mention one. That is 17% in cardiovascular, 13% in neurology and 6% in radiology.\n\n## Caveats\n- This is a vendor's blog post, not a peer-reviewed study. No author is named, and the methods are only briefly described.\n- The 69 is a minimum. Clearance letters may not mention a plan that exists.\n- Devices appear on the FDA list a median of 100 to 127 days after their decision, so recent quarters are undercounted.\n- The FDA list covers only devices the agency has flagged as AI-enabled.\n\n## Key terms\n- **510(k)**: an FDA pathway where a maker shows its device is substantially equivalent to one already on the market.\n- **De Novo**: an FDA pathway for new low- to moderate-risk devices that have no equivalent on the market.\n- **PMA (premarket approval)**: the strictest FDA review, used for high-risk devices.\n- **Predetermined change control plan (PCCP)**: a pre-agreed plan describing which model updates a maker may make, and how it will test them.\n- **Product code**: FDA's three-letter label grouping similar device types.\n",
+     "image": null
+    }
+   ]
+  }
+ ]
+}
