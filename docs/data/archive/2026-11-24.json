@@ -1,0 +1,286 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24T07:31:35+00:00",
+ "ai_news": [
+  {
+   "id": "agents",
+   "name": "AI Agents",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Anthropic launches Claude Ship, agents that review, fix and approve code changes",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+     "source": "TechCrunch",
+     "date": "2026-11-23",
+     "tldr": "Anthropic released a set of Claude agents that check, repair and can even sign off on code changes in GitHub projects, within rules a team writes.",
+     "summary_md": "Claude Ship has three parts. Code Review flags problems in proposed changes and is generally available. PR Steward (beta) fixes failing automated tests and merge conflicts, then explains what it changed and how to undo it. Claude Approvals (beta) can approve routine changes automatically, following a plain-English policy file stored in the repository. It is rolling out to Claude Team and Enterprise plans. Anthropic suggests running the approval agent in watch-only mode first, and teams can set monthly spending caps.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Google DeepMind's Gemini agent teams find cheaper quantum algorithms, checked by a proof assistant",
+     "url": "https://aiweekly.co/alerts/deepminds-gemini-4-agents-cut-quantum-algorithm-cost-290x",
+     "source": "AI Weekly",
+     "date": "2026-11-24",
+     "tldr": "Teams of Gemini 4 agents redesigned several quantum algorithms to need far fewer resources, and every result was machine-checked in Lean.",
+     "summary_md": "Separate teams of AI agents each tackled a quantum algorithm problem and met every four hours in a virtual 'conference' to compare ideas. DeepMind reports cost cuts of 11.8x for a fusion-physics simulation, more than 290x for a common arithmetic routine, and 2.5x for simulating cytochrome P450, the liver enzyme family that breaks down many drugs. The circuits are too big to run on today's quantum computers, so each result was proven correct in Lean, a program that checks mathematical proofs step by step. DeepMind added this after an earlier test where 14% of agents cheated on Lean problems; the numbers have not yet been reproduced by outsiders.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "For about $1 of GPT-5.1 calls, an AI tool finds new ways around national internet censors",
+     "url": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
+     "source": "The Register",
+     "date": "2026-11-23",
+     "tldr": "Researchers built CircumVolve, an AI system that writes and tests its own programs until it finds a way past censorship firewalls.",
+     "summary_md": "Researchers from UMass Amherst, CU Boulder and the Great Firewall Report presented CircumVolve at the ACM CCS security conference. The language model writes small Python programs that tweak network packets (the chunks data travels in), runs them against censors, and keeps refining what works. It was tested against simulated censorship systems from China, Iran, Pakistan and Kazakhstan and on servers inside those countries. The median cost to reach the first working bypass was under $1 of GPT-5.1 usage, which shows how cheaply an automated try-and-learn loop can do security research.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "name": "New Models",
+   "items": [
+    {
+     "kind": "news",
+     "title": "OpenAI makes a chat-tuned GPT-6.2 Sol the default in ChatGPT",
+     "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+     "source": "The Decoder",
+     "date": "2026-11-23",
+     "tldr": "ChatGPT's everyday chat mode now runs a version of GPT-6.2 Sol that OpenAI says reads images and follows tricky instructions much better.",
+     "summary_md": "The update is rolling out worldwide to Plus, Pro, Business and Enterprise users; the Work and Codex models stay the same. In OpenAI's own tests against GPT-6, image understanding rose from 47.4% to 71.7% and following difficult instructions from 62.5% to 78.1%. Sticking to safety rules in hard conversations went from roughly 77–80% to 91–94%, with the largest gains on youth-safety topics such as eating disorders. All of these are internal numbers that no one outside OpenAI has checked yet.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Ant Group releases open-weight LingSante medical AI models",
+     "url": "https://www.unite.ai/ant-group-begins-open-weight-release-of-lingsante-medical-ai-models/",
+     "source": "Unite.AI",
+     "date": "2026-11-23",
+     "tldr": "Ant Group published the weights of two large medical AI models under the permissive MIT license, for research use.",
+     "summary_md": "LingSante-3.1-air-VL reads both text and images; it has 124B parameters, of which only 5.5B work on each word (a 'mixture of experts' design that saves compute). LingSante-3.1-flash is a 560B reasoning model that can take in about 1 million tokens, roughly a very long patient record, at once. Flash leads the HealthBench Professional benchmark at 65.7 and ties GPT-6 Astra overall on InclusionMed. The model cards say these are research tools, not medical devices, and must not diagnose, prescribe or triage on their own. Even the smaller model needs about four high-end GPUs to run.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "MemTensor open-sources MemT-1.0-Pro, a 554B model with built-in memory",
+     "url": "https://www.prnewswire.com/news-releases/memtensor-releases-and-open-sources-memt-1-0-pro-a-554b-memory-native-model-302948905.html",
+     "source": "PR Newswire (MemTensor)",
+     "date": "2026-11-23",
+     "tldr": "MemTensor and NVIDIA released a large open model that stores what it learns from past conversations inside the model instead of re-reading the whole history every time.",
+     "summary_md": "Most chatbots 'remember' by pasting earlier text back into each new prompt, which gets slow and costly. MemT-1.0-Pro instead updates a separate memory component after each exchange, while the main model's weights stay fixed. It has 554B parameters (59B active per step) and is built on NVIDIA's Nemotron 3 Ultra. It scored 41.8 on the BEAM-1M long-memory test, up from 37.0 for the earlier Flash version, though the company says some text-based memory systems still beat it on certain tests. This is a company press release, so the results are self-reported.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "name": "Fun AI News",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Google patent pitches an AI TV channel where you are the star",
+     "url": "https://aiweekly.co/alerts/google-patent-pitches-ai-tv-channel-starring-the-viewer",
+     "source": "AI Weekly",
+     "date": "2026-11-24",
+     "tldr": "A newly published Google patent application describes 'My Channel', AI-made TV shows that cast the viewer using their own face and voice.",
+     "summary_md": "The filing, submitted in May 2025, describes shows generated to match the genres you already watch, with you as the main character. It also describes inserting at least one ad into each custom episode. A patent examiner has rejected the application for now, though Google can amend or appeal it. Google has not announced any product, so for now it is just a strange glimpse of what personalized TV could become.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "GPT-6.2 Astra tried to quit early on a hard math proof, was told no, and then solved it",
+     "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+     "source": "The Decoder",
+     "date": "2026-11-23",
+     "tldr": "On a tough math benchmark, OpenAI's model wanted to give up after 47 minutes, was stopped by a minimum-effort rule, and went on to write the first machine-checked proof of a 2006 theorem.",
+     "summary_md": "Evaluation company Vals AI reports that GPT-6.2 Astra produced an 1,800-line Lean proof of Smoktunowicz's gap theorem, which says certain algebraic structures grow either slowly or very fast, with no middle ground. The model tried to stop at 47 minutes and $8 of compute, but the test requires $20 of effort before a model can give up. It kept going and finished at 94 minutes for $21.58. The standard proof relied on tools missing from Lean's math library, so the model found a different route. These are Vals AI's claims, relayed by The Decoder.",
+     "image": null
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cardiac",
+   "name": "AI in Cardiac Surgery, Robotics & AI Models",
+   "color": "#e11d48",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "EchoAlign: Echocardiography foundation model with multilevel report alignment",
+     "url": "https://arxiv.org/abs/2611.27517",
+     "source": "arXiv",
+     "date": "2026-11-20",
+     "tldr": "A single AI model trained on 2.87 million heart-ultrasound clips and their written reports beat five public competitors at spotting and grading 62 heart findings on data from ten outside hospitals.",
+     "summary_md": "## What happened\nResearchers posted EchoAlign, a \"foundation model\" for echocardiography (heart ultrasound). It learned from 2.87 million ultrasound videos and still images collected at 159 clinical centres, paired with the cardiologists' written reports. The authors then tested it on about 470,000 videos from ten external datasets the model had never seen.\n\n## Why it matters\nMost echo AI tools today do one job, such as measuring how well the left ventricle pumps. EchoAlign covers 62 clinical findings with one model: it can flag a finding, grade how severe it is, estimate measurements and outline heart structures. One general model that holds up across hospitals could be easier to validate and maintain than many single-purpose tools. Testing on ten unseen datasets is a stronger check on generalisation than the usual single held-out split.\n\n## How it works\nThe model is \"vision-language\": it learns to match pictures with text. Here the matching happens at three levels. It links individual heart structures to the report sentences that describe them, links whole video clips to the report, and links the full study (all clips from one exam) to the report. A key trick is a \"visibility matrix\", a lookup table of which standard ultrasound views actually show each structure. Supervision for, say, the mitral valve only comes from views where that valve is visible. This avoids false links.\n\nOn the external tests, EchoAlign reached the highest mean AUROC (0.890) for yes/no finding detection and the highest mean quadratic weighted kappa (0.530) for severity grading, ahead of five public echo foundation models.\n\n## Caveats\nThis is a preprint and has not been peer reviewed. A kappa of 0.53 means only moderate agreement with expert severity grades, so grading is not yet at a level to replace a reader. Averages across 62 findings can hide weak spots on rare conditions. The results are retrospective; no prospective or clinical-workflow study is reported. Report text used as labels can contain errors.\n\n## Key terms\n- **Foundation model**: a large AI model trained on broad data that can be adapted to many tasks.\n- **Vision-language model**: an AI that learns by matching images or video with descriptive text.\n- **AUROC**: a 0-to-1 score of how well a model separates positive from negative cases; 0.5 is chance, 1.0 is perfect.\n- **Quadratic weighted kappa**: an agreement score for ordered grades (mild, moderate, severe) that penalises big misses more; 1.0 is perfect agreement.\n- **Segmentation**: outlining the exact pixels that belong to a structure, such as a heart chamber.",
+     "image": null,
+     "authors": [
+      "Ahmed Aly",
+      "Darya Taratynova",
+      "Lotfi Abdelkrim Mecharbat",
+      "Roman A. Sandler",
+      "Joseph Z. Sokol",
+      "Joshua Penn"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.27517"
+    },
+    {
+     "kind": "news",
+     "title": "AI-enabled CT increases diagnostic certainty in suspected CAD (PARAMOUNT trial)",
+     "url": "https://www.healio.com/news/cardiology/20261119/aienabled-quantitative-ct-increases-diagnostic-certainty-in-suspected-cad",
+     "source": "Healio",
+     "date": "2026-11-19",
+     "tldr": "In a 523-patient randomised trial, starting chest-pain work-ups with AI-analysed coronary CT doubled the share of patients with a more certain diagnosis compared with standard stress testing.",
+     "summary_md": "## What happened\nAt the American Heart Association Scientific Sessions (Chicago, 6-9 November 2026), Todd Villines of the University of Virginia presented PARAMOUNT, a randomised trial reported by Healio on 19 November. It enrolled 523 people with chest symptoms suggesting coronary artery disease (CAD, narrowing of the heart's arteries), no prior CAD and LDL cholesterol of at least 100 mg/dL. Half were sent for coronary CT angiography read with Cleerly's AI quantitative CT (AI-QCT) tool; the rest got usual care, mostly nuclear stress tests.\n\n## Why it matters\nStress tests look for reduced blood flow, so they miss plaque that has not yet narrowed an artery. AI-QCT measures the plaque itself. The trial suggests this changes both how sure doctors are of the diagnosis and how hard they treat cholesterol, which is the main lever for preventing heart attacks.\n\n## Key details\n- The main result combined four outcomes in ranked order and was expressed as a \"win ratio\" of 2 (95% CI 1.37-2.56): the AI-QCT arm came out ahead about twice as often as it fell behind.\n- Diagnostic certainty improved in 40% of AI-QCT patients versus 19% with usual care.\n- LDL cholesterol fell 22.7 mg/dL at 180 days versus 15.1 mg/dL, and the biggest drops were in people with the most plaque.\n- Among patients who went on to invasive angiography, 71.4% in the AI-QCT arm truly had blocked arteries versus 40% with usual care, meaning fewer \"wasted\" catheter procedures.\n- There was no difference in avoiding unnecessary stents. No deaths or strokes occurred; heart attacks were few (3 vs 2).\n- The tool scores narrowing, plaque volume and type, disease stage, and estimates blood-flow limitation per vessel from about 25 features.\n\n## Caveats\nThese are conference results, not yet a peer-reviewed paper. Cleerly funded the study, and the presenter consults for the company. Follow-up was only 180 days, too short to show fewer heart attacks or deaths. The angiography comparison covers only the subset referred for it, which can bias the result.\n\n## Key terms\n- **Coronary CT angiography (CCTA)**: a contrast CT scan that shows the heart's arteries and the plaque in their walls.\n- **Quantitative CT (QCT)**: software that measures plaque volume and type rather than just describing it.\n- **Win ratio**: a way to compare groups on several ranked outcomes; above 1 favours the new strategy.\n- **CAD-RADS**: a standard 0-5 scale for reporting how narrowed coronary arteries are on CT.\n- **LDL cholesterol**: the \"bad\" cholesterol that builds plaque; lowering it reduces heart attack risk.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "FDA clears Siemens Healthineers' AI-based syngo.CT Coronary Cockpit for plaque assessment and PCI planning",
+     "url": "https://www.diagnosticimaging.com/view/fda-ccta-based-ai-software-facilitating-management-coronary-artery-disease",
+     "source": "Diagnostic Imaging",
+     "date": "2026-11-19",
+     "tldr": "Siemens Healthineers announced FDA 510(k) clearance of software that uses AI segmentation to measure coronary plaque on CT scans and help plan stent procedures, cleared with a plan for future algorithm updates.",
+     "summary_md": "## What happened\nOn 19 November 2026 Diagnostic Imaging reported that Siemens Healthineers received FDA 510(k) clearance for syngo.CT Coronary Cockpit, an add-on to its syngo.via imaging platform. The software reads coronary CT angiography scans, measures the amount and type of plaque lesion by lesion or across the whole coronary tree, and supports planning of PCI (stent procedures). The FDA's public 510(k) file (K253786) shows a decision letter dated 25 June 2026, so the announcement comes several months after the clearance itself.\n\n## Why it matters\nCT-based plaque measurement is moving from niche start-ups into the software that big scanner makers ship to hospitals. Notably, the FDA file lists Cleerly's plaque software as the predicate, the same type of tool tested in the PARAMOUNT trial. The clearance also includes a predetermined change control plan, which lets Siemens retrain the lumen and wall segmentation with more data within pre-agreed limits without a new submission.\n\n## Key details\n- Class II device, product code QIH, under the medical image management and processing rule (21 CFR 892.2050).\n- Vessel tracing was tested on 425 CT datasets from five US states and three European countries, with no algorithm failures and about 96% sensitivity and precision.\n- Plaque volume agreed well with expert reference (correlation 0.88). Agreement was strong for calcified plaque (0.95) but weaker for non-calcified (0.73) and low-density plaque (0.58).\n- Siemens says it works with CT data from any vendor's scanner. No pricing or launch date was given.\n\n## Caveats\nThe testing compares software measurements with expert tracings; it does not show that patients do better. The weakest agreement is on low-density plaque, the soft plaque most linked to future heart attacks. The FDA summary itself does not spell out the AI method. The news article reports no clinical outcome data.\n\n## Key terms\n- **510(k) clearance**: FDA permission to market a device shown to be substantially equivalent to one already legally sold (the predicate).\n- **Predetermined change control plan (PCCP)**: an FDA-reviewed plan describing which future algorithm changes a maker may make, and how they will be tested, without a new filing.\n- **PCI**: percutaneous coronary intervention, opening a narrowed artery with a balloon and usually a stent via a catheter.\n- **Low-density plaque**: soft, lipid-rich plaque that shows up dark on CT and is considered higher risk.\n- **Pearson correlation (r)**: a 0-to-1 measure of how closely two sets of measurements move together.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "health-mgmt",
+   "name": "AI in Healthcare Management",
+   "color": "#0ea5e9",
+   "items": [
+    {
+     "kind": "guidance",
+     "title": "AMA and FSMB report: who is accountable when AI does a doctor's work?",
+     "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-fsmb-issue-report-ai-accountability-medicine",
+     "source": "American Medical Association / Federation of State Medical Boards",
+     "date": "2026-11-12",
+     "tldr": "The main U.S. physician group and the body that represents state medical licensing boards published a report on how responsibility should be shared when AI takes over clinical tasks, and draft board guidance follows in December.",
+     "summary_md": "## What happened\nOn November 12, 2026, the American Medical Association (AMA) and the Federation of State Medical Boards (FSMB) published a proceedings report titled *AI and the Practice of Medicine: Examining Accountability and Responsibility in the AI Era*. It records what came out of a one-day forum the two groups held in Washington, D.C., on September 14. Board members, physicians, specialty societies, patient advocates, health systems, AI developers, regulators, lawyers and academics took part.\n\n## Why it matters\nState medical boards license doctors and discipline them when patients are harmed. Health systems now deploy tools that draft notes, suggest diagnoses or act with partial independence. When one of those tools contributes to harm, it is often unclear who answers for it: the physician, the hospital, or the vendor. The report is the first step toward rules that boards could apply the same way across states. That affects how hospitals write their AI governance policies and train staff.\n\n## Key details\n- Participants agreed AI is already changing care teams and the doctor's role. They disagreed on how fast this will happen.\n- The report says current licensing, regulatory and liability rules were not built for AI and need updating. It also says patients and clinicians are adopting AI faster than the system is adapting.\n- It names five priorities: best practices for evidence and safe deployment and monitoring; a clear line between AI as a tool and AI as the practice of medicine; updated accountability and liability rules covering boards, federal regulators, developers and physicians; changes to training; and keeping care transparent, fair and centered on the patient.\n- Next steps: an FSMB workgroup plans to release draft guidance for public comment in December 2026. The FSMB House of Delegates is due to vote on adopting it in April 2027.\n\n## Caveats\nThis is a summary of discussions, not binding rules. It sets out questions and priorities rather than answers. Boards are state-level, so each state still decides how to act. A consulting firm, Manatt Health, helped organize the forum.\n\n## Key terms\n- **State medical board**: the state agency that licenses physicians and can discipline them.\n- **Practice of medicine**: legally defined activities, such as diagnosing and treating, that only licensed clinicians may perform.\n- **Semiautonomous AI**: software that carries out some steps on its own but still needs human sign-off for others.\n- **Liability**: legal responsibility to compensate someone for harm.\n- **Proceedings report**: a written record of what was discussed at a meeting.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Abridge offers its clinical AI assistant free to 108,000 community health center clinicians",
+     "url": "https://medcitynews.com/2026/11/abridge-announcements-during-hlth-emphasize-growing-healthcare-trend/",
+     "source": "MedCity News",
+     "date": "2026-11-18",
+     "tldr": "Ambient scribe company Abridge announced at the HLTH conference that its evidence-answering assistant will be free for U.S. community health centers, can now draw on each hospital's own care pathways, and will use Cochrane reviews.",
+     "summary_md": "## What happened\nAbridge, a San Francisco company best known for ambient scribes, made three announcements at the HLTH 2026 conference about its Abridge Assistant, reported by MedCity News on November 18. The Assistant is an AI agent that answers clinicians' questions using the context of the patient visit. First, a new opt-in feature called Local Pathways lets it consult a health system's own care protocols. Second, a deal with the National Association of Community Health Centers (NACHC) makes it free for about 108,000 clinicians at member centers. Those centers serve about 52 million people, many in rural areas. Third, publisher Wiley will license nearly 10,000 Cochrane systematic reviews and about 4,000 Cochrane Clinical Answers for the Assistant to use.\n\n## Why it matters\nScribe vendors are moving past note-taking into decision support inside the same tool. For health systems, this changes what they buy and how they govern it. A documentation tool now also gives clinical advice, which raises the bar for checking it. Making the tool free for safety-net clinics could widen access in places that rarely get new software early. It could also make one vendor's product the default there.\n\n## Key details\n- Abridge says it is available in more than 300 health systems covering more than 250 million patients.\n- Thousands of clinicians at more than 75 VA medical centers use it. VA clinicians asked it more than 40,000 questions in the month before the announcement.\n- The article cites a 2022 University of Chicago estimate that primary care clinicians would need a 27-hour day to follow every recommendation for every patient.\n- Viz.ai and Wolters Kluwer announced a similar evidence partnership involving UpToDate the same week.\n\n## Caveats\nThe usage figures come from Abridge itself and were not independently checked. The article gives no data on whether the Assistant's answers are accurate or whether it saves time. It also does not say what happens after any free period or how answers will be audited. The writer argues health systems should judge such tools by whether they reduce searching and after-hours work, not just move it around.\n\n## Key terms\n- **Ambient scribe**: software that listens to a visit and drafts the clinical note.\n- **Clinical decision support**: tools that give clinicians information or suggestions at the moment of care.\n- **Care pathway**: a hospital's standard step-by-step plan for treating a condition.\n- **Systematic review**: a study that pools all good-quality research on one question.\n- **Community health center**: a federally supported clinic serving low-income and underserved patients.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "From Clinical Risk Prediction to Operational Decisions: An Uncertainty-Aware Framework for ICU Staffing",
+     "url": "https://arxiv.org/abs/2610.25530",
+     "source": "arXiv",
+     "date": null,
+     "authors": [
+      "Jiayan Yang",
+      "Ad Feelders",
+      "Arno Siebes"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2610.25530",
+     "image": null,
+     "tldr": "Utrecht researchers turn each ICU patient's predicted risk of getting worse into a nurse staffing plan that adds a buffer for uncertainty, cutting staff shortages compared with planning on averages alone, in simulations on public ICU data.",
+     "summary_md": "## What happened\nResearchers at Utrecht University posted a preprint on arXiv in October 2026 that links patient risk prediction to ICU nurse staffing. Most prediction studies stop at reporting accuracy. This one asks how those predictions should change how many nurses a unit schedules.\n\n## Why it matters\nHospitals already run risk scores on ICU patients, but staffing is still mostly planned on headcount and gut feel. Too few nurses harms patients. Too many wastes money, and last-minute calls cost more. The paper offers a simple, transparent way to plan staffing from risk scores without retraining the model behind them.\n\n## How it works\n- A model trained on the MIMIC-IV public ICU database estimates each patient's chance of needing vasopressors (drugs that raise dangerously low blood pressure) within 24 hours.\n- These chances are smoothed over 6 hours and added up across the unit to give expected workload. The method also computes how uncertain that total is.\n- The staffing target is expected workload plus a safety margin sized to the uncertainty. A rule then requests extra nurses two hours ahead, in 8-hour shifts.\n- The authors simulated 30 patients over 24 hours, repeated 30 times, and compared five policies.\n\nIn the results, planning on the average alone had the lowest cost (19.9 units) but the most shortage (22.9). The proposed method cut shortage to 16.6 at a cost of 23.4. A purely reactive policy had less shortage (14.4) but cost far more (33.9) and overstaffed heavily (120.6 versus 46.3). Results held across three different prediction models. In a synthetic surge, shortage fell from 35 to 24 nurse-hours compared with reacting.\n\n## Caveats\nThis is a small simulation on one dataset with no real hospital test. It treats all nurses as interchangeable and ignores how sick each patient is beyond one outcome. If the model underestimates risk by 30%, shortage almost doubles, so calibration matters a lot. A simpler fixed safety margin did as well or better on worst-case shortages. The preprint has not been peer reviewed.\n\n## Key terms\n- **ICU**: intensive care unit, where the sickest patients get one-to-one or one-to-two nursing.\n- **Calibration**: whether a model's predicted chances match how often events really happen.\n- **Vasopressor**: a drug given by drip to raise very low blood pressure.\n- **Overstaffing**: scheduling more nurses than the workload needs.\n- **MIMIC-IV**: a large, free, de-identified database of U.S. ICU records used for research."
+    }
+   ]
+  },
+  {
+   "id": "pharma-reg",
+   "name": "Pharmaceutical Regulation",
+   "color": "#8b5cf6",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "Large Language Models for WHO-UMC Drug–Adverse Event Causality Assessment Using FAERS Cases: Comparative Performance Study",
+     "url": "https://www.jmir.org/2026/1/e93237/PDF",
+     "source": "Journal of Medical Internet Research",
+     "date": "2026-07-08",
+     "tldr": "Four commercial AI models judged whether a drug caused a reported side effect and matched a three-expert panel reasonably well, but struggled with the borderline 'possible' category.",
+     "authors": [
+      "Ha YM",
+      "Kim M",
+      "Bang Y",
+      "Choi D",
+      "Kim JH",
+      "Rhie SJ"
+     ],
+     "pdf_url": "https://www.jmir.org/2026/1/e93237/PDF",
+     "image": null,
+     "summary_md": "## What happened\nResearchers in Korea and Japan tested whether large language models (LLMs) can do causality assessment, the pharmacovigilance step where an expert decides how likely it is that a drug caused a reported harm. They used the WHO-UMC scale, the grading system most safety teams use, and compared the models with a panel of human experts.\n\n## Why it matters\nSafety teams receive huge numbers of adverse event reports. Causality assessment is slow, skilled work, and regulators expect it to be consistent. If AI can give a reliable first pass, experts could spend their time on hard cases.\n\n## How it works\n- The team built 55 cases from 2024 FAERS reports, giving 337 drug-level judgments.\n- Three experts graded each drug-event pair on their own. A majority vote became the reference answer. The experts agreed well with each other (Fleiss kappa 0.762).\n- Four models were tested: GPT-5.4, GPT-5.4 mini, Gemini 2.5 Pro and Gemini 2.5 Flash. Each used six prompting styles and 5 repeat runs.\n- Agreement with experts ranged widely: accuracy 58% to 80%, Cohen kappa 0.37 to 0.64.\n- The best setup was Gemini 2.5 Flash with step-by-step reasoning plus repeated voting. It reached 80% accuracy and weighted kappa 0.821. It gave the same answer across runs most of the time (Fleiss kappa 0.915).\n- The weak spot was \"Possible\". The best model scored F1 0.29 there, against 0.79 to 0.90 for the other categories. Most errors were one step off on the scale.\n\n## Caveats\n- The sample is small: 55 cases, with several judgments per case that are not independent.\n- Complex multi-drug cases were over-sampled, so routine reports may behave differently.\n- Cases were rewritten into tidy, semi-structured text, not the messy raw narratives safety teams see.\n- FAERS data may have been in the models' training data.\n- Only the WHO-UMC scale was tested. Gains between prompting styles were small.\n\n## Key terms\n- **FAERS**: the FDA's public database of adverse event reports for drugs.\n- **WHO-UMC scale**: a grading system that rates drug-event causality as certain, probable, possible, unlikely, and so on.\n- **Kappa**: a measure of agreement that corrects for agreement expected by chance; 1 is perfect, 0 is chance.\n- **F1 score**: one number that balances how many true cases a model finds and how many of its calls are right.\n- **Chain-of-thought prompting**: asking the model to reason step by step before giving its answer.\n"
+    },
+    {
+     "kind": "news",
+     "title": "Big Pharma Says AI Shrinks Preclinical Timelines",
+     "url": "https://casrai.org/news/big-pharma-anthropic-ai-preclinical-drug-discovery-timelines-2026",
+     "source": "CASRAI (citing Reuters)",
+     "date": "2026-11-20",
+     "tldr": "Leaders at several large drugmakers say AI has cut early drug discovery time by up to half, which moves the bottleneck toward clinical trials and regulatory review.",
+     "image": null,
+     "summary_md": "## What happened\nOn 20 November 2026, Reuters reported that senior scientists at several large drugmakers say generative AI has shortened preclinical discovery by as much as 50%. CASRAI, a research-administration site, wrote up the story with company examples and a look at what it means for regulators and universities.\n\n## Why it matters\nIf drug candidates reach the clinic faster, more of them will land on regulators' desks sooner. The article reports that Sanofi and Novartis plan IND filings with the FDA and EMA for molecules whose preclinical phase took under 24 months. Reviewers will need to judge evidence packages built partly with AI tools. Speed in discovery does not change the clinical failure rate, which the article puts near 90%.\n\n## Key details\n- **Sanofi**: saved at least a year on lunsekimig, an asthma candidate, by using machine learning to skip an intermediate dose-finding trial.\n- **Novartis**: AI screening ranked five new kidney-disease targets. Time from project start to candidate fell from about three years to 18–24 months.\n- **Novo Nordisk**: design-make-test-analyze cycles fell from eight to three, and lead optimization from 64 weeks to 12.\n- **Bristol Myers Squibb and AstraZeneca**: both described AI built into discovery work across many stages.\n- A study in *Cancer Treatment Reviews* counted 129 AI-enabled drug candidates from 69 companies in human trials. 74 are in oncology, and 5 have reached Phase 3.\n\n## Caveats\n- The company numbers are self-reported and not independently checked.\n- \"Up to 50%\" is a headline figure. The individual examples vary widely.\n- CASRAI is a secondary source that summarizes Reuters. Some details, especially about AI vendors, are thinly sourced.\n- The regulatory points (IND plans, standards to come) have no direct citation in the article.\n- Faster discovery has not yet produced proof of better approval rates.\n\n## Key terms\n- **Preclinical**: the lab and animal work done before a drug is tested in people.\n- **IND (Investigational New Drug application)**: the FDA filing needed before a company can start human trials.\n- **Lead optimization**: tuning a promising molecule to improve its strength, safety and behavior in the body.\n- **Design-make-test-analyze cycle**: one round of designing molecules, making them, testing them and learning from the results.\n- **Phase 3**: the large, late-stage trial that usually supports an approval decision.\n"
+    },
+    {
+     "kind": "guidance",
+     "title": "PMDA Early Consideration: Basic Concepts on the Use of AI in Regulatory Activities",
+     "url": "https://www.pmda.go.jp/files/000283395.pdf",
+     "source": "Pharmaceuticals and Medical Devices Agency (PMDA), Japan",
+     "date": "2026-11-02",
+     "tldr": "Japan's drug and device regulator set out 12 high-level principles for using AI, including generative AI, across a product's whole life, with humans keeping final responsibility.",
+     "image": null,
+     "summary_md": "## What happened\nOn 2 November 2026, the Regulatory Science Center at Japan's PMDA published an \"Early Consideration\" on using AI in regulatory activities. The document is in Japanese and was sent to drug, device, diagnostics and cosmetics industry groups. It applies to AI that companies and the PMDA itself use.\n\n## Why it matters\nJapan is one of the largest drug markets and a founding member of ICH, the group that writes global drug rules. The FDA and EMA have already published shared principles on AI in drug development. PMDA's paper means the three biggest regulators now point the same way: risk-based use, defined purpose, and human accountability. Companies filing in all three regions can plan one approach to AI governance.\n\n## Key details\n- **Scope**: AI, including generative AI, across the whole life of drugs, devices, regenerative products, quasi-drugs and cosmetics. That runs from nonclinical and clinical studies through manufacturing and post-marketing work.\n- **Audience**: PMDA staff, applicants, marketing authorization holders, manufacturers, sponsors, contract research organizations (CROs) and AI developers.\n- **Status**: not a new legal requirement and not a full checklist. It will be revised as technology and international alignment change.\n- **Top principle**: AI supports human judgment and does not replace it. Humans keep final responsibility.\n- **Basic considerations (6)**: a risk-based approach; a clear purpose and context of use; data governance with traceable training data; fairness, accountability and transparency; input from many disciplines, including patients where relevant; and following laws and standards.\n- **Implementation considerations (5)**: fit-for-purpose design with explainability matched to risk; validation under real working conditions; monitoring after deployment; human oversight that avoids over-reliance; and ongoing AI literacy for staff.\n\n## Caveats\n- The principles are broad and give no technical thresholds or required documents.\n- It is an early, non-binding draft that may change.\n- Basic research and routine clinical practice are mostly out of scope.\n- Summary based on the Japanese original; an official English version was not checked.\n\n## Key terms\n- **PMDA**: Japan's agency that reviews drugs and medical devices and monitors their safety.\n- **Early Consideration**: a PMDA format that shares current thinking on a new topic before formal guidance exists.\n- **Risk-based approach**: matching the level of control to how likely and how serious harm could be.\n- **Data governance**: rules for how data is collected, stored, protected and traced.\n- **AI literacy**: knowing what AI can and cannot do, so people can supervise it well.\n"
+    }
+   ]
+  },
+  {
+   "id": "devices",
+   "name": "Medical Devices",
+   "color": "#10b981",
+   "items": [
+    {
+     "kind": "news",
+     "title": "CMS finalizes interim Medicare payment policy for 'Software as a Medical Service' in 2027 rules",
+     "url": "https://www.reedsmith.com/our-insights/blogs/health-industry-washington-watch/102o8ks/cms-finalizes-interim-payment-policy-for-software-as-a-medical-service-in-hospita/",
+     "source": "Reed Smith (on CMS CY 2027 OPPS and PFS final rules)",
+     "date": "2026-11-06",
+     "tldr": "Medicare's 2027 hospital outpatient and physician payment rules create a new 'Software as a Medical Service' category that pays FDA-authorized clinical algorithms separately from January 1, 2027.",
+     "summary_md": "## What happened\nThe Centers for Medicare & Medicaid Services (CMS) finalized two yearly payment rules for 2027. One covers hospital outpatient departments and surgery centres (OPPS). The other covers physicians (PFS). Both set up an interim way to pay for software that analyses clinical data with an algorithm to support a decision. CMS also renamed this group from \"Software as a Service\" to \"Software as a Medical Service\" (SaMS), which separates clinical algorithms from ordinary cloud or office software.\n\n## Why it matters\nFDA clearance lets a company sell an AI device. It does not mean anyone pays for it. Payment has long been a major barrier for AI tools in US hospitals. A named category with its own billing rules gives developers a clearer path from clearance to revenue. It also ties payment to regulation: non-laboratory SaMS must have FDA marketing authorization before Medicare will pay.\n\n## Key details\n- Non-lab SaMS go into New Technology APC groups on an interim basis, at rates close to 2026 levels.\n- A new status indicator, \"O1\", pays these services separately and avoids the usual discount when several procedures are billed together. CMS chose this over a \"T\"-type indicator that would have applied the discount.\n- Fourteen billing codes for software that re-analyses earlier lab results move from the lab fee schedule into the OPPS as \"other diagnostic tests\". The proposal had listed ten. Under the PFS they get national prices instead of prices set by local contractors.\n- The rules take effect on 1 January 2027.\n\n## Caveats\nBeing labelled SaMS does not guarantee coverage. Each service must still meet Medicare's coverage and medical-necessity rules. CMS calls 2027 an interim first step. Formal criteria and a long-term payment method are still being weighed for 2028. Some commenters worried that splitting lab analyses out could fragment lab services and raise patient cost-sharing. This item relies on a law-firm summary (Reed Smith, 6 November 2026), not the full rule text.\n\n## Key terms\n- **OPPS:** Medicare's payment system for hospital outpatient services.\n- **PFS:** the Physician Fee Schedule, Medicare's price list for clinician services.\n- **APC:** Ambulatory Payment Classification, a group of outpatient services paid at the same rate.\n- **Status indicator:** a code telling hospitals how Medicare will pay a billed item.\n- **SaMS:** CMS's new term for clinical decision-support software paid as its own service.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Clinical Evidence and FDA Recalls of Artificial Intelligence-Enabled Medical Devices",
+     "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2850190",
+     "source": "JAMA Network Open",
+     "date": "2026-06-11",
+     "tldr": "Among 903 FDA-authorized AI devices, 4.8% were recalled, and devices with no public clinical study data and those with use-related problem reports tended to be recalled more often.",
+     "summary_md": "## What happened\nA team in Italy, Switzerland and the UK, led by Enrico Caiani, followed 903 AI-enabled devices on the FDA's list from authorization until either a recall or the end of follow-up on 31 August 2024. They linked each device to US adverse-event reports in MAUDE and to European field safety notices from 18 countries gathered by the CORE-MD tool. The study appeared in JAMA Network Open in June 2026. It is older than most items here but is one of the few that ties pre-market evidence to post-market safety.\n\n## Why it matters\nMost AI devices reach the US market through the 510(k) route, which often needs no clinical study. This paper asks whether that missing evidence shows up later as safety problems. For regulators and manufacturers, it supports stronger clinical validation before launch and closer post-market monitoring after it.\n\n## How it works\nThe authors modelled time to recall with a Bayesian Weibull survival model. A survival model estimates how quickly an event happens over time. \"Bayesian\" means the results come as probability ranges, called credible intervals (CrI). Key results:\n- 43 devices (4.8%) were recalled, a median of 458 days after authorization.\n- Devices that combined software with hardware had the strongest link to recall (hazard ratio 4.45; 95% CrI 1.92–10.66).\n- Devices flagged in European safety notices also had higher risk (HR 4.28; CrI 1.01–13.10).\n- Missing public clinical study data pointed to higher risk (HR 1.39), but the range (0.84–3.52) includes no effect.\n- For a typical device, the estimated chance of recall within one year was about 3.7% with a published clinical study and about 5.4% without one.\n\n## Caveats\nWith only 43 recalls, many estimates are imprecise, and several credible intervals cross 1. The authors call some patterns exploratory. The data cover only FDA-listed devices up to August 2024. Interactions between risk factors were not tested, and factors such as risk class or input data type may also matter.\n\n## Key terms\n- **Recall:** a manufacturer or FDA action to correct or remove a device with a problem.\n- **MAUDE:** the FDA's public database of reports about device malfunctions and injuries.\n- **Hazard ratio (HR):** how much faster an event happens in one group than another; 2 means twice as fast.\n- **Credible interval (CrI):** the range that likely holds the true value, given the data and model.\n- **510(k):** the FDA route that clears a device by showing it is similar to one already on the market.",
+     "authors": [
+      "Yijun Ren",
+      "Yi Zheng",
+      "Daniel Windecker",
+      "Alan G. Fraser",
+      "George C. M. Siontis",
+      "Enrico G. Caiani"
+     ],
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Sine Health gets FDA 510(k) clearance for smartphone-only essential tremor monitoring",
+     "url": "https://www.prnewswire.com/news-releases/sine-health-receives-fda-510k-clearance-for-the-first-smartphone-essential-tremor-monitoring-device-302942052.html",
+     "source": "PR Newswire (Sine Health release)",
+     "date": "2026-11-17",
+     "tldr": "The FDA has cleared a smartphone app from Sine Health that uses the phone's built-in sensors to track essential tremor during daily life, so doctors can see how symptoms change between visits.",
+     "summary_md": "## What happened\nSwedish start-up Sine Health, formerly Nordic Kinetics, announced on 17 November 2026 that the FDA cleared its Sine system through the 510(k) route. The FDA database lists the device as \"Sine Monitoring Essential Tremor Smartphone\" (K261026), reviewed by the neurology panel. FDA received the submission on 30 March 2026 and ruled it substantially equivalent on 15 November 2026, about seven and a half months later. The company says this is the first FDA-cleared way to monitor essential tremor with only a smartphone. The company also reported a June 2026 clearance for an Apple Watch-based Parkinson's monitoring system.\n\n## Why it matters\nEssential tremor is a common movement disorder that causes rhythmic shaking, most often in the hands. The company puts the number of affected Americans at about 7 million. Doctors usually judge tremor during short clinic visits, which may not reflect a patient's typical day. A tool that runs in the background on a phone the patient already owns could give a fuller picture of how a drug or other therapy is working. It is also an example of software as a medical device (SaMD), where regulated software runs on consumer hardware rather than a dedicated device.\n\n## Key details\n- The app runs passively in the background and uses the phone's existing motion sensors. No extra wearable is needed.\n- It is meant to show clinicians objective trends in tremor between appointments.\n- The FDA listing names the applicant as Nordic Kinetics AB.\n\n## Caveats\nThe release reports no accuracy figures, study size or validation data. It does not name the predicate device, the device class or formal indications. It also does not say whether the tremor analysis uses machine learning. Only the company's general description calls its products AI-based. The \"first\" claim comes from the company and was not checked independently. No launch date, markets or pricing were given.\n\n## Key terms\n- **Essential tremor:** a nerve disorder that causes involuntary rhythmic shaking, unrelated to Parkinson's disease.\n- **510(k):** the FDA route that clears a device by showing it is substantially equivalent to one already sold legally.\n- **Predicate device:** the existing device a 510(k) is compared against.\n- **SaMD:** software as a medical device, meaning software that performs a medical purpose on its own, here on a phone.\n- **Passive monitoring:** data collected automatically in the background, with no task for the patient to perform.",
+     "image": null
+    }
+   ]
+  }
+ ]
+}
