@@ -1,0 +1,299 @@
+{
+ "date": "2026-11-28",
+ "generated": "2026-11-28T07:41:55+00:00",
+ "ai_news": [
+  {
+   "id": "agents",
+   "name": "AI Agents",
+   "items": [
+    {
+     "kind": "news",
+     "title": "AI agents used in five cyber attacks in Switzerland, government says",
+     "url": "https://www.yahoo.com/news/articles/ai-agents-used-five-cyber-122502362.html",
+     "source": "Reuters (via Yahoo News)",
+     "date": "2026-11-26",
+     "tldr": "Switzerland's Federal Office for Cybersecurity says AI agents carried out five recent attacks, and four of them got into the victims' systems.",
+     "summary_md": "The Federal Office for Cybersecurity (BACS) reported five attacks in the past few days that used AI agents, meaning AI systems that plan and carry out multi-step tasks on their own. Four of the five succeeded, and three targets were critical infrastructure operators; Swiss broadcaster SRF said these included electricity, water and telecom providers. BACS did not say who was behind the attacks. It advised companies to put protections in place, including regular cyber tests.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Google's Cogentic AI releases six math papers in one day, including a proven fast algorithm for factoring numbers",
+     "url": "https://officechai.com/ai/googles-cogentic-ai-releases-six-math-papers-in-one-day-including-a-proven-fast-algorithm-for-factoring-numbers/",
+     "source": "OfficeChai",
+     "date": "2026-11-25",
+     "tldr": "Google Research's multi-agent system Cogentic posted six AI-written math papers on one day, each said to come with a computer-checked proof.",
+     "summary_md": "Cogentic is a team of AI agents running on Gemini 4: some attempt proofs, others act as critics, review the literature or write up results. Its six papers cover integer factoring, discrete logarithms, game-theory equilibria and graph reconstruction. Google says each comes with a full proof in Lean 4, a program that checks math step by step, but those proofs are not public yet and none of the papers has been peer reviewed. The factoring result is theoretical: its constant is 105, versus about 1.9 for today's best practical method, so it does not threaten encryption.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+     "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+     "source": "The Decoder",
+     "date": "2026-11-27",
+     "tldr": "OpenAI is reportedly building a data platform so its business agents work from shared, consistent definitions instead of guessing.",
+     "summary_md": "Citing The Information, The Decoder reports that OpenAI is building Athena, which works like a semantic layer: software that pins down what business terms such as revenue or customer count mean. The goal is to make agents more accurate with company data, after the data-analysis agent in ChatGPT Work reportedly fell short for at least one customer. OpenAI also plans agents that collect and update business rules so other agents don't start from scratch. The project is early, with no timeline or price, and would put OpenAI up against Snowflake and Databricks.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "name": "New Models",
+   "items": [
+    {
+     "kind": "news",
+     "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+     "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+     "source": "The Decoder",
+     "date": "2026-11-26",
+     "tldr": "OpenAI fixed a billing bug that had given ChatGPT users unintended discounts on GPT-6.2 Astra and Sol, so usage limits now run out sooner.",
+     "summary_md": "A billing bug during the GPT-6.2 rollout gave most users discounts they were not meant to get. Since the fix, Astra users reach their usage limits 40% faster than the week before and Sol users 25% faster, though quotas still last longer than on the older GPT-6 Astra and GPT-6.1 Sol. OpenAI won't charge back the difference. Go, Plus, Pro and Business subscribers get one extra limit reset, and Business users get free Fast Mode through the end of 2026.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Sber releases GigaChat 4: 708B open-weights MoE under MIT",
+     "url": "https://emergent.sh/news/sber-releases-gigachat-4-708b-open-weights",
+     "source": "Emergent",
+     "date": "2026-11-26",
+     "tldr": "Russia's Sber released GigaChat 4, a 708-billion-parameter open-weight model under the MIT license, plus a smaller 37B version.",
+     "summary_md": "GigaChat 4 is a mixture-of-experts model, meaning only part of the network (about 41B parameters) runs for each word. It can read up to about 1 million tokens of context. The flagship is MIT-licensed; the 37B version is for noncommercial use only. Sber reports 80.89 on SWE-bench Verified, a coding test, but only 35.4% on the harder DeepSWE benchmark. Running it takes two 8-GPU H100 servers, and US users need to check sanctions rules before downloading.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "DeepL unveils new Aure v2 model for faster real-time voice translation",
+     "url": "https://www.verdict.co.uk/deepl-unveils-new-aure-v2/",
+     "source": "Verdict",
+     "date": "2026-11-27",
+     "tldr": "DeepL launched Aure v2, a speech translation model it says halves the median delay of its earlier version.",
+     "summary_md": "Aure v2 is end-to-end, meaning it turns speech in one language straight into speech in another, with no separate text step in between. DeepL's own tests show a 50% cut in median translation delay compared with the first Aure. It also reports 32% fewer English-to-Japanese errors than Google's Gemini 3.5 Live Translate. The model is available now to DeepL Voice users. The article gives no pricing.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Exclusive: US chip curbs, distillation crackdown threaten Chinese AI model development, sources say",
+     "url": "https://www.newsbeep.com/us/930724/",
+     "source": "Reuters (via NewsBeep)",
+     "date": "2026-11-26",
+     "tldr": "Sources say new US compute rules and limits on copying US models are delaying flagship models from Z.AI and Moonshot AI.",
+     "summary_md": "Reuters reports that Z.AI missed a planned November launch for GLM-5.5, a model of about 3 trillion parameters, which could slip to early 2027 or later. Moonshot AI's usual six-month gap between major releases could stretch to a year, which would push its next flagship, Kimi K4, to about mid-2027. Part of the cause is a crackdown on distillation, where one model is trained on another model's answers, and a US rule in force since November 19 that requires licences for large overseas data centres. Neither company commented.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "fun",
+   "name": "Fun AI News",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Figure 03 robot passes Elon Musk's apple test, adapts when table moved",
+     "url": "https://interestingengineering.com/ai-robotics/figure-counters-musks-staged-robot-claim",
+     "source": "Interesting Engineering",
+     "date": "2026-11-25",
+     "tldr": "Figure's CEO answered Elon Musk's claim that humanoid demos are staged with a 41-second video of a robot chasing an apple across a moved table.",
+     "summary_md": "Musk argued that humanoid robot demos are usually scripted and that the robots can't cope when their surroundings change. Figure CEO Brett Adcock replied with a clip of a Figure 03 robot picking up an apple, putting it down, and getting it again after a person moved the table. He said the robot ran its Helix AI on its own, with no task-specific training (\"zero shot\"). Figure also reports that its robots finished 237 of 420 household chore trials (about 56%) in 30 homes they had never seen.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "Google tried to patent personalized AI-generated TV shows, filing reveals",
+     "url": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299",
+     "source": "Gizmodo",
+     "date": "2026-11-23",
+     "tldr": "A Google patent filing describes a \"My Channel\" of AI-made TV shows starring the viewer, but the examiner rejected it.",
+     "summary_md": "The filing describes a TV home-screen channel that generates sci-fi adventures or romantic comedies starring you, using your image and voice. A language model would study your most-watched shows and copy their genre, pacing and themes. An \"advertising stitcher\" would add at least one ad to every episode. The patent examiner rejected the application, though Google can amend it or appeal, and a filing does not mean Google will build the product.",
+     "image": null
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cardiac",
+   "name": "AI in Cardiac Surgery, Robotics & AI Models",
+   "color": "#e11d48",
+   "items": [
+    {
+     "kind": "news",
+     "title": "Mediwhale receives FDA 510(k) clearance for retinal-AI cardiovascular risk software Dr. Noon CVD",
+     "url": "https://www.prnewswire.com/news-releases/mediwhale-announces-first-fda-510k-clearance-for-its-retinal-ai-cardiovascular-risk-assessment-software-302951428.html",
+     "source": "PR Newswire (Mediwhale company release)",
+     "date": "2026-11-27",
+     "tldr": "The FDA has cleared software that reads a photo of the back of the eye, adds age and sex, and sorts adults into three bands of 10-year heart-attack and stroke risk.",
+     "summary_md": "## What happened\nSeoul-based Mediwhale says the US Food and Drug Administration (FDA) has cleared its software Dr. Noon CVD through the 510(k) pathway. The tool looks at a retinal photograph (an image of the back of the eye) with AI and combines that with the patient's age and sex. From this it estimates the chance of a first atherosclerotic cardiovascular disease (ASCVD) event, such as a heart attack or ischaemic stroke, over the next 10 years. It then places the patient in one of three risk categories.\n\n## Why it matters\nStandard 10-year risk tools need blood tests, such as cholesterol, plus blood pressure and a medical history. A retinal photo takes a few seconds and needs no needle. Many US primary-care clinics already have retinal cameras for diabetic eye exams. The company plans to work with partners that run those camera networks. A heart-risk estimate could then come from a visit booked for something else.\n\n## Key details\n- Output: three risk bands, not a continuous percentage, meant to support the clinician's assessment together with other clinical information.\n- Inputs: retinal image, age and sex only.\n- Regulatory route: 510(k), which means FDA judged it substantially equivalent to a device already on the market. The release does not name that predicate device.\n- Next step: the company says it will build US real-world evidence.\n\n## Caveats\nThis is a company press release. It gives no validation data: no cohort sizes, no discrimination metrics (such as AUC) and no calibration results. It does not say which populations the model was trained or tested on. Performance in US patients is therefore unknown. The claim to be the \"first\" such clearance is the company's own. Check the FDA 510(k) database summary, once it is posted, for the indications for use and the performance testing.\n\n## Key terms\n- **510(k)**: an FDA premarket route where a device is cleared by showing it is substantially equivalent to a legally marketed predicate.\n- **ASCVD**: atherosclerotic cardiovascular disease, meaning disease caused by plaque in the arteries (heart attack, ischaemic stroke, peripheral artery disease).\n- **Retinal fundus image**: a photograph of the inside back surface of the eye, showing its small blood vessels.\n- **Predicate device**: the already-marketed device a new 510(k) device is compared against.\n- **Risk stratification**: sorting patients into groups by how likely they are to have an event, to guide prevention.",
+     "image": null
+    },
+    {
+     "kind": "news",
+     "title": "AI strain measurement supports in-office echo heart-failure program in Pennsylvania primary care",
+     "url": "https://us2.ai/news/ai-strain-in-primary-care-echo-for-heart-failure-detection/",
+     "source": "Us2.ai (company news)",
+     "date": "2026-11-24",
+     "tldr": "A 53-clinic Pennsylvania primary-care group put echocardiography with AI-measured strain into its own offices, and a claims study linked the program to more outpatient heart-failure diagnoses and fewer heart-failure admissions.",
+     "summary_md": "## What happened\nEcho AI vendor Us2.ai described how its software is used in a heart-failure program at Family Practice Center (FPC). FPC is a primary-care group in central Pennsylvania with 53 clinics and more than 170,000 patients. About 40% of its clinics serve rural areas. The program has three parts: echocardiograms done in the primary-care office, virtual consultation with a cardiologist, and training for primary-care clinicians on heart-failure care and guideline-directed medical therapy. The echo service includes AI-measured global longitudinal strain (GLS). It cites a 2026 claims study in *Population Health Management* (Wolf et al.).\n\n## Why it matters\nHeart failure with preserved ejection fraction (HFpEF) is hard to spot in primary care. Ejection fraction looks normal, so subtler measures such as strain are needed. Manual strain analysis needs time and expertise most family practices lack; automation could bring it to non-specialist settings.\n\n## Key details\n- The study compared insurance claims for patients with heart-failure risk factors in three groups: FPC clinics with in-office echo, FPC clinics without it, and Medicare beneficiaries elsewhere in Pennsylvania.\n- FPC diagnosed heart failure more often, and almost always in outpatient care rather than during a hospital stay.\n- Among patients with heart failure, FPC had fewer heart-failure admissions and emergency visits. It also spent less than the Pennsylvania Medicare benchmark.\n- Us2.ai says its automated echo measurement and reporting is FDA 510(k) cleared and CE marked, with clinician review.\n\n## Caveats\nThe source is a vendor blog post, not the paper. It gives no patient numbers, effect sizes or study period. The study is observational, so the authors say it cannot show the program caused the differences. The effect of AI strain cannot be separated from in-office echo, virtual cardiology and clinician training. The post also does not say whether the GLS feature itself is covered by the FDA clearance.\n\n## Key terms\n- **Global longitudinal strain (GLS)**: how much the heart muscle shortens along its length during a beat, given as a percentage. It often falls before ejection fraction does.\n- **HFpEF**: heart failure with preserved ejection fraction, where the pumping fraction looks normal but the heart is stiff or fills poorly.\n- **Guideline-directed medical therapy**: the set of drugs that heart-failure guidelines recommend for a given patient.\n- **Claims analysis**: a study built from insurance billing records, not from clinical measurements.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Deep learning analysis of sinus-rhythm echocardiography for the identification of patients with atrial fibrillation",
+     "url": "https://academic.oup.com/ehjdh/article/7/9/ztag168/8957476",
+     "source": "European Heart Journal - Digital Health",
+     "date": "2026-10-21",
+     "tldr": "A deep-learning model read routine heart-ultrasound videos taken while patients were in normal rhythm and still picked out who had atrial fibrillation (AUC 0.85), beating standard risk scores.",
+     "summary_md": "## What happened\nA team at Sheba Medical Center in Israel trained a deep neural network on transthoracic echocardiograms (TTEs), the standard ultrasound scan of the heart taken through the chest wall. All scans were recorded in normal (sinus) rhythm. The question: do heart structure and motion still reveal paroxysmal atrial fibrillation (AF), meaning AF that comes and goes?\n\n## Why it matters\nParoxysmal AF is often missed because it may not be present during a short ECG. Missed AF means missed stroke prevention. Echo is done in huge numbers, so flagging likely AF from existing scans could point clinicians to who needs longer rhythm monitoring.\n\n## How it works\n- Data: 85,686 TTEs from 2009 to 2021. Split 60/20/20 into training, validation and test sets.\n- Input: greyscale apical four-chamber and parasternal long-axis video loops, without Doppler.\n- Model: an EfficientNetV2 image backbone with transformer layers. Predictions were averaged over up to 25 loop pairs per exam.\n- Test set: 17,121 patients, 20.1% with AF documented before the scan.\n\nResults: AUC 0.85, sensitivity 0.80 and specificity 0.72. That beat left atrial size (AUC 0.72), CHARGE-AF (0.71) and CHA2DS2-VASc (0.70). Among patients with no known AF, a positive model result was linked to later AF diagnosis (adjusted hazard ratio 1.64). It was also linked to a composite of death, heart-failure hospitalisation or stroke (adjusted hazard ratio 1.24).\n\n## Caveats\nSingle tertiary centre, no external validation, no analysis by ultrasound vendor. AF labels came from routine records, not systematic monitoring. ECG traces shown on the echo images were not systematically removed, so the authors say some leakage of rhythm information cannot be ruled out. At the chosen threshold, 38.4% of patients screened positive, implying many follow-up tests. The code is proprietary, and three authors have ties to the company Aisap.ai.\n\n## Key terms\n- **Paroxysmal AF**: atrial fibrillation that starts and stops on its own, so it is easy to miss.\n- **AUC**: area under the ROC curve. 0.5 is chance and 1.0 is perfect separation of cases from non-cases.\n- **Hazard ratio**: how much faster an event happens in one group than another over follow-up. 1.64 means about 64% higher rate.\n- **CHA2DS2-VASc**: a clinical point score for stroke risk in AF, used here as a comparator.\n- **Data leakage**: when the input accidentally contains the answer (for example an ECG strip), which inflates performance.",
+     "image": null,
+     "authors": [
+      "Ido Cohen",
+      "Michael Fiman",
+      "Ranel Loutati",
+      "Ehud Schwammenthal",
+      "Kobi Faierstein",
+      "Lior Fisher"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "health-mgmt",
+   "name": "AI in Healthcare Management",
+   "color": "#0ea5e9",
+   "items": [
+    {
+     "kind": "paper",
+     "title": "Objectify, Don't Delete: Complaint-Derived Evaluation of Ambient Clinical Notes",
+     "url": "https://arxiv.org/abs/2611.19525",
+     "source": "arXiv (cs.AI); GenAI4Health workshop, NeurIPS 2026",
+     "date": "2026-11-14",
+     "tldr": "Researchers turn clinicians' real complaints about AI scribe notes into precise yes/no checks that an AI grader can apply, and find that standard text-overlap scores almost entirely miss the errors.",
+     "authors": [
+      "Nikita Gupta",
+      "Narayanan Unny Edakunni",
+      "Vikram Okaly",
+      "Suranjana Datta",
+      "Navya Penubadi",
+      "Karl Eric Swanson"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.19525",
+     "image": null,
+     "summary_md": "## What happened\nA seven-author team posted a paper on how to grade notes written by ambient AI scribes. These are tools that listen to a clinic visit and draft the note. The authors argue that common scores and expert checklists both miss what clinicians actually complain about. They built a pipeline that collects clinician complaints, rewrites them into narrow yes/no questions, and then has large language models (LLMs) answer those questions about each note.\n\n## Why it matters\nHealth systems are buying scribes at scale, but there is no agreed way to measure note quality. ROUGE, a widely used score, only measures how many words a draft shares with a reference note. Here it barely moved when errors were inserted.\n\n## How it works\n- **Objectification.** Frequent complaints often bundle several questions into one. The authors rewrite each into separate questions with a clear scope and a definite answer.\n- **Planted-defect test.** They inserted 11 types of defects into reference notes from ACI-bench, a public dataset of visit conversations paired with notes. The new graders found them with a median recall of 0.95. Reference-based scores changed by no more than 0.037.\n- **Narrow beats broad.** One broad complaint question caught every planted defect, but it also flagged 70% of the untouched notes. Asking one question per section pair raised Youden's J from 0.30 to 0.72. When prompt effort was matched, the gain was 0.19 to 0.26.\n- **The reference notes have errors too.** Clinician review found hallucinations in 32 of 40 ACI-bench reference notes, and missing facts in all 40.\n- **Production data.** Across 1,446 real notes, defect burden fell as clinician ratings rose, but the link was weak (rho = -0.15).\n\n## Caveats\nI could read only the abstract and listing; the full text did not load. Most tests use planted defects, not errors found in real use. The link to clinician ratings is small. It is a NeurIPS workshop paper, lightly peer reviewed. LLM graders can share blind spots with the LLMs that wrote the notes.\n\n## Key terms\n- **Ambient scribe:** software that records a visit and drafts the clinical note.\n- **LLM judge:** a language model used to grade another model's output.\n- **Recall:** the share of real defects a check finds.\n- **Youden's J:** sensitivity plus specificity minus 1; 0 means no better than chance, 1 is perfect.\n- **Hallucination:** content in a note that was never said in the visit."
+    },
+    {
+     "kind": "news",
+     "title": "Epic to let outside AI agents pull EHR data through Model Context Protocol by early 2027",
+     "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/epic-to-let-outside-ai-agents-pull-ehr-data/",
+     "source": "Becker's Hospital Review",
+     "date": "2026-11-19",
+     "tldr": "Epic plans to let authorized AI agents in third-party apps retrieve data from its EHR through the Model Context Protocol by the first quarter of 2027.",
+     "image": null,
+     "summary_md": "## What happened\nEpic, the largest U.S. electronic health record (EHR) vendor, said it will let authorized AI agents in other companies' apps retrieve data from its EHR. The target date is the first quarter of 2027. Epic announced it at the HLTH conference. An Epic news release dated November 18 backs it up, and Becker's reported it on November 19, 2026. The connections will use the Model Context Protocol (MCP), an open standard for linking AI tools to outside data and software.\n\n## Why it matters\nToday, many hospital AI tools reach the EHR through custom integrations, older interfaces or screen scraping. A standard, Epic-supported channel could make it simpler for health systems to plug in scribes, revenue-cycle bots or care-coordination agents from several vendors. It also moves a big governance question onto each health system. If many outside agents can query the record, the hospital has to decide which ones to authorize, what data each may see, and how to audit what they did.\n\n## Key details\n- **Two-way goal:** Epic describes this as part of a wider push for two-way exchange. Its own in-EHR agents will also be able to pull information from outside apps.\n- **Connectors:** Epic introduced Connectors in October 2026. They let its AI assistants retrieve information and perform tasks in third-party apps. They become discoverable in Epic Showroom, its app marketplace, starting March 2027.\n- **Scale:** Epic says more than 3,700 applications already connect to its software. More than 1,000 free technologies are available through Open.Epic, about one-third of them required by regulation.\n\n## Caveats\nThis is a plan, not a released product. The article does not say how agents get authorized or which data types they can reach. It never says whether access will be read-only, though it describes the agents only as retrieving data. Security testing, pricing and participating vendors are not covered. The details come mainly from Epic itself.\n\n## Key terms\n- **EHR:** the digital system that holds a patient's chart, orders and notes.\n- **AI agent:** software that uses an AI model to take multi-step actions, such as looking up records or filling forms.\n- **Model Context Protocol (MCP):** an open standard that defines how AI applications connect to external data sources and tools.\n- **Interoperability:** the ability of different health IT systems to exchange and use data."
+    },
+    {
+     "kind": "news",
+     "title": "Prior-auth survey: fewer patients abandon care, but clinicians' strong trust in AI drops sharply",
+     "url": "https://www.medicaleconomics.com/view/fewer-patients-abandon-care-over-prior-auth-delays-but-provider-trust-in-ai-is-wearing-thin",
+     "source": "Medical Economics",
+     "date": "2026-11-20",
+     "tldr": "A vendor-sponsored survey of 200 U.S. hospital clinicians and administrators finds fewer reports of patients abandoning care over prior authorization, while strong trust in AI for approvals fell from 46% to 12% among clinicians.",
+     "image": null,
+     "summary_md": "## What happened\nMedical Economics reported on Cohere Health's second annual National Provider Survey on Prior Authorization, released November 16, 2026. Prior authorization is the process in which an insurer must approve a test or treatment before it is covered. Wakefield Research surveyed 100 clinicians and 100 office administrators at U.S. hospitals and health systems online from August 12 to 27, 2026. The results were compared with a similar survey from April 2025.\n\n## Why it matters\nPrior authorization is a major cost and delay in the revenue cycle, the process by which a hospital gets paid for care. Payers and providers are both adding AI to it. The survey suggests clinicians are not rejecting AI, but they now want it in narrower, supervised roles. That affects how health systems should scope revenue-cycle AI projects.\n\n## Key details\n- **Care abandonment:** Clinicians who said patients often or always abandon treatment because of delays fell from 55% to 28%. Among administrators, it fell from 55% to 26%.\n- **Burden rose anyway:** Clinicians reporting moderate or heavy burden rose from 40% to 51%, and administrators from 39% to 61%.\n- **Documentation gaps:** Clinicians citing missing documentation as the top denial reason rose from 16% to 35%. About 6 in 10 estimated that 21–30% of their requests are denied at first.\n- **Trust in AI:** Overall trust stayed high (96% of clinicians), but strong trust fell from 46% to 12%. Clinicians who want AI in a significant or core role dropped from 90% to 53%. Those who want automation only with strict limits and human oversight rose from 10% to 43%.\n- **Wanted uses:** Interest in AI checking clinical documentation rose from 42% to 57%. Interest in AI suggesting alternative treatments fell from 34% to 4%.\n\n## Caveats\nThe sponsor sells prior-authorization AI. The sample is small: each group has a margin of error of about ±10 percentage points. Different people answered each year, so changes may partly reflect who responded. All figures are self-reported perceptions, not measured outcomes.\n\n## Key terms\n- **Prior authorization:** an insurer's approval needed before a service is covered.\n- **Revenue cycle:** the steps from scheduling and coding a visit to collecting payment.\n- **Denial:** an insurer's refusal to approve or pay a request or claim.\n- **Human-in-the-loop:** a design in which a person reviews or approves the AI's output before it takes effect."
+    }
+   ]
+  },
+  {
+   "id": "pharma-reg",
+   "name": "Pharmaceutical Regulation",
+   "color": "#8b5cf6",
+   "items": [
+    {
+     "kind": "news",
+     "title": "ACG unveils AI system that inspects empty vials before filling",
+     "url": "https://pharmtech.com/view/ai-vial-inspection-screens-200-vials-per-minute-pre-fill",
+     "source": "Pharmaceutical Technology (PharmTech)",
+     "date": "2026-11-25",
+     "tldr": "ACG launched an AI camera system that checks up to 200 empty vials per minute for cracks, scratches and particles before drug goes in, but no validation data were released.",
+     "summary_md": "## What happened\nAt the PMEC India trade show (24–26 November 2026), equipment maker ACG Inspection showed QualiShield CL60-AI, a machine-vision system that screens empty glass vials before they reach the filling line. PharmTech reported the launch on 25 November. The idea is simple: throw out a bad container before any costly drug product is put into it.\n\n## Why it matters\nVisual inspection is one of the most labour-heavy steps in sterile manufacturing, and it sits squarely inside good manufacturing practice (GMP) rules. Regulators are open to AI here, but on conditions. An FDA supervisory chemist quoted in the piece named vision-based inspection as a modernization opportunity, provided each tool is validated for its intended use and backed by strong data-integrity controls. That is the same bar any AI tool in a GMP plant must clear, so this launch is a useful real-world test case of how vendors present such systems.\n\n## Key details\n- Throughput is up to 200 vials per minute; the vendor says the real rate depends on vial size and line setup.\n- The system inspects the full 360° of each vial for surface scratches, circumferential cracks, glass particles, visible contamination and ovality (out-of-round shape).\n- Set-up uses \"automated teaching\" without manually tuned thresholds, which the article says could reduce reliance on highly skilled operators.\n- ACG says the software supports 21 CFR Part 11 through user management, audit trails, electronic records and access control.\n\n## Caveats\nThis is a product launch. The Part 11 claims come from the vendor and were not independently checked. The article gives no detection rates, false-reject rates or validation results, and notes that adoption will hinge on such data and on consistent performance across commercial vial formats. It does not discuss EU GMP Annex 1 or the draft AI annex (Annex 22).\n\n## Key terms\n- **GMP (good manufacturing practice):** the legal quality rules for how medicines are made and controlled.\n- **21 CFR Part 11:** US rules on when electronic records and signatures are trustworthy.\n- **Audit trail:** a time-stamped, tamper-evident log of who changed what in a computer system.\n- **Validation for intended use:** documented evidence that a system reliably does the specific job it is used for.\n- **Machine vision:** cameras plus software that judge objects automatically from images.",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Expert-referenced evaluation of large language models for primary suspect drug identification in the FAERS database",
+     "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1831267/full",
+     "source": "Frontiers in Pharmacology",
+     "date": "2026-11-02",
+     "tldr": "In 45 FDA adverse-event reports, chatbots picked the expert-agreed culprit drug about 87–92% of the time, versus 78% for the drug flagged in the FAERS database itself.",
+     "summary_md": "## What happened\nA Korean team (Ewha Womans University and Jeonbuk National University) tested whether general chatbots can spot the \"primary suspect\" drug in reports from FAERS, the FDA's database of spontaneous adverse-event reports. They used 50 reports from 2024. Three clinical pharmacists with over 10 years' experience set the reference answer. Five cases were dropped because every drug started after the event, leaving 45.\n\n## Why it matters\nSignal detection in pharmacovigilance often trusts the suspect-drug field that reporters fill in. If that label is wrong, downstream statistics inherit the error. Here, the original FAERS label matched the experts only 77.8% of the time (95% CI 63.7–87.5%), roughly one in five cases off. The LLMs did significantly better than the FAERS labels (p = 0.037).\n\n## How it works\n- Six prompting styles (naïve, role-based, chain-of-thought, ReAct, tree-of-thought, self-consistency) were first compared on ChatGPT 5.0 Instant.\n- Tree-of-thought was then fixed and run on ChatGPT 5.2 (Instant and Thinking), Gemini 3 Flash and Gemini 3 Pro, five runs each, via the web interfaces.\n- The \"hit rate\" counted a case as correct if the chosen drug was among the expert primary suspects. Experts used WHO–UMC causality categories and agreed well with each other (Fleiss' kappa 0.75).\n- Results: LLM hit rates were 0.867–0.920; differences among models were not significant. Four fifth-year pharmacy students scored 0.872, similar to the best models (p = 0.418). Models were more self-consistent (kappa 0.714–0.847 vs 0.621) and much faster (median about 4–38 seconds vs 593 seconds per case).\n\n## Caveats\nThe sample is tiny (45 cases), so confidence intervals are wide. Only one drug could be picked per case. The expert panel is a reference, not absolute truth. Web chatbots change over time, which hurts reproducibility. The study did not test whether better labels change actual signal detection.\n\n## Key terms\n- **FAERS:** the FDA Adverse Event Reporting System, a public database of voluntary safety reports.\n- **Primary suspect drug:** the medicine judged most likely to have caused the reported adverse event.\n- **WHO–UMC criteria:** a standard scale (certain, probable, possible, etc.) for judging drug causality.\n- **Hit rate:** the share of cases where the model's pick matched the expert answer.\n- **Fleiss' kappa:** an agreement score among several raters, corrected for chance (1 = perfect).",
+     "image": null,
+     "authors": [
+      "Danah Jung",
+      "Chaeheon Kim",
+      "Jiyun Lee",
+      "Seonghyeon Park",
+      "Young Mi Ha",
+      "Sandy Jeong Rhie"
+     ],
+     "pdf_url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1831267/pdf"
+    },
+    {
+     "kind": "guidance",
+     "title": "Commission Implementing Regulation (EU) 2026/2487 on AI regulatory sandboxes",
+     "url": "https://eur-lex.europa.eu/eli/reg_impl/2026/2487/oj/eng",
+     "source": "European Commission (Official Journal of the EU)",
+     "date": "2026-11-11",
+     "tldr": "The EU set common rules for supervised AI Act test-beds, applying from 1 December 2026, with free access for small firms and a signed exit report recognised EU-wide.",
+     "summary_md": "## What happened\nThe European Commission adopted Implementing Regulation (EU) 2026/2487 on 10 November 2026; it was published on 11 November and takes effect on 1 December 2026 (20 days after publication). It sets one rulebook for AI regulatory sandboxes under the EU AI Act: supervised spaces where a developer works with authorities to test an AI system before or while bringing it to market.\n\n## Why it matters\nPharma companies building AI for process control, automated inspection, digital twins or generative tools in regulated work often lack a clear validation path. AI-in-GMP commentators (aiforpharma.org, 27 November) point to sandboxes as a way to agree on evidence early. Importantly, a sandbox does not show GMP compliance (for example Annex 11 on computerised systems), is not a product approval, and gives no presumption of conformity.\n\n## Key details\n- **Who can apply:** providers or prospective providers (or an EU representative for non-EU firms), for systems not yet on the market, being substantially modified, or reclassified as high-risk.\n- **Selection:** based on need, potential for regulatory learning, public benefit, maturity and novelty; a decision is due within 3 months of a complete application, with a right of appeal.\n- **Cost:** small and medium-sized enterprises (SMEs) and start-ups get priority and free advice and supervision; other firms may pay full cost; non-EU providers pay a participation fee.\n- **Sandbox plan:** timeline, objectives, requirements being supervised, personal-data handling, risk and serious-incident procedures, and any real-world testing plan.\n- **Exit:** the authority signs an exit report within 45 working days; market surveillance authorities and notified bodies across the EU must recognise it, though it is not a declaration of conformity.\n- Each Member State should have at least one national sandbox by 2 August 2027.\n\n## Caveats\nThis is a horizontal AI Act rule, not medicines guidance; it names no pharma use cases. Participants stay fully liable for complying with EU law. How medicines regulators will take part is not set out.\n\n## Key terms\n- **AI Act:** the EU law (Regulation 2024/1689) that sets risk-based duties for AI systems.\n- **Regulatory sandbox:** a supervised, time-limited setting to develop and test new technology with regulators.\n- **Implementing regulation:** a binding Commission act that fills in operational details of a law.\n- **Exit report:** the authority's signed record of what was tested and learned.\n- **Notified body:** an independent organisation designated to assess product conformity in the EU.",
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "devices",
+   "name": "Medical Devices",
+   "color": "#10b981",
+   "items": [
+    {
+     "kind": "news",
+     "title": "FDA writes capsule endoscopy AI into regulation as Class II, with special controls that include separate test sites and an over-reliance warning",
+     "url": "https://casrai.org/news/fda-classifies-gastrointestinal-capsule-endoscopy-analysis-software-class-ii",
+     "source": "CASRAI (reporting an FDA final order, Federal Register document 2026-24213)",
+     "date": "2026-11-27",
+     "tldr": "FDA filed a final order that formally places AI software for reading capsule endoscopy videos in Class II under new rule 21 CFR 876.1540, spelling out the validation and labelling every later 510(k) must meet.",
+     "summary_md": "## What happened\nOn 27 November 2026 the FDA filed a final order for public inspection that adds a new regulation, 21 CFR 876.1540, for \"gastrointestinal capsule endoscopy analysis software\". It is scheduled to appear in the Federal Register and take effect on 30 November 2026 (docket FDA-2026-N-12145). The order codifies a De Novo decision from 12 December 2023 for Ankon Technologies' NaviCam ProScan, which flags suspicious frames in pre-recorded capsule videos for a clinician to review.\n\n## Why it matters\nA De Novo grant creates a device type; the final order turns it into published rules that any follow-on 510(k) must meet. One follow-on already exists: CapsoVision's software (K254230) was cleared under the same regulation in September 2026. The special controls are a clear template of what FDA now expects from detection-style imaging AI, which is useful well beyond gastroenterology.\n\n## Key details\n- **Five special controls:** (1) clinical validation with justified ground truth and test sites separate from training sites, plus postmarket surveillance unless FDA waives it; (2) patient-, lesion- and image-level results with subgroups by site, demographics and acquisition system; (3) standalone algorithm testing; (4) software and hardware verification; (5) labelling that warns against over-reliance.\n- **Risks FDA named:** false positives, false negatives and mislabelling which gut segment an image shows.\n- **Pivotal evidence (ARTIC study):** 133 patients analysed across seven European countries. Detection of significant small-bowel lesions was 62.4% with standard reading, 73.7% with AI-assisted reading and 78.2% for the expert board used as ground truth.\n- The 510(k) requirement stays in place; the device is not exempt.\n\n## Caveats\n- This is a secondary report; the Federal Register text could not be opened here.\n- ARTIC did not record race or ethnicity and did not test the algorithm on its own.\n- The lesion algorithm's reported training (1,476 subjects) and test (218) sets were all recorded as Asian, while the trial was European.\n- The NaviCam De Novo did not include a predetermined change control plan.\n\n## Key terms\n- **De Novo:** FDA route for a new low-to-moderate-risk device type with no existing equivalent.\n- **Special controls:** device-specific requirements that, with general controls, make a Class II device acceptably safe.\n- **Standalone performance:** how well the algorithm does by itself, without a human reader.\n- **Capsule endoscopy:** a swallowed camera pill that films the gut, producing hours of video to review.\n",
+     "image": null
+    },
+    {
+     "kind": "guidance",
+     "title": "EUDAMED: today is the last day to register legacy and pre-May 2026 devices, including SaMD, in the EU device database",
+     "url": "https://www.hpra.ie/news-events/news/article/mandatory-use-of-eudamed-modules-for-medical-devices",
+     "source": "Health Products Regulatory Authority (HPRA, Ireland)",
+     "date": "2026-03-23",
+     "tldr": "The 12-month grace period for registering devices already on the EU market in EUDAMED's UDI/device module ends on 28 November 2026, so AI and other software devices sold before 28 May 2026 need an entry now.",
+     "summary_md": "## What happened\nThe Irish regulator HPRA set out the timetable for compulsory use of four modules of EUDAMED, the EU's central medical-device database. The modules became mandatory on 28 May 2026. For the UDI/device registration module, devices that were already on the market before that date had a 12-month transition, which ends on **28 November 2026**, today. That includes legacy devices (still sold under old directive certificates) and MDR/IVDR devices placed on the market before 28 May.\n\n## Why it matters\nMany AI imaging and diagnostic tools in Europe were certified before 2026, so they fall into this group. After the deadline, a device that keeps being sold without an EUDAMED device record is out of step with the rules. The registration is also the public anchor that later post-market data, certificates and vigilance reports hang off. For anyone planning an EU route for a cardiac imaging model, EUDAMED records are now the place to check how competitors' devices are classified.\n\n## Key details\n- **Actor registration:** mandatory from 28 May 2026 with no grace period, for manufacturers, authorised representatives, importers and system/procedure pack producers.\n- **UDI/device registration:** devices first placed on the market on or after 28 May 2026 must be registered before the first unit ships; older devices had until 28 November 2026.\n- **Notified bodies and certificates:** 18 months to upload MDR/IVDR certificates issued before 28 May 2026, so the deadline is 28 May 2027.\n- **Market surveillance module:** mandatory from 28 May 2026 with no transition.\n- The European Commission's EUDAMED page confirms the legal basis: Commission Decision (EU) 2025/2371 declared the UDI/device module functional, and Regulation (EU) 2024/1860 set the start dates.\n\n## Caveats\n- HPRA published this summary in March 2026; check the EUDAMED Information Centre for any late changes.\n- The notice is general to all devices and says nothing specific about AI or about the AI Act.\n- It does not explain penalties, which are set nationally.\n\n## Key terms\n- **EUDAMED:** the European database on medical devices that links actors, devices, certificates and safety data.\n- **UDI (unique device identification):** a code that identifies a specific device model and version through the supply chain.\n- **Legacy device:** a device still sold under a certificate from the old EU directives during the MDR transition.\n- **Notified body:** an independent organisation designated to check that higher-risk devices meet EU rules.\n",
+     "image": null
+    },
+    {
+     "kind": "paper",
+     "title": "Can Agentic Systems Close the Gap in Radiology with Production AI Tools?",
+     "url": "https://arxiv.org/html/2611.09836",
+     "source": "arXiv (cs.AI)",
+     "date": "2026-11-06",
+     "tldr": "Using the FDA's list of 1,164 cleared radiology AI devices as a tool catalogue, an LLM agent could recover only about 29% of the important findings in reference reports, mostly because no cleared tool exists for those findings.",
+     "summary_md": "## What happened\nA team at Raidium, a Paris radiology AI company, asked a practical question: if you built an AI agent that could only call tools matching FDA-cleared radiology devices, how much of a radiology report could it reproduce? They turned 1,164 AI devices from the FDA's Radiology panel (decisions from June 1998 to March 2026) into 1,989 \"finding classes\", each limited to the imaging modalities it is cleared for.\n\n## Why it matters\nCleared radiology AI is mostly narrow: one device finds one thing on one kind of scan. This paper measures how much everyday reporting that patchwork covers, and where new clearances would add most coverage.\n\n## How it works\n- A large language model plans which tools to call, then writes a structured report.\n- Tool outputs are **simulated** from the reference report, so every tool is perfect.\n- Data: 1,059 English fictional reports from the open PARROT set (CT 36%, MRI 23%, radiography 19%, ultrasound 17%).\n- Score: \"actionable recall\", the share of critical, urgent or notable findings recovered.\n- **Results:** with the cleared catalogue and only the clinical indication, recall was 0.290; with unlimited tools it was 0.437. Of 9,675 missed findings, 61.8% had no cleared tool for that modality and 18.3% had a tool the agent never called.\n- On 100 held-out reports, adding 99 commonly missing tools raised recall from 0.347 to 0.519, closing about 74% of the gap to unlimited tools.\n- Smaller planner models did much worse (about 0.36 versus 0.58 with unlimited tools).\n\n## Caveats\n- Tools are idealised; real false alarms and errors are excluded, so real-world numbers would be lower.\n- Reports are fictional and the work is text-only.\n- The held-out test is only 100 reports, with wide uncertainty.\n- The catalogue was built with LLM extraction, and 59% of classes rest on a single device.\n- The authors work for a radiology AI company.\n\n## Key terms\n- **Agentic system:** an AI setup where a language model plans steps and calls other tools to finish a task.\n- **Orchestrator:** the model in an agent that chooses which tools to use and combines their results.\n- **Recall:** the share of true findings that a system catches.\n- **FDA AI-enabled device list:** FDA's public list of authorised devices that use AI.\n",
+     "image": "https://arxiv.org/html/2611.09836v1/figure1.png",
+     "authors": [
+      "Aubin Charley",
+      "Julien Khlaut",
+      "Charles Corbière",
+      "Pierre Manceron",
+      "Corentin Dancette",
+      "Léo Machado"
+     ],
+     "pdf_url": "https://arxiv.org/pdf/2611.09836"
+    }
+   ]
+  }
+ ]
+}
